@@ -110,10 +110,10 @@ Technology Solutions Center (ITSC).
 - [ ] The program runs with no errors.
 - [ ] The program uses ArrayLists.
 - [ ] The program generates the text file in the above format.
-- [ ] Correct implementation of the `getString` function
-- [ ] Correct implementation of the `getArrayOfStrings` function
-- [ ] **(1 EXTRA POINTS ⭐)**: If you Center your name as in the screenshot
-- [ ] **(2 EXTRA POINTS ⭐⭐)**: Correct Implementation of the `getEmailAddress` function in the SafeInput Library.
+- [ ] Correct implementation of the `getString()` function
+- [ ] Correct implementation of the `getArrayOfStrings()` function
+- [ ] **(1 EXTRA POINTS ⭐️):** If you Center your name as in the screenshot
+- [ ] **(2 EXTRA POINTS 🌟):** Correct Implementation of the `getEmailAddress()` function in the SafeInput Library.
 
 ----
 
