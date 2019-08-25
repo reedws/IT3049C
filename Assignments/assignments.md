@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Labs
-nav_order: 3
+title: Assignments
+nav_order: 2
 has_children: true
-permalink: /labs
+permalink: /assignments
 ---
 
-# Labs
+# Assignments
 
-This is a collection of all the labs done in class.
+This is a collection of all the Assignments done in class.
 {: .fs-6 .fw-300 }
 
 ---
