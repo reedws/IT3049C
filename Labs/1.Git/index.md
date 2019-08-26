@@ -41,19 +41,19 @@ nav_order: 1
 	* Share at least your LinkedIn profile page in the links section.
 ```json
 {
-  "emoji": ":smirk_cat:",
-  "role": "Student",
-  "introduction": "I'm excited to learn about you all!",
-  "achievements": [
-    "achievement1",
-	  "achievement2"
-  ],
-  "links": {
-    "site": "LINK_TO_YOUR_WEBSITE",
-    "linkedin": "LINK_TO_YOUR_LINKEDIN_PROFILE",
-	  "facebook": "LINK_TO_YOUR_FACEBOOK_PROFILE",
-	  "twitter": "LINK_TO_YOUR_TWITTER_PROFILE",
-  }
+		"emoji": ":smirk_cat:",
+		"role": "Student",
+		"introduction": "I'm excited to learn about you all!",
+		"achievements": [
+			"achievement1",
+			"achievement2"
+		],
+		"links": {
+			"site": "LINK_TO_YOUR_WEBSITE",
+			"linkedin": "LINK_TO_YOUR_LINKEDIN_PROFILE",
+			"facebook": "LINK_TO_YOUR_FACEBOOK_PROFILE",
+			"twitter": "LINK_TO_YOUR_TWITTER_PROFILE",
+		}
 }
 ```
 
