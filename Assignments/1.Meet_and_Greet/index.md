@@ -121,8 +121,8 @@ Technology Solutions Center (ITSC).
 ## Part 2: Reading from a file:
 
 1. Create a program (Java main class) called PersonReader.java.
-2. Use the JFileChooser to prompt the user to select the classmates.txt file (The file is
-available with the assignment directions on Blackboard.)
+2. Use the `JFileChooser` to prompt the user to select the people.txt file (The file is
+available on the root directory of the project)
 3. Use the String.format method to create a neatly formatted columnar display of the data
 records.
 
