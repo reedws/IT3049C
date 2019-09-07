@@ -22,15 +22,15 @@ nav_order: 1
 3. Learn more about you.
 
 ## Final Result:
-You will be submitting a git repository, hosted on github.uc.edu, with the following naming
-convention, `<your 6+2>-assignment1-meet-and-greet`, (i.e., `gilanyym-assignment1-meet-and-greet`). The repository contains:
+You will be submitting a git repository with the following naming
+convention, `1-meet-and-greet-<your github username>`, (i.e., `1-meet-and-greet-Ygilany`). The repository contains:
 1. one Java Project with the following files:
   1. PortfolioGenerator.java (has a main method)
   2. PersonReader.java (has a main method)
-  3. SafeInput.java (The source file is available with the assignment instructions on Blackboard)
+  3. SafeInput.java (The source file is available with the assignment instructions)
   4. The output text file from the PortfolioGenerator program.
-2. README.md file that includes your self-assessment (A Sample README file is
-available with the assignment instructions on Blackboard)
+2. a modified README.md file that includes your self-assessment
+----
 
 ## Part 1: Writing to a text file:
 1. Create a program (java main class) called `PortfolioGenerator.java`.
