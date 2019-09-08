@@ -7,10 +7,10 @@ nav_order: 2
 ---
 
 # Classes and Objects
-1. Accept the following GitHub Classroom Assignment
+1. Accept the Lab2-OOP [GitHub Classroom Assignment](https://classroom.github.com/a/S6E00Ze2)
 2. Clone the repository
 3. Open the project in IntelliJ
-4. Modify the empty `Person` class according to the table below.
+4. Modify the empty `Person` class in accordance to the class description below.
 5. create an `ageValidation` Method that throws an `ExceptionInInitializerError` exception when the YOB is less than 1900.
   - Use this method in both the constructor and the `setYOB` methods.
 
