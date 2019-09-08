@@ -14,6 +14,9 @@ nav_order: 2
 5. create an `ageValidation` Method that throws an `ExceptionInInitializerError` exception when the YOB is less than 1900.
   - Use this method in both the constructor and the `setYOB` methods.
 
+- You are done with this lab if you pass all the tests in `PersonTest`
+  - we will be learning about unit tests later in the class 😉 🌟
+
 
 
 #### Person Class
