@@ -50,7 +50,7 @@ convention, `2-get-classy-<your-github-username>`, (i.e., `2-get-classy-Ygilany`
   ||Getters and Setters| |
   ||`public String fullName()`| returns a concatenation of the first and last names |
   ||`public String formalName()`| returns a concatenation of the title and the full name |
-  ||`public static int getAge(int year)`| - A static method that takes a year and returns an age. <br/> - Use the Calendar Object (Requires a bit of web search)|
+  ||`public static int getAge(int year)`| - A static method that takes a year and returns an age. <br/> - Use the Calendar Object to get current Year (may requires a bit of web search)|
   ||`public String toCSVDataRecord()`| - returns a comma separated value (csv) String suitable to writing to a java text file. <br/> - Make sure to use this function when saving data to the file. <br/> - (i.e., 0001,John, Doe,Mr., 2000)|
 
 2. Create a program (Java main class) called `PersonGenerator.java`.
