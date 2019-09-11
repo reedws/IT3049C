@@ -44,7 +44,7 @@ convention, `2-get-classy-<your-github-username>`, (i.e., `2-get-classy-Ygilany`
   ||`String firstName;`| |
   ||`String lastName;`| |
   ||`String title;`| Mr., Mrs., Ms., Prof., Dr., Hon., ... |
-  ||`int YOB;`| - Year of Birth <br/> - Range should be 1940-2010 <br/> - make sure validations happen in the constructor as well as the setter method. |
+  ||`int YOB;`| - Year of Birth <br/> - Range should be 1900-2010 <br/> - make sure validations happen in the constructor as well as the setter method. |
   |*Methods*|||
   ||Constructor| |
   ||Getters and Setters| |

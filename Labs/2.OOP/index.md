@@ -26,7 +26,7 @@ nav_order: 2
 |*Fields*|||
 ||`String firstName;`| |
 ||`String lastName;`| |
-||`int YOB;`| - Year of Birth <br/> - Range should be 1940-2010 <br/> - make sure validations happen in the constructor as well as the setter method. |
+||`int YOB;`| - Year of Birth <br/> - Range should be 1900-2010 <br/> - make sure validations happen in the constructor as well as the setter method. |
 |*Methods*|||
 ||Constructor| - 2 constructors; one that takes first and last name, and the other takes the same plus the YOB |
 ||Getters and Setters| |
