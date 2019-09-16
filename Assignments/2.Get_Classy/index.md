@@ -31,6 +31,7 @@ convention, `2-get-classy-<your-github-username>`, (i.e., `2-get-classy-Ygilany`
   4. SafeInput.java (The source file is available with the assignment instructions)
   5. The output text file from the PersonGenerator program.
 2. a modified README.md file that includes your self-assessment
+
 ----
 
 ## Part 1: Person Generator:

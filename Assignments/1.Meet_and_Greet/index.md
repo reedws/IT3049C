@@ -30,6 +30,7 @@ convention, `1-meet-and-greet-<your github username>`, (i.e., `1-meet-and-greet-
   3. SafeInput.java (The source file is available with the assignment instructions)
   4. The output text file from the PortfolioGenerator program.
 2. a modified README.md file that includes your self-assessment
+
 ----
 
 ## Part 1: Writing to a text file:
