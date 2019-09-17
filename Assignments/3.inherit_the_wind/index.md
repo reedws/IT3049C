@@ -4,7 +4,7 @@ title: Assignment 3 - Inherit the Wind
 parent: Assignments
 nav_order: 3
 ---
-# Assignment 2 - Inherit the Wind
+# Assignment 3 - Inherit the Wind
 {: .no_toc }
 
 ## Table of contents
