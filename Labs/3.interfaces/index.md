@@ -27,11 +27,11 @@ nav_order: 3
 3. Create a class `ShortWordFilter` that implements the `Filter` interface.
 4. The `accept` method for this class should accept all string of length < 5.
 5. Create a Java Main class, `ShorWordtLister.java`. This program:
-  a. Lets user pick a text file using the `JFileChooser`.
+  * Lets user pick a text file using the `JFileChooser`.
     - a text file of some random words is included in the project.
     - Remember to set the working directory for the `JFileChooser`
-  b. Uses the `ShortWordFilter` to display the short words from the file. It can be called as such
+  * Uses the `ShortWordFilter` to display the short words from the file. It can be called as such
     ```java
     Filter.applyFilter(myArrayListOfwords, myShortWordFilterInstance);
     ```
-  c. Loop over the filtered array and print the word to the console.
+  * Loop over the filtered array and print the word to the console.
