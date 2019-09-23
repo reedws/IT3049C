@@ -11,7 +11,6 @@ nav_order: 3
     ```java
     public interface Filter {
       boolean accept(Object x);
-
       ...
     }
     ```
