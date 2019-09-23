@@ -1,37 +1,38 @@
 ---
 layout: default
-title: 3. Big Rectangles
+title: 3. Short Words Filter
 parent: Labs
 has_children: false
 nav_order: 3
 ---
 
-# Big Rectangles
+# Short Words Filter
 1. Create an interface as follows.
     ```java
     public interface Filter {
       boolean accept(Object x);
-    }
-    ```
-2. In the `HelperUtils` class. implement the `collectAll` method.
-  ```java
-    public class HelperUtils {
-      public static ArrayList<Object> collectAll(ArrayList<Object> objects, Filter f) {
-        // Implement the method here.
-      }
-    }
-    ```
-  The method should return all items in the `objects` array that are accepted by the given filter. You will use this for the program that follow.
-  ```java
-    // From the main method
-    HelperUtils.collectAll(...);
-  ```
 
-3. Create a class `BigRectangleFilter` that implements the `Filter` interface.
-4. The `accept` method for this class should accept all Java Rectangle Objects that have a perimeter > 10.
-5. Create a Java Main class, `BigRectLister.java`. In this program:
-  a. Create an ArrayList of Java Rectangles, making sure that you have several that are over a perimeter of 10.
-    ```java
-    HelperUtils.collectAll(myArrayListOfRectangles, myBigRectangleFilterInstance);
+      ...
+    }
     ```
-  b. Loop over the filtered array and print the dimensions of the Rectangles.
+2. Implement a static method in the Filter Interface `applyFilter`.
+  The method would take an ArrayList of type object `objects` and a Filter Instance, and would return all items in the `objects` array that are accepted by the supplied filter.
+  NOTE how the method parameter and return types are `Object` so it can accept any type.
+  ```java
+    static ArrayList<Object> applyFilter(ArrayList<Object> objects, Filter f) {
+      // loop over the array list of objects
+        // if the passed filter's accept method returns true, then add the element to the arraylist to be returned.
+      // return the filtered array list
+    }
+  ```
+3. Create a class `ShortWordFilter` that implements the `Filter` interface.
+4. The `accept` method for this class should accept all string of length < 5.
+5. Create a Java Main class, `ShorWordtLister.java`. This program:
+  a. Lets user pick a text file using the `JFileChooser`.
+    - a text file of some random words is included in the project.
+    - Remember to set the working directory for the `JFileChooser`
+  b. Uses the `ShortWordFilter` to display the short words from the file. It can be called as such
+    ```java
+    Filter.applyFilter(myArrayListOfwords, myShortWordFilterInstance);
+    ```
+  c. Loop over the filtered array and print the word to the console.
