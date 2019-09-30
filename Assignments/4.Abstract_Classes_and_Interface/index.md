@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Assignment 4 - Printable Interface
-parent: Labs
-nav_order: 5
+parent: Assignments
+nav_order: 4
 ---
 # Assignment 4 - Printable Interface
 {: .no_toc }
