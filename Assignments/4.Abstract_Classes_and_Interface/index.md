@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Assignment 4 - Printable Interface
+title: 4. Printable Interface
 parent: Assignments
 nav_order: 4
 ---

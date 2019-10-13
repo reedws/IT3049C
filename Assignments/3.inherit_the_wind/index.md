@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Assignment 3 - Inherit the Wind
+title: 3. Inherit the Wind
 parent: Assignments
 nav_order: 3
 ---

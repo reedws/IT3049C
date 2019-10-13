@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Assignment 2 - Get Classy
+title: 2. Get Classy
 parent: Assignments
 nav_order: 2
 ---
