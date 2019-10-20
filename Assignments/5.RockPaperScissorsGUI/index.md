@@ -81,4 +81,4 @@ layout.
 3. Logic is sound.
 4. Proper usage of Git and GitHub (frequent commits, explanatory commit messages)
 5. 3 Extra Credit
-6. 6 Extra Credit
+6. 4 Extra Credit
