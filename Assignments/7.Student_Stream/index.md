@@ -30,9 +30,9 @@ Expressions to answer the following questions.
     6. Use the IntSummaryStatistics Class to show statistics on the number of Credit Hours (CR) students are taking.
 
 ## Deliverables:
-• A complete Java Project named StudentStreams.
-• The used students file.
-• The output should like something like:
+* A complete Java Project named StudentStreams.
+* The used students file.
+* The output should like something like:
 ![example output](assets/example_output.png)
 
 ## Grading
