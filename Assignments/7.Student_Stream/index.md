@@ -38,7 +38,7 @@ Expressions to answer the following questions.
 ## Grading
 1. The program runs with no errors.
 2. Proper usage of the lambda Expressions.
-3. Proper usage of the Java Strmas
+3. Proper usage of the Java Streams.
 4. Logic is sound.
 5. Proper usage of Git and GitHub (frequent commits, explanatory commit messages)
 
