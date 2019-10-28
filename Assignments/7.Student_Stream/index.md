@@ -22,12 +22,12 @@ nav_order: 7
 ## Instructions
 Create a Java project that reads the text file (*.csv) and uses Java Streams and Lambda
 Expressions to answer the following questions.
-    1. Count the students with 3.7 GPA and higher.
-    2. List the students with 4.0 GPA.
-    3. Out of the 4.0 Students who’s taking more classes?
-    4. What’s the Average GPA for this set of data?
-    5. What’s the lowest GPA?
-    6. Use the IntSummaryStatistics Class to show statistics on the number of Credit Hours (CR) students are taking.
+1. Count the students with 3.7 GPA and higher.
+2. List the students with 4.0 GPA.
+3. Out of the 4.0 Students who’s taking more classes?
+4. What’s the Average GPA for this set of data?
+5. What’s the lowest GPA?
+6. Use the IntSummaryStatistics Class to show statistics on the number of Credit Hours (CR) students are taking.
 
 ## Deliverables:
 * A complete Java Project named StudentStreams.
