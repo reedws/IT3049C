@@ -56,8 +56,9 @@ Stop words are words that occur with high frequencies in a text (i.e. “The”,
 ## Deliverables:
 A complete Java Project named TagExtractor.
 * The used stop words filter.
-* The text analyzed using the program (a Tale of 2 cities is attached with the
-assignment instructions)
+* The text analyzed using the program (a Tale of 2 cities is attached with the assignment instructions)
+    * [A Tale of Two Cities](assets/aTaleOfTwoCities.txt)
+    * [Stop Words](assets/stopWords.txt)
 * The output file of the extracted tags and their frequencies, which might look like the
 following:
 ![example output](assets/TagExtractorExample.png)
