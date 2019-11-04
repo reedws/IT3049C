@@ -40,7 +40,7 @@ After we exclude these words the remaining relevant words are called tags.
 We normalize our tags by making them all the same case or ignoring case when we process the documents.
 
 ## Directions
-Create a Java Swing GUI program that lest the user pick a text file and a stop/noise words file to
+Create a Java Swing GUI program that let's the user pick a text file and a stop/noise words file to
 scan for and extract tags.
 - Display the name of the file you’re extracting the tags from.
 - Display the tags and their frequency in a JtextArea/Scroll Pane.
