@@ -33,7 +33,7 @@ nav_order: 1
 	* **Method 2: Using the Command line**
 		* run the following command `git checkout -b gilanyym`
 			* instead of `gilanyym` type in your 6+2.
-* Create a file under `_data/Fall19` . The file should be named as `GITHUB_USERNAME.json` for example: `Ygilany.json`
+* Create a file under `_data/Spring20` . The file should be named as `GITHUB_USERNAME.json` for example: `Ygilany.json`
 * Introduce yourself by modifying the file using any Text Editor of your choice
 	* use this [ Emoji cheat sheet ](https://www.webfx.com/tools/emoji-cheat-sheet/) to select an emoji. (First line of the example file below)
 	* type in an introduction message in the introduction line
