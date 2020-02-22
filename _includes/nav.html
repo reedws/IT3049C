@@ -1,3 +1,4 @@
+<h3>Site Navigation</h3>
 <nav role="navigation" aria-label="Main navigation">
   <ul class="navigation-list">
     {%- assign pages_list = site.html_pages | sort:"nav_order" -%}
@@ -38,3 +39,6 @@
     {%- endfor -%}
   </ul>
 </nav>
+<h3>Page Table of Contents</h3>
+<nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+
