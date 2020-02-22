@@ -3,15 +3,15 @@
 ### Textbooks
 * **[(REQUIRED) Big Java Late Object 2nd ed by Cay Horstmann](https://uc.summon.serialssolutions.com/2.0.0/link?t=1566139044870)**
 
-    * [<img alt="Big Java Late Objects Textbook cover" src="/assets/images/BigJava.jpg" height="200"/>](https://uc.summon.serialssolutions.com/2.0.0/link?t=1566139044870)
+    * [<img alt="Big Java Late Objects Textbook cover" src="assets/images/BigJava.jpg" height="200"/>](https://uc.summon.serialssolutions.com/2.0.0/link?t=1566139044870)
 
 * [(Recommended) Clean Code by Robert C. Martin](https://www.oreilly.com/library/view/clean-code-/9783826655487/?ar)
 
-    * [<img alt="Clean Code book cover" src="/assets/images/cleanCode.jpg" height="200"/>](https://www.oreilly.com/library/view/clean-code-/9783826655487/?ar)
+    * [<img alt="Clean Code book cover" src="assets/images/cleanCode.jpg" height="200"/>](https://www.oreilly.com/library/view/clean-code-/9783826655487/?ar)
 
 ### Online Course
 * This foundational course on Lynda is not specific to any programming language [Programming Foundations: Fundamentals (2011)](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Fundamentals/83603-2.html)
-    * [<img alt="Programming Foundation Lynda Course Cover" src="/assets/images/Lynda1.jpg" height="200" />](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Fundamentals/83603-2.html)
+    * [<img alt="Programming Foundation Lynda Course Cover" src="assets/images/Lynda1.jpg" height="200" />](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Fundamentals/83603-2.html)
 
 ### Beginner Materials
 * The textbook Chapter (1-7)

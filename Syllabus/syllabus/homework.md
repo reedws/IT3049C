@@ -13,8 +13,8 @@ There are several assignments throughout the course:
 * I try,but don’t guarantee,to offer some extra credit options in every assignment.
 
 
-{% include syllabus/homework/workflow.md %}
-{% include syllabus/homework/versions.md %}
-{% include syllabus/homework/requirments.md %}
-{% include syllabus/homework/extra_credit.md %}
-<!-- {% include syllabus/homework/pairing_tips.md %} -->
+{% include_relative syllabus/homework/workflow.md %}
+{% include_relative syllabus/homework/versions.md %}
+{% include_relative syllabus/homework/requirments.md %}
+{% include_relative syllabus/homework/extra_credit.md %}
+<!-- {% include_relative syllabus/homework/pairing_tips.md %} -->
