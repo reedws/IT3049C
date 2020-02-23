@@ -32,7 +32,25 @@ The starter project will include a few files that I ask you not to mess with. Th
 1. Accept the assignment: This will create a repository for you with a few starting files. with the following folder structure
 
 ```
-
+.
+├── .github <-- Don't Modify
+│   └── workflows <-- Don't Modify
+│       └── nodejs.yml <-- Don't Modify
+├── resources
+│   ├── images
+│   │   └── .gitkeep
+│   ├── scripts
+│   │   └── index.js
+│   └── styles
+│       └── styles.css
+├── tests <-- Don't Modify
+│   ├── folderStructure.test.js <-- Don't Modify
+│   └── htmlContent.test.js <-- Don't Modify
+├── .gitignore <-- Don't Modify
+├── index.html
+├── package-lock.json <-- Don't Modify
+├── package.json <-- Don't Modify
+└── README.md
 ```
 
 2. Create a simple Web Page/Portfolio with a brief paragraphs or points about yourself
