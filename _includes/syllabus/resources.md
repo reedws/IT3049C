@@ -1,11 +1,7 @@
 ## Resources and Tools
 
 ### Textbooks
-There are no required materials for this course. I do however
-have some recommendations:
-* Eloquent JavaScript
-* You Don’t Know JS
-* JavaScript: The Good Parts
+There are no required materials for this course. I do however have some recommendations:
 
 * [Eloquent JavaScript](https://eloquentjavascript.net/)
     * [<img alt="Eloquent JavaScript" src="assets/images/eloquentJS.jpg" style="height:200px"/>](https://eloquentjavascript.net/)
