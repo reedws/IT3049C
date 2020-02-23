@@ -11,10 +11,3 @@ There are several assignments throughout the course:
 * Check-in Surveys (10%)
     * Every month a check-in quiz will be posted to get your feedback on the course, what you like and dislike.
 * I try,but don’t guarantee,to offer some extra credit options in every assignment.
-
-
-<!-- {% include_relative syllabus/homework/workflow.md %}
-{% include_relative syllabus/homework/versions.md %}
-{% include_relative syllabus/homework/requirments.md %}
-{% include_relative syllabus/homework/extra_credit.md %} -->
-<!-- {% include_relative syllabus/homework/pairing_tips.md %} -->
