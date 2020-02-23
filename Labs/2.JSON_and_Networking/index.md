@@ -2,7 +2,7 @@
 layout: default
 title: 2. JSON and Networking (Lab)
 parent: Labs
-has_children: true
+has_children: false
 nav_order: 2
 ---
 
@@ -12,53 +12,56 @@ nav_order: 2
 	* include a css file
 	* include a js file
 	* include Bootstrap for a responsive design with better ascetics
+
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>IT3049 Chat</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <title>IT3049 Chat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- JQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <!-- JQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <!-- Our CSS Style -->
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-</head>
+        <!-- Our CSS Style -->
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    </head>
 
-<body>
+    <body>
 
-    <!-- Our JavaScript Code-->
-    <script src="main.js"></script>
-</body>
-</html>
+        <!-- Our JavaScript Code-->
+        <script src="main.js"></script>
+    </body>
+    </html>
 ```
 
 * Add a header using [Bootstrap’s Jumbotron](http://getbootstrap.com/docs/4.0/components/jumbotron/)
+
 ```html
-<div class="jumbotron">
-	<h1 class="display-4">IT-3049C Chat</h1>
-</div>
+    <div class="jumbotron">
+        <h1 class="display-4">IT-3049C Chat</h1>
+    </div>
 ```
 
 Notice both `jumbotron` and `display-4` are bootstrap classes.
 * Create an input field for the name in the jumbotron.
+
 ```html
-<div class="input-group mb-3">
-    <div class="input-group-prepend">
-        <span class="input-group-text">
-            <i class="fas fa-user"></i>
-        </span>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text">
+                <i class="fas fa-user"></i>
+            </span>
+        </div>
+        <input id="myName" type="text" class="form-control" placeholder="Name">
     </div>
-    <input id="myName" type="text" class="form-control" placeholder="Name">
-</div>
 ```
 
 Now the Jumbotron div should look like this
@@ -79,6 +82,7 @@ Now the Jumbotron div should look like this
 ```
 * Refresh the page to see the result
 * You may want to hard-code your name into the input value, so you don’t have to type it in every time you refresh the page 😉
+
 ```html
         <input id="myName" type="text" class="form-control" placeholder="Name" value="Yahya Gilany">
 ```
@@ -86,6 +90,7 @@ Now the Jumbotron div should look like this
 	* give the group an id of `chatbar`
 	* give the input field an id of `myMessage`
 	* give the button an id of `sendButton`
+
 ```html
 <div id="chatbar" class="input-group mb-3">
     <input
@@ -101,18 +106,22 @@ Now the Jumbotron div should look like this
     </div>
 </div>
 ```
+
 * Refresh the page to see the results
 * Wrap the jumbotron in a div and stick it to the top of the page using  [Bootstrap's Positioning classes](https://v4-alpha.getbootstrap.com/utilities/position/) `fixed-top`
 * stick the chatbar group to the bottom using bootstrap positioning class `fixed-bottom` OR the following css code.
+
 ```css
 #chatbar {
     bottom:0;
     position: fixed;
 }
 ```
+
 * Refresh the page to see the results
 * Create a div with the id of `chat` inside the `fixed-top` div and right under the jumbotron.
 * copy the following css code to your `main.css` file
+
 ```css
 .jumbotron {
     margin-bottom:0;
@@ -124,7 +133,9 @@ Now the Jumbotron div should look like this
     height: 320px;
  }
 ```
+
 * inside the chat div copy the following (MOCK) messages.
+
 ```html
 <div class="mine messages">
     <div class="message">
@@ -170,8 +181,10 @@ Now the Jumbotron div should look like this
     </div>
 </div>
 ```
+
 * Refresh the page to see the result .. You may paste the above multiple times to flood the chat div with messages and notice how you can scroll inside the chat section without the header or the input scrolling.
 * Copy the following into the `main.css` file
+
 ```css
 .sender-info {
     font-size: 10px;
@@ -263,11 +276,13 @@ Now the Jumbotron div should look like this
     border-bottom-left-radius: 10px;
 }
 ```
+
 * Now refresh the page and LOOK AT THAT 🎉🎉🎉
 
 **Now Enough HTML and CSS .. On to JavaScript**
 
 * Create References to the HTML elements that we’ll need.
+
 ```js
 "use strict";
 
@@ -287,6 +302,7 @@ Now Before we go any further let’s imagine the entire workflow
 3. Create a function to send a message to the server.
 
 * create the `updateMessages()` function
+
 ```js
 function updateMessages() {
     // Fetch Messages
@@ -296,7 +312,9 @@ function updateMessages() {
         // add it to the chatbox
 }
 ```
+
 * Create a function that uses the FetchAPI to requests messages from the server. (Make sure this function is defined above the `updateMessages()` function
+
 ```js
 const serverURL = `http://ed3d11da.ngrok.io/messages`;
 
@@ -307,6 +325,7 @@ function fetchMessages() {
 ```
 
 * Call `fetchMessages()` from `updateMessages()`
+
 ```js
 async function updateMessages() {
     // Fetch Messages
@@ -329,7 +348,9 @@ async function updateMessages() {
 	"timestamp": 1537410673072
 }
 ```
+
 * Create a formatter function that will take the `message` object  and the name text field as parameters and return HTML.
+
 ```js
 function formatMessage(message, myName) {
     const time = new Date(message.timestamp);
@@ -362,6 +383,7 @@ function formatMessage(message, myName) {
 ```
 
 * Now we loop over the array of the responses, format them and add them to the chatbox.
+
 ```js
 async function updateMessages() {
     // Fetch Messages
@@ -380,16 +402,19 @@ async function updateMessages() {
 
 Make Sure you understand what’s going on.
 * Call the function and look at your browser
+
 ```js
 updateMessages()
 ```
 
 * Let’s call this function every 2 seconds to keep the messages updated.
+
 ```js
 setInterval(updateMessages, 2000);
 ```
 
 * Now let’s make a function to send messages to the server (I’m using JQuery) here
+
 ```js
 function sendMessages () {
     const newMessage = {
@@ -404,6 +429,7 @@ function sendMessages () {
 
 * Last thing we need to do is to listen to the click event of the send button.
 	* That event handler will send the message to the server and clear the text field to prepare for a new message to be sent
+
 ```js
 sendButton.addEventListener("click", function(sendButtonClickEvent) {
     sendButtonClickEvent.preventDefault();

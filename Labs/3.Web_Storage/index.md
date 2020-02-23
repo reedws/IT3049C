@@ -2,7 +2,7 @@
 layout: default
 title: 3. Web Storage (Lab)
 parent: Labs
-has_children: true
+has_children: false
 nav_order: 3
 ---
 
@@ -21,6 +21,7 @@ This lab we will be building on the Chat application we built before.
 
 Now in case you don't have the code from last lab readily available,
 here's what we had up until this point
+
 ```
 Folder Structure
 .
@@ -36,6 +37,7 @@ Folder Structure
 
 .
 - comment out this line to stop the requests to the server every 2 seconds
+
 ```js
 setInterval(updateMessages, 2000);
 ```
@@ -47,11 +49,13 @@ setInterval(updateMessages, 2000);
 
 - Modify the form group, adding a *save* button to save the username. Append the following after the `myName` input field
 ##### HTML
+
 ```html
 <span class="input-group-btn">
     <button class="btn btn-primary" onclick="saveUserName()">Save</button>
 </span>
 ```
+
 The input field should now look like this
 ![alt text](img/Storage-1.png "Header 1")
 
@@ -59,6 +63,7 @@ The input field should now look like this
 - create the `saveUserName()` function referenced by the button.
     - This function will store the value of the nameInput field using `localStorage`
 ##### JS
+
 ```js
 function saveUserName() {
     localStorage.setItem(`UserName`, nameInput.value);
@@ -71,6 +76,7 @@ function saveUserName() {
 
 the jumbotron content should look close to this
 ##### HTML
+
 ```html
 <h1 class="display-4">IT-3049C Chat</h1>
 
@@ -83,30 +89,36 @@ the jumbotron content should look close to this
     <button class="btn btn-outline-primary" onclick="clearUserName()">Login as a different user ...</button>
 </div>
 ```
+
 The jumbotron/header should now look like this
 ![alt text](img/Storage-2.png "Header 2")
 
 
 - Now we need to create a function that we call when we click on the *"Login as a different user ..."* button
 ##### JS
+
 ```js
 function clearUserName() {
     localStorage.removeItem(`UserName`)
 }
 ```
+
 - Add the `hidden` class to that new div so we can show it only when a name is saved.
 ##### HTML
+
 ```html
 <div id="afterLogin" class="mb-3 hidden">
     ...
 </div>
 ```
+
 now it should look like this again ... (make sure your css code has the hidden class styles defined)
 ![alt text](img/Storage-1.png "Header 1")
 
 - Add references to the HTML elements of interest.
     - For better organization, it's advisable to place all references at the top of the JS code
 ##### JS
+
 ```js
 const beforeLoginDiv = document.getElementById("beforeLogin");
 const afterLoginDiv = document.getElementById("afterLogin");
@@ -118,6 +130,7 @@ const currentUserParagraph = document.getElementById("currentUserParagraph");
     - if there's a value, it will hide the `beforeLogin` Div and reveal the `afterLogin` div.
     - it will also modify the paragraph element to show what user you're logged in as.
 ##### JS
+
 ```js
 function updateHeader() {
     const username = localStorage.getItem(`UserName`);
@@ -131,6 +144,7 @@ function updateHeader() {
     }
 }
 ```
+
 This function will need to be called in 3 spots
 - in the `saveUserName()`
 - in the `clearUserName()`
@@ -138,6 +152,7 @@ This function will need to be called in 3 spots
 
     Now the functions should lool like this
 ##### JS
+
 ```js
 function saveUserName() {
     localStorage.setItem(`UserName`, nameInput.value);
@@ -165,6 +180,7 @@ updateHeader();
     - give the file input an id of `imgFile`
     - the `accept` parameter defines what files are acceptable.
 ##### HTML
+
 ```html
 <div class="form-group">
     <label for="imgFile">Background Image</label>
@@ -174,6 +190,7 @@ updateHeader();
 
 - Create a reference to the file input in the JS code.
 ##### JS
+
 ```js
 const fileInput = document.getElementById("imgFile");
 ```
@@ -183,6 +200,7 @@ const fileInput = document.getElementById("imgFile");
     - The eventListener below, creates an object URL to the file that can be used a `src` URL.
     - it modifies the background of the chatbox to use the uploaded image.
 ##### JS
+
 ```js
 fileInput.addEventListener('change', function(e) {
     const file = fileInput.files[0];
@@ -198,18 +216,21 @@ fileInput.addEventListener('change', function(e) {
     }
 });
 ```
+
 - Load the application, confirm that the application can read an image file display it as a background image for the chat box.
     - Notice that if you refresh the page, the image will go away. now we need to save the image to the browser's indexedDB using `localforage`.
 
 
 - Include the `localforage` library by adding it before the `main.js` file in the html file imports
 ##### HTML
+
 ```html
     <script src="https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.2/localforage.min.js"></script>
 ```
 
 - modify the the file change `eventListner` to save the file using `localforage`.
 ##### JS
+
 ```js
 fileInput.addEventListener('change', function(e) {
     const file = fileInput.files[0];
@@ -227,11 +248,13 @@ fileInput.addEventListener('change', function(e) {
     }
 });
 ```
+
 - let's create a function that is called at the loading of the page to update the background image
     - the function will get the image stored using `localforage`.
     - convert it to a `blob` object.
     - generate an object URL that can be used as a `src` URL.
 ##### JS
+
 ```js
 function updateBackgroundImage() {
     localforage.getItem(`photo`)
@@ -247,6 +270,7 @@ function updateBackgroundImage() {
 
     now the fileInput change `eventListener` should be look like
 ##### JS
+
 ```js
 fileInput.addEventListener('change', function(e) {
     const file = fileInput.files[0];
@@ -271,6 +295,7 @@ fileInput.addEventListener('change', function(e) {
 
 - Create an offline page
 ##### HTML
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -349,6 +374,7 @@ fileInput.addEventListener('change', function(e) {
 
 </html>
 ```
+
 - Load the page in the browser.
 - create the following two files
     - [upup.min.js](js/upup.min.js)
@@ -366,6 +392,7 @@ Folder Structure
 
 - include the following snippet from the `upup` library to your html code.
 ##### HTML
+
 ```html
 <script src="upup.min.js"></script>
 <script src="upup.sw.min.js"></script>
@@ -375,6 +402,7 @@ Folder Structure
     });
 </script>
 ```
+
 - Now the only way we can validate that this actually worked, is to setup a webserver to serve the html file. (Not gonna ask you to that!)
 
     A good workaround for that is to use a Google Chrome Extension
