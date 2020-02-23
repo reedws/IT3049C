@@ -46,6 +46,13 @@ The starter project will include a few files that I ask you not to mess with. Th
 └── README.md
 ```
 
+2. Clone down the project to your computer.
+  a. using GitHub Desktop
+  b. using command line tools
+
+3. Open the project in Visual Studio Code.
+  a. make sure you select the root folder when opening the project. It will be named something like `1-online-portfolio-YOUR_USERNAME`
+
 #### Creating the Webpage
 1. Add a `<link>` with a reference to the styles sheet located in `resources/styles/styles.css`
 2. Add a `<script>` with a reference to the scripts file located in `resources/scripts/index.js`
@@ -66,9 +73,13 @@ The starter project will include a few files that I ask you not to mess with. Th
   a. Bootstrap is already included at the top of the HTML file. You're welcome to use it.
   b. make a git commit once done with the styling or incrementally as you're making your changes.
 7. Once you are finished, make sure you push all the changes to the repository.
+8. **(optional)** run the `npm test` command to check if you missed anything on this part.
+  a. You'll need to have node.js installed at this point.
+  b. from the command line tools (i.e. terminal, iTerm, bash, ...etc.), navigate to the project directory, and run `npm test`
+  c. if using Visual Studio Code, the class's IDE, you can simply open up the integrated terminal (View > Terminal) which will automatically open up at the correct project path.
 
 #### Setting up GitHub Pages for hosting
-5. Setup GitHub Pages to host the site.
+1. Follow the following [instructions](https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) to setup github pages and publish your page from `master`.
 
 ### Part 2: Create Pull Request
 
