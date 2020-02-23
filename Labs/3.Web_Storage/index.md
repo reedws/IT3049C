@@ -45,7 +45,7 @@ setInterval(updateMessages, 2000);
 ----
 
 ## Part 1: Using `localStorage`
->**Result:**Ask the user to provide their name only once. The name will be saved in the browser and the input field will be hidden. Users will still have the ability to *"Sign in as a Different User"*.
+>**Result:** Ask the user to provide their name only once. The name will be saved in the browser and the input field will be hidden. Users will still have the ability to *"Sign in as a Different User"*.
 
 - Modify the form group, adding a *save* button to save the username. Append the following after the `myName` input field
 ##### HTML
