@@ -64,7 +64,7 @@ The starter project will include a few files that I ask you not to mess with. Th
 4. Once you are finished, make sure you push all the changes to the repository.
 5. Setup GitHub Pages to host the site.
 
-### Part 2: submit a pull request to the class students repository
+### Part 2: Create Pull Request
 
 ## Tips and Guidelines
 * Do not push everything in one commit.
