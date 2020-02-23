@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: IT3049C - Yahya Gilany
 description: Class material and activities
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://it2045c.github.io/Labs"
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]

@@ -27,7 +27,7 @@ permalink: /syllabus
 
 {% include_relative syllabus/course_content_and_topics.md %}
 
-{% include_relative syllabus/homework.md %}
+<!-- {% include_relative syllabus/homework.md %} -->
 
 {% include_relative syllabus/course_outline.md %}
 
