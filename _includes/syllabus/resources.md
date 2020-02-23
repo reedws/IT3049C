@@ -8,16 +8,16 @@ have some recommendations:
 * JavaScript: The Good Parts
 
 * [Eloquent JavaScript](https://eloquentjavascript.net/)
-    * [<img alt="Eloquent JavaScript" src="assets/images/eloquentJS.jpg" height="200"/>](https://eloquentjavascript.net/)
+    * [<img alt="Eloquent JavaScript" src="assets/images/eloquentJS.jpg" style="height:200px"/>](https://eloquentjavascript.net/)
 
 * [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
-    * [<img alt="You Don't Know JS" src="assets/images/youDontKnowJs.jpg" height="200"/>](https://github.com/getify/You-Dont-Know-JS)
+    * [<img alt="You Don't Know JS" src="assets/images/youDontKnowJs.jpg" style="height:200px"/>](https://github.com/getify/You-Dont-Know-JS)
 
 * [Clean Code by Robert C. Martin](https://www.oreilly.com/library/view/clean-code-/9783826655487/?ar)
-    * [<img alt="Clean Code book cover" src="assets/images/cleanCode.jpg" height="200"/>](https://www.oreilly.com/library/view/clean-code-/9783826655487/?ar)
+    * [<img alt="Clean Code book cover" src="assets/images/cleanCode.jpg" style="height:200px"/>](https://www.oreilly.com/library/view/clean-code-/9783826655487/?ar)
 
 * [JavaScript: The Good Parts](https://learning.oreilly.com/library/view/javascript-the-good/9780596517748/)
-    * [<img alt="JavaScript: The Good Parts cover" src="assets/images/jsTheGoodParts.jpg" height="200"/>](https://learning.oreilly.com/library/view/javascript-the-good/9780596517748/)
+    * [<img alt="JavaScript: The Good Parts cover" src="assets/images/jsTheGoodParts.jpg" style="height:200px"/>](https://learning.oreilly.com/library/view/javascript-the-good/9780596517748/)
 
 ### Online Course
 * This foundational course on Lynda is not specific to any programming language [Programming Foundations: Fundamentals (2011)](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Fundamentals/83603-2.html)
