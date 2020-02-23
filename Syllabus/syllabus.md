@@ -6,10 +6,10 @@ has_children: false
 permalink: /syllabus
 ---
 
-# <img src="assets/images/logo.svg" alt="class logo" class="logo"/> Computer Programming II syllabus
+# <img src="assets/images/logo.svg" alt="class logo" class="logo"/> Web Game Development syllabus
 *** ***
 
-* **Course:** [IT2045C - Computer Programming II](#)
+* **Course:** [IT3049C - Web Game Development](#)
 * **Instructor:** Yahya Gilany, [yahya.gilany@uc.edu](mailto:yahya.gilany@uc.edu)
 * **Need help?**
     * Office Hours By appointment - please [sign up here](https://outlook.office365.com/owa/calendar/OfficeHours@mailuc.onmicrosoft.com/bookings/) to set up a time to meet 1-on-1 (in-person or online)
