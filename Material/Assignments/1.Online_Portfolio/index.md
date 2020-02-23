@@ -29,13 +29,12 @@ This is a 2-parts lab; in the first, you'll practice creating HTML page, with CS
 The starter project will include a few files that I ask you not to mess with. This will aid in providing you early feedback on your code before submitting the assignment.
 
 ### Part 1: Create a Web Page
-1. Accept the assignment: This will create a repository for you with a few starting files. with the following folder structure
+#### Setup
+1. Accept the assignment on canvas.
+  This will create a repository for you with a few starting files. The following directories are the only ones you're allowed to modify
 
 ```
 .
-├── .github <-- Don't Modify
-│   └── workflows <-- Don't Modify
-│       └── nodejs.yml <-- Don't Modify
 ├── resources
 │   ├── images
 │   │   └── .gitkeep
@@ -43,25 +42,32 @@ The starter project will include a few files that I ask you not to mess with. Th
 │   │   └── index.js
 │   └── styles
 │       └── styles.css
-├── tests <-- Don't Modify
-│   ├── folderStructure.test.js <-- Don't Modify
-│   └── htmlContent.test.js <-- Don't Modify
-├── .gitignore <-- Don't Modify
 ├── index.html
-├── package-lock.json <-- Don't Modify
-├── package.json <-- Don't Modify
 └── README.md
 ```
 
-2. Create a simple Web Page/Portfolio with a brief paragraphs or points about yourself
-  * Personal background
-  * Picture of yourself.
-  * Work and Development Experience
-  * Programming Languages
-  * Achievements
-  * Favourite Games (or ones you’re currently playing)
-3. Commit every section as a separate commit.
-4. Once you are finished, make sure you push all the changes to the repository.
+#### Creating the Webpage
+1. Add a `<link>` with a reference to the styles sheet located in `resources/styles/styles.css`
+2. Add a `<script>` with a reference to the scripts file located in `resources/scripts/index.js`
+3. Start the body with an `<h1>` that contains your name
+4. add an image `<img>` of yourself.
+  a. make sure the image is placed in `resources/images/...`. I can't access files on your computer (DUHH!)
+5. Make a git commit here.
+6. For Each of the following 5 sections:
+  a. make a git commit once done with it.
+  b. make sure to wrap the section with a `<div>` with a class name of `section`
+  c. sections are:
+    * Personal background
+    * Work and Development Experience
+    * Programming Languages
+    * Achievements
+    * Favourite Games (or ones you’re currently playing)
+7. Make the page a bit more pretty by creating your custom styles in `resources/styles/styles.css`
+  a. Bootstrap is already included at the top of the HTML file. You're welcome to use it.
+  b. make a git commit once done with the styling or incrementally as you're making your changes.
+7. Once you are finished, make sure you push all the changes to the repository.
+
+#### Setting up GitHub Pages for hosting
 5. Setup GitHub Pages to host the site.
 
 ### Part 2: Create Pull Request
