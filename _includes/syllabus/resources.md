@@ -21,7 +21,7 @@ have some recommendations:
 
 ### Online Course
 * This foundational course on Lynda is not specific to any programming language [Programming Foundations: Fundamentals (2011)](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Fundamentals/83603-2.html)
-    * [<img alt="Programming Foundation Lynda Course Cover" src="assets/images/Lynda1.jpg" height="200" />](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Fundamentals/83603-2.html)
+    * [<img alt="Programming Foundation Lynda Course Cover" src="assets/images/Lynda1.jpg" style="height:200px" />](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Fundamentals/83603-2.html)
 
 ### Beginner Materials
 * The textbook Chapter (1-7)
