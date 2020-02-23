@@ -35,7 +35,7 @@ should be:
 8. Reset the form after each round
 
 ## Example
-![example image](assets/example.png)
+<img alt="example image" src="assets/example.png" style="height:250px;border: 1px"/>
 
 ## Tips and Guidelines
 * Do not push everything in one commit.
