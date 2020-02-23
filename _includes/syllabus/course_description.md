@@ -1,13 +1,15 @@
 ## Course Description
-
-This course is the second course in the Computer Programming sequence that is meant to introduce students to computer programming and problem solving in the Java programming Language. In this course, Students will learn about Object Oriented Programming and Design, will learn how to create Graphical User Interface application and other advanced programming and software development topics.
+This course will provide a functional introduction to programming for Web games and similar interactive media. The result will be competency in popular web programming languages (e.g., JavaScript, HTML) and game programming frameworks. This will be demonstrated by the creation of the mechanics for their Web game projects. Topics may include: Web programming syntax, popular Web programming libraries for games, game loop, sprites, interactive GUI programming, and creating the game environment - Prerequisite Definition: To take this course you must: Have taken the following Courses IT1090C min grade C-,IT2040C min grade C-.
 
 ## Learning outcomes
-1. Apply concepts of the object-oriented paradigm: Inheritance , Encapsulation, Polymorphism
-2. Model real world concepts into class structures and implement them as objects.
-3. Demonstrate communication within a system.
-4. Create visual components and handle events using current technology.
-7. Implement dynamic Web page components using applets.
-8. Demonstrate client/server programming using Java
-9. Demonstrate data handling using various data storage formats (e.g., text files, XML files)
-10. Recognize the reusability of objects in software development.
+1. Put JavaScript code blocks in the body and head of an HTML5 document.
+2. Write a user-defined JS function and invoke it.
+3. Dynamically write HTML5 content via code with innerHTML and the DOM.
+4. Use conditional branching logic (if ..else).
+7. Use some of the basic capabilities of the built-in (intrinsic) date and time objects.
+8. Use common string and Math functions.
+9. Link dynamic content to a CSS style sheet.
+10. Create a HTML5 form for user input.
+11. Understand how to use JavasScript Regular Expressions in HTML5 Forms.
+12. Create a JavaScript application with a modern Dynamic GUI.
+13. Create games with Phaser
