@@ -21,30 +21,30 @@ permalink: /syllabus
         * It's highly advised that you check your classmates questions and try to participate. (This will count towards extra credit points)
 
 
-{% include_relative syllabus/course_description.md %}
+{% include syllabus/course_description.md %}
 
-{% include_relative syllabus/prerequisites.md %}
+{% include syllabus/prerequisites.md %}
 
-{% include_relative syllabus/course_content_and_topics.md %}
+{% include syllabus/course_content_and_topics.md %}
 
-{% include_relative syllabus/homework.md %}
+{% include syllabus/homework.md %}
 
-{% include_relative syllabus/course_outline.md %}
+{% include syllabus/course_outline.md %}
 
-{% include_relative syllabus/resources.md %}
+{% include syllabus/resources.md %}
 
-{% include_relative syllabus/grading.md %}
+{% include syllabus/grading.md %}
 
-{% include_relative syllabus/student_services/communication_protocol.md %}
+{% include syllabus/student_services/communication_protocol.md %}
 
-{% include_relative syllabus/student_services/SLA.md %}
+{% include syllabus/student_services/SLA.md %}
 
-{% include_relative syllabus/student_services/course_evaluation.md %}
+{% include syllabus/student_services/course_evaluation.md %}
 
-{% include_relative syllabus/student_services/academic_integrity.md %}
+{% include syllabus/student_services/academic_integrity.md %}
 
-{% include_relative syllabus/student_services/special_needs.md %}
+{% include syllabus/student_services/special_needs.md %}
 
-{% include_relative syllabus/student_services/councelling_services.md %}
+{% include syllabus/student_services/councelling_services.md %}
 
-{% include_relative syllabus/student_services/titleIX.md %}
+{% include syllabus/student_services/titleIX.md %}
