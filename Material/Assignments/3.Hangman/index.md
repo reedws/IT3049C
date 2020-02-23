@@ -15,7 +15,7 @@ nav_order: 3
 
 ---
 
-## Lab Goals:
+## Lab Goals
 1. Create a Hangman game.
 2. Demonstrate ability to make network HTTP Requests using (XMLHttpRequest, jQuery, or Fetch API)
 3. Demonstrate ability to create forms to allow user input.

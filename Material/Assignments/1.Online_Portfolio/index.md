@@ -15,7 +15,7 @@ nav_order: 1
 
 ---
 
-## Lab Goals:
+## Lab Goals
 1. Create a simple web page using HTML, CSS, JavaScript
 2. Get familiar with Git and Github
 3. Tell me a little about yourself

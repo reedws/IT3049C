@@ -15,12 +15,12 @@ nav_order: 2
 
 ---
 
-## Lab Goals:
+## Lab Goals
 1. Create a Rock, Paper, Scissors game
 2. Demonstrate ability to create forms with the form/input elements
 3. Demonstrate understanding of event-oriented programming
 
-## Instructions:
+## Instructions
 For this assignment we will be building our first game of the semester: Rock, Paper, Scissors. Your
 goal is to build this game using HTML, CSS, JavaScript, and the concepts/techniques we have covered
 these past two weeks to allow a user to play the game against the Computer. The process of the game
