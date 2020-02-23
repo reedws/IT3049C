@@ -81,5 +81,5 @@ Or through the website
 Let me know once you’re done
 
 
-### Resources:
+### Resources
 - [Setting up GitHub Desktop](../extras/setting_up_github_desktop.md)
