@@ -288,6 +288,7 @@ fileInput.addEventListener('change', function(e) {
 ```
 
 > This is all for (Part 2) - Please Take a moment here and make sure you understand that section before you move on to the next part.
+
 ---
 
 ### Part 3: Using `ServiceWorker`
