@@ -82,9 +82,43 @@ The starter project will include a few files that I ask you not to mess with. Th
 1. Follow the following [instructions](https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) to setup github pages and publish your page from `master`.
 
 ### Part 2: Create Pull Request
+In this part, we will practice making changes directly on GitHub using the in-browser editors. (You're welcome to clone down the repository and make your changes locally)
+
+1. Branch out of master.
+2. Navigate to the `_data/CURRENT_SEMESTER` folder.
+3. Create a new file named `YOUR_GITHUB_USERNAME.json`
+4. Introduce yourself by modifying the file.
+  a. use this [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) to select an emoji.
+  b. type in a short message in the introduction line
+  c. The achievements is an array of strings.
+    * list 2-4 achievements you’ve accomplished recently that you’d like to share with the class.
+    * Don't forget the trailing commas.
+  d. The links should at least constain the `site` key with the link set to your hosted github page.
+    a. you may share your linkedin profiles here as well.
+    c. You can remove the lines for the social media options you're not sharing.
+  e. The file MUST follow with the following Schema.
+
+```
+{
+  "emoji": ":smirk_cat:",
+  "role": "Student",
+  "introduction": "I'm excited to learn about you all!",
+  "achievements": [
+      "achievement1",
+      "achievement2"
+  ],
+  "links": {
+      "site": "LINK_TO_YOUR_WEBSITE",
+      "linkedin": "LINK_TO_YOUR_LINKEDIN_PROFILE",
+      "facebook": "LINK_TO_YOUR_FACEBOOK_PROFILE",
+      "twitter": "LINK_TO_YOUR_TWITTER_PROFILE",
+  }
+}
+```
+5. commit the changes
+6. Check the status of the commit. If it passess, submit a pull request from your branch to the `master` branch.
 
 ## Tips and Guidelines
-* Do not push everything in one commit.
 * Use useful commit messages
 
 ### Grading
