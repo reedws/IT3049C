@@ -17,7 +17,7 @@ This lab we will be building on the Chat application we built before.
 
 -----
 
-### Part 0: Getting Started
+## Part 0: Getting Started
 
 Now in case you don't have the code from last lab readily available,
 here's what we had up until this point
@@ -44,7 +44,7 @@ setInterval(updateMessages, 2000);
 
 ----
 
-### Part 1: Using `localStorage`
+## Part 1: Using `localStorage`
 >**Result:**Ask the user to provide their name only once. The name will be saved in the browser and the input field will be hidden. Users will still have the ability to *"Sign in as a Different User"*.
 
 - Modify the form group, adding a *save* button to save the username. Append the following after the `myName` input field
@@ -172,7 +172,7 @@ updateHeader();
 > This is all for (Part 1) - Please Take a moment here and make sure you understand that section before you move on to the next part.
 
 ----
-### Part 2: Using `localforage`
+## Part 2: Using `localforage`
 >**Result:** Users will be able to upload an image and use it a background image to the chat box. The application will store their image in the browsers's `indexedDB` using `localForage`
 
 - Create a file input field in the header/jumbotron to collect the image file from the user.
@@ -291,7 +291,7 @@ fileInput.addEventListener('change', function(e) {
 
 ---
 
-### Part 3: Using `ServiceWorker`
+## Part 3: Using `ServiceWorker`
 >**Result:** Provide offline page support to our application by building a default page that is displayed when the network goes offline.
 
 - Create an offline page
