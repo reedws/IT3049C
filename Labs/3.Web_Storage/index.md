@@ -57,7 +57,7 @@ setInterval(updateMessages, 2000);
 ```
 
 The input field should now look like this
-![alt text](img/Storage-1.png "Header 1")
+![alt text](./img/Storage-1.png "Header 1")
 
 
 - create the `saveUserName()` function referenced by the button.
@@ -91,7 +91,7 @@ the jumbotron content should look close to this
 ```
 
 The jumbotron/header should now look like this
-![alt text](img/Storage-2.png)
+![alt text](./img/Storage-2.png)
 
 
 - Now we need to create a function that we call when we click on the *"Login as a different user ..."* button
@@ -113,7 +113,7 @@ function clearUserName() {
 ```
 
 now it should look like this again ... (make sure your css code has the hidden class styles defined)
-![alt text](img/Storage-1.png)
+![alt text](./img/Storage-1.png)
 
 - Add references to the HTML elements of interest.
     - For better organization, it's advisable to place all references at the top of the JS code
