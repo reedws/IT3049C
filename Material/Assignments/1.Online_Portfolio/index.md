@@ -37,19 +37,18 @@ The starter project will include a few files that I ask you not to mess with. Th
 #### Setup
 1. Accept the assignment on canvas.
   This will create a repository for you with a few starting files. The following directories are the only ones you're allowed to modify
-
-```
-.
-├── resources
-│   ├── images
-│   │   └── .gitkeep
-│   ├── scripts
-│   │   └── index.js
-│   └── styles
-│       └── styles.css
-├── index.html
-└── README.md
-```
+    ```
+    .
+    ├── resources
+    │   ├── images
+    │   │   └── .gitkeep
+    │   ├── scripts
+    │   │   └── index.js
+    │   └── styles
+    │       └── styles.css
+    ├── index.html
+    └── README.md
+    ```
 
 2. Clone down the project to your computer.
   a. using GitHub Desktop
@@ -66,23 +65,23 @@ The starter project will include a few files that I ask you not to mess with. Th
   a. make sure the image is placed in `resources/images/...`. I can't access files on your computer (DUHH!)
 5. Make a git commit here.
 6. For Each of the following 5 sections:
-  a. make a git commit once done with it.
-  b. make sure to wrap the section with a `<div>` with a class name of `section`
-  c. each section must be titled with `<h2>` tags
-  d. sections are:
-    * Personal background
-    * Work and Development Experience
-    * Programming Languages
-    * Achievements
-    * Favourite Games (or ones you’re currently playing)
+    * make a git commit once done with it.
+    * make sure to wrap the section with a `<div>` with a class name of `section`
+    * each section must be titled with `<h2>` tags
+    * sections are:
+        * Personal background
+        * Work and Development Experience
+        * Programming Languages
+        * Achievements
+        * Favourite Games (or ones you’re currently playing)
 7. Make the page a bit more pretty by creating your custom styles in `resources/styles/styles.css`
-  a. Bootstrap is already included at the top of the HTML file. You're welcome to use it.
-  b. make a git commit once done with the styling or incrementally as you're making your changes.
+    * Bootstrap is already included at the top of the HTML file. You're welcome to use it.
+    * make a git commit once done with the styling or incrementally as you're making your changes.
 7. Once you are finished, make sure you push all the changes to the repository.
 8. **(optional)** run the `npm test` command to check if you missed anything on this part.
-  a. You'll need to have node.js installed at this point.
-  b. from the command line tools (i.e. terminal, iTerm, bash, ...etc.), navigate to the project directory, and run `npm test`
-  c. if using Visual Studio Code, the class's IDE, you can simply open up the integrated terminal (View > Terminal) which will automatically open up at the correct project path.
+    * You'll need to have node.js installed at this point.
+    * from the command line tools (i.e. terminal, iTerm, bash, ...etc.), navigate to the project directory, and run `npm test`
+    * if using Visual Studio Code, the class's IDE, you can simply open up the integrated terminal (View > Terminal) which will automatically open up at the correct project path.
 
 #### Setting up GitHub Pages for hosting
 1. Follow the following [instructions](https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) to setup github pages and publish your page from `master`.
@@ -95,37 +94,36 @@ In this part, we will practice making changes directly on GitHub using the in-br
 2. Navigate to the `_data/CURRENT_SEMESTER` folder: where `CURRENT_SEMESTER` is just a placeholder for what the semester would be.
 3. Create a new file named `YOUR_GITHUB_USERNAME.json`. *NOTICE:* github username isn't necessarily your 6+2.
 4. Introduce yourself by modifying the file.
-  a. use this [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) to select an `emoji`.
-  b. type in a short message in the introduction line
-  c. The `achievements` is an array of strings.
-    * list 2-4 achievements or highlights you’ve accomplished recently that you’d like to share with the class.
-    * Don't forget the trailing commas.
-  d. The links should at least constain the `site` key with the link set to your hosted github page.
-    a. you may share your linkedin profiles here as well.
-    c. You can remove the lines for the social media options you're not sharing.
-  e. The file MUST follow with the following Schema.
-
-```
-{
-  "emoji": ":smirk_cat:",
-  "role": "Student",
-  "introduction": "I'm excited to learn about you all!",
-  "achievements": [
-    "achievement1",
-    "achievement2"
-  ],
-  "links": {
-    "site": "LINK_TO_YOUR_WEBSITE",
-    "linkedin": "LINK_TO_YOUR_LINKEDIN_PROFILE",
-    "facebook": "LINK_TO_YOUR_FACEBOOK_PROFILE",
-    "twitter": "LINK_TO_YOUR_TWITTER_PROFILE",
-  }
-}
-  ```
+    * use this [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) to select an `emoji`.
+    * type in a short message in the introduction line
+    * The `achievements` is an array of strings.
+        * list 2-4 achievements or highlights you’ve accomplished recently that you’d like to share with the class.
+        * Don't forget the trailing commas.
+    * The links should at least constain the `site` key with the link set to your hosted github page.
+        a. you may share your linkedin profiles here as well.
+        c. You can remove the lines for the social media options you're not sharing.
+    * The file MUST follow with the following Schema.
+      ```
+      {
+          "emoji": ":smirk_cat:",
+          "role": "Student",
+          "introduction": "I'm excited to learn about you all!",
+          "achievements": [
+              "achievement1",
+              "achievement2"
+          ],
+          "links": {
+              "site": "LINK_TO_YOUR_WEBSITE",
+              "linkedin": "LINK_TO_YOUR_LINKEDIN_PROFILE",
+              "facebook": "LINK_TO_YOUR_FACEBOOK_PROFILE",
+              "twitter": "LINK_TO_YOUR_TWITTER_PROFILE",
+          }
+      }
+    ```
 5. commit the changes
 6. Check the status of the commit in GitHub Actions. If it passess, submit a pull request from your branch to the `master` branch.
-  a. [On GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
-  b. **OR** [On GitHub.com directly](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+    * [On GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+    * **OR** [On GitHub.com directly](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
 ### Grading
 1. The WebPage has all the required sections.
