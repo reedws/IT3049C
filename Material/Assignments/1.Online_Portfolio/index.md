@@ -14,6 +14,11 @@ nav_order: 1
 {:toc}
 
 ---
+## Tips and Guidelines
+* Make Frequent git commits. This assignments will suggest a few checkpoints where it might be appropriate to commit the code. This won't be in all assignments.
+* the rule of thumb here is that, you should make a commit at the end of every complete thought.
+* proper planning will help you identify those checkpoints before you even start coding.
+* Use useful commit messages to make it easy reviewing the commit history.
 
 ## Lab Goals
 1. Practice the usage of Git and GitHub in submitting the assignments.
@@ -63,7 +68,8 @@ The starter project will include a few files that I ask you not to mess with. Th
 6. For Each of the following 5 sections:
   a. make a git commit once done with it.
   b. make sure to wrap the section with a `<div>` with a class name of `section`
-  c. sections are:
+  c. each section must be titled with `<h2>` tags
+  d. sections are:
     * Personal background
     * Work and Development Experience
     * Programming Languages
@@ -84,42 +90,41 @@ The starter project will include a few files that I ask you not to mess with. Th
 ### Part 2: Create Pull Request
 In this part, we will practice making changes directly on GitHub using the in-browser editors. (You're welcome to clone down the repository and make your changes locally)
 
-1. Branch out of master.
-2. Navigate to the `_data/CURRENT_SEMESTER` folder.
-3. Create a new file named `YOUR_GITHUB_USERNAME.json`
+1. [Branch out of master](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work).
+2. Navigate to the `_data/CURRENT_SEMESTER` folder: where `CURRENT_SEMESTER` is just a placeholder for what the semester would be.
+3. Create a new file named `YOUR_GITHUB_USERNAME.json`. *NOTICE:* github username isn't necessarily your 6+2.
 4. Introduce yourself by modifying the file.
-  a. use this [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) to select an emoji.
+  a. use this [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) to select an `emoji`.
   b. type in a short message in the introduction line
-  c. The achievements is an array of strings.
-    * list 2-4 achievements you’ve accomplished recently that you’d like to share with the class.
+  c. The `achievements` is an array of strings.
+    * list 2-4 achievements or highlights you’ve accomplished recently that you’d like to share with the class.
     * Don't forget the trailing commas.
   d. The links should at least constain the `site` key with the link set to your hosted github page.
     a. you may share your linkedin profiles here as well.
     c. You can remove the lines for the social media options you're not sharing.
   e. The file MUST follow with the following Schema.
 
-```
-{
-  "emoji": ":smirk_cat:",
-  "role": "Student",
-  "introduction": "I'm excited to learn about you all!",
-  "achievements": [
+  ```
+  {
+    "emoji": ":smirk_cat:",
+    "role": "Student",
+    "introduction": "I'm excited to learn about you all!",
+    "achievements": [
       "achievement1",
       "achievement2"
-  ],
-  "links": {
+    ],
+    "links": {
       "site": "LINK_TO_YOUR_WEBSITE",
       "linkedin": "LINK_TO_YOUR_LINKEDIN_PROFILE",
       "facebook": "LINK_TO_YOUR_FACEBOOK_PROFILE",
       "twitter": "LINK_TO_YOUR_TWITTER_PROFILE",
+    }
   }
-}
-```
+  ```
 5. commit the changes
-6. Check the status of the commit. If it passess, submit a pull request from your branch to the `master` branch.
-
-## Tips and Guidelines
-* Use useful commit messages
+6. Check the status of the commit in GitHub Actions. If it passess, submit a pull request from your branch to the `master` branch.
+  a. [On GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+  b. **OR** [On GitHub.com directly](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
 ### Grading
 1. The WebPage has all the required sections.
