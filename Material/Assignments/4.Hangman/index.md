@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 3. Hangman
+title: 4. Hangman
 parent: Assignments
-nav_order: 3
+nav_order: 4
 ---
-# Assignment 3 - Hangman
+# 4. Hangman
 {: .no_toc }
 
 ## Table of contents

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 2. Rock Paper Scissors
+title: 3. Rock Paper Scissors
 parent: Assignments
-nav_order: 2
+nav_order: 3
 ---
-# Assignment 2 - Rock Paper Scissors
+# 3. Rock Paper Scissors
 {: .no_toc }
 
 ## Table of contents
