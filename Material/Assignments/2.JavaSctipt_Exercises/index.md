@@ -15,8 +15,28 @@ nav_order: 2
 
 ---
 
-This Lab is focused on problem solving techniques and JavaScript Fundamentals.
+## Lab Goals
+This Lab is collection of JavaScript execises and coding challenges. It's focused on problem solving techniques and JavaScript Fundamentals.
 
-1. Accept the Assignment.
-2. Work on the exercise until all tests pass.
-3. make a commit at the end of each of the exercise questions.
+## Tips and Guidelines
+* Make a git commit at the end of each of the exercises.
+
+## Instructions
+1. Accept the Assignment on Canvas.
+  This will create a repository for you with a few starting files. The following directories are the only ones you're allowed to modify
+  ```
+    .
+    ├── resources
+    │   ├── images
+    │   │   └── .gitkeep
+    │   ├── scripts
+    │   │   └── index.js
+    │   └── styles
+    │       └── styles.css
+    ├── index.html
+    └── README.md
+  ```
+
+2. Clone down the repository to your local computer.
+3. Work on the exercise until all tests pass.
+4. make a commit at the end of each of the exercise questions.
