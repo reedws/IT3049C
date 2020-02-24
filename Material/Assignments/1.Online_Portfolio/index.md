@@ -105,22 +105,22 @@ In this part, we will practice making changes directly on GitHub using the in-br
     c. You can remove the lines for the social media options you're not sharing.
   e. The file MUST follow with the following Schema.
 
-  ```
-  {
-    "emoji": ":smirk_cat:",
-    "role": "Student",
-    "introduction": "I'm excited to learn about you all!",
-    "achievements": [
-      "achievement1",
-      "achievement2"
-    ],
-    "links": {
-      "site": "LINK_TO_YOUR_WEBSITE",
-      "linkedin": "LINK_TO_YOUR_LINKEDIN_PROFILE",
-      "facebook": "LINK_TO_YOUR_FACEBOOK_PROFILE",
-      "twitter": "LINK_TO_YOUR_TWITTER_PROFILE",
-    }
+```
+{
+  "emoji": ":smirk_cat:",
+  "role": "Student",
+  "introduction": "I'm excited to learn about you all!",
+  "achievements": [
+    "achievement1",
+    "achievement2"
+  ],
+  "links": {
+    "site": "LINK_TO_YOUR_WEBSITE",
+    "linkedin": "LINK_TO_YOUR_LINKEDIN_PROFILE",
+    "facebook": "LINK_TO_YOUR_FACEBOOK_PROFILE",
+    "twitter": "LINK_TO_YOUR_TWITTER_PROFILE",
   }
+}
   ```
 5. commit the changes
 6. Check the status of the commit in GitHub Actions. If it passess, submit a pull request from your branch to the `master` branch.
