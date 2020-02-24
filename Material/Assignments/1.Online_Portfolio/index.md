@@ -91,6 +91,7 @@ The starter project will include a few files that I ask you not to mess with. Th
 In this part, we will practice making changes directly on GitHub using the in-browser editors. (You're welcome to clone down the repository and make your changes locally)
 
 1. [Branch out of master](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work).
+  a. for more info and explaination of the branching. You could also checkout the [official documentation here](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 2. Navigate to the `_data/CURRENT_SEMESTER` folder: where `CURRENT_SEMESTER` is just a placeholder for what the semester would be.
 3. Create a new file named `YOUR_GITHUB_USERNAME.json`. *NOTICE:* github username isn't necessarily your 6+2.
 4. Introduce yourself by modifying the file.
