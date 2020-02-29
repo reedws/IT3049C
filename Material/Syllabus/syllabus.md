@@ -46,9 +46,6 @@ You mentioned all the weights and types of assignments which is good. Something 
 
 {% include syllabus/student_services/SLA.md %}
 
-### Feedback and Communication policies and late/missing work
-include them here (syllabus template)
-
 {% include syllabus/student_services/course_evaluation.md %}
 
 {% include syllabus/student_services/academic_integrity.md %}
