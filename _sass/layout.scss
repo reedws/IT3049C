@@ -35,10 +35,6 @@
     width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
     min-width: $nav-width;
   }
-
-  #toc {
-    width: inherit;
-  }
 }
 
 .main-content-wrap {
