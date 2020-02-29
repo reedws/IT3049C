@@ -283,7 +283,7 @@ function pageFocus() {
 
 jtd.onReady(function(){
   initNav();
-  pageFocus();
+  // pageFocus();
   if (typeof lunr !== 'undefined') {
     initSearch();
   }
