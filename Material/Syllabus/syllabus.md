@@ -20,6 +20,10 @@ permalink: /syllabus
         * Try to ask all of your questions there, the TA and I will subscribe to the forum to get notified when an email is posted.
         * It's highly advised that you check your classmates questions and try to participate. (This will count towards extra credit points)
 
+**NOTE**: *The instructor reserves the right to update this syllabus as class needs arise. Be assured that they will communicate to you any changes to the schedule, syllabus or policies quickly and efficiently.*
+
+## Attendance/Participation Expectations
+How should they interact with one another? Is there any group work expected? How do you keep track of participation for an online course, if at all? I saw that you mentioned the quiz pw is kind of an attendance marker, but anything else?
 
 {% include syllabus/course_description.md %}
 
@@ -28,6 +32,9 @@ permalink: /syllabus
 {% include syllabus/course_content_and_topics.md %}
 
 {% include syllabus/homework.md %}
+
+### Notes from Selena
+You mentioned all the weights and types of assignments which is good. Something that has come up with student success is that some courses do not have all the assignments and points laid out clearly, so students cannot come up with a "game plan" to successfully pass the course. In the syllabus template, there's a chart that helps lay that out. You may want to consider one for your syllabus (unless you feel like it is explicit elsewhere in the course).
 
 {% include syllabus/course_outline.md %}
 
@@ -38,6 +45,9 @@ permalink: /syllabus
 {% include syllabus/student_services/communication_protocol.md %}
 
 {% include syllabus/student_services/SLA.md %}
+
+### Feedback and Communication policies and late/missing work
+include them here (syllabus template)
 
 {% include syllabus/student_services/course_evaluation.md %}
 
