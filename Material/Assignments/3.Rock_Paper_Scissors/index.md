@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3. Rock Paper Scissors
-parent: Assignments
+parent: Assignments and Labs
 nav_order: 3
 ---
 # 3. Rock Paper Scissors

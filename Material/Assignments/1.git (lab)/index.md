@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1. Submitting Pull Requests
-parent: Labs
+parent: Assignments and Labs
 has_children: true
 nav_order: 1
 ---

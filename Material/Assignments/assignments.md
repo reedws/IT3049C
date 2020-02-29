@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Assignments
+title: Assignments and Labs
 nav_order: 3
 has_children: true
 permalink: /assignments
 ---
 
-# Assignments
+# Assignments and Labs
 
 This is a collection of all the Assignments done in class.
 {: .fs-6 .fw-300 }

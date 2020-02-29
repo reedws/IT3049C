@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 4. JSON and Networking (Lab)
-parent: Assignments
+parent: Assignments and Labs
 has_children: false
 nav_order: 4
 ---

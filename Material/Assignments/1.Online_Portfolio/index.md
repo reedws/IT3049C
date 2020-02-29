@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1. Online Portfolio
-parent: Assignments
+parent: Assignments and Labs
 nav_order: 1
 ---
 # 1. Online Portfolio

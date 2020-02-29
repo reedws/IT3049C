@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3. Web Storage (Lab)
-parent: Labs
+parent: Assignments and Labs
 has_children: false
 nav_order: 3
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 2. JavaScript Exercise
-parent: Assignments
+parent: Assignments and Labs
 nav_order: 2
 ---
 # 2. JavaScript Exercise
