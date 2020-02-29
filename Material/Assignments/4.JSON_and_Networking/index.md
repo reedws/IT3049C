@@ -1,9 +1,9 @@
 ---
 layout: default
-title: 2. JSON and Networking (Lab)
-parent: Labs
+title: 4. JSON and Networking (Lab)
+parent: Assignments
 has_children: false
-nav_order: 2
+nav_order: 4
 ---
 
 # JSON and Networking (Lab)
@@ -316,7 +316,7 @@ function updateMessages() {
 * Create a function that uses the FetchAPI to requests messages from the server. (Make sure this function is defined above the `updateMessages()` function
 
 ```js
-const serverURL = `http://ed3d11da.ngrok.io/messages`;
+const serverURL = `history `;
 
 function fetchMessages() {
     return fetch(serverURL)
