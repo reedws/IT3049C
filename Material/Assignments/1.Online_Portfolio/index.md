@@ -14,11 +14,19 @@ nav_order: 1
 {:toc}
 
 ---
+This assignment is of 2 parts: 
+1. **Part 1:** Creating a Web Page and hosting it. (15 pts)
+2. **Part 2:** Creating a Pull Request (5 pts)
+
+
 ## Tips and Guidelines
-* Make Frequent git commits. This assignments will suggest a few checkpoints where it might be appropriate to commit the code. This won't be in all assignments.
-* the rule of thumb here is that, you should make a commit at the end of every complete thought.
-* proper planning will help you identify those checkpoints before you even start coding.
-* Use useful commit messages to make it easy reviewing the commit history.
+* Don't just a copy a template. If you do, make sure it still satisfies the requirement below to pass the automated grading.
+* Make Frequent git commits. 
+  * This assignments will suggest a few checkpoints where it might be appropriate to commit the code. This won't be in all assignments.
+  * the rule of thumb here is that, you should make a commit at the end of every complete thought.
+  * proper planning will help you identify those checkpoints before you even start coding.
+  * Use useful commit messages to make it easy reviewing the commit history.
+
 
 ## Lab Goals
 1. Practice the usage of Git and GitHub in submitting the assignments.
@@ -28,12 +36,15 @@ nav_order: 1
 5. I need to learn about you :)
 6. Introduce yourself to the class as you'll need to team up for the final project.
 
+<hr>
+
 ## Instructions
 This is a 2-parts lab; in the first, you'll practice creating HTML page, with CSS and checking-in your work to a GitHub Repository where you're the only collaborator. and in the second, you'll practice creating a branch on a repository with multiple collaborators and submitting a pull request.
 
 The starter project will include a few files that I ask you not to mess with. This will aid in providing you early feedback on your code before submitting the assignment.
 
 ### Part 1: Create a Web Page
+
 #### Setup
 1. Accept the assignment on canvas.
   This will create a repository for you with a few starting files. The following directories are the only ones you're allowed to modify
@@ -57,9 +68,10 @@ The starter project will include a few files that I ask you not to mess with. Th
 3. Open the project in Visual Studio Code.
   a. make sure you select the root folder when opening the project. It will be named something like `1-online-portfolio-YOUR_USERNAME`
 
+
 #### Creating the Webpage
-1. Add a `<link>` with a reference to the styles sheet located in `resources/styles/styles.css`
-2. Add a `<script>` with a reference to the scripts file located in `resources/scripts/index.js`
+1. Where it says `<!-- include style files here-->`, add a `<link>` with a reference to the styles sheet located in `resources/styles/styles.css`
+2. Where it says `<!-- include script files here-->`, add a `<script>` with a reference to the scripts file located in `resources/scripts/index.js`
 3. Start the body with an `<h1>` that contains your name
 4. add an image `<img>` of yourself.
   a. make sure the image is placed in `resources/images/...`. I can't access files on your computer (DUHH!)
@@ -74,8 +86,8 @@ The starter project will include a few files that I ask you not to mess with. Th
         * Programming Languages
         * Achievements
         * Favourite Games (or ones you’re currently playing)
-7. Make the page a bit more pretty by creating your custom styles in `resources/styles/styles.css`
-    * Bootstrap is already included at the top of the HTML file. You're welcome to use it.
+7. Pretty-ify the page with some custom styles in `resources/styles/styles.css`
+    * [Bootstrap library](https://getbootstrap.com/) is already included at the top of the HTML file. You're welcome to use it.
     * make a git commit once done with the styling or incrementally as you're making your changes.
 7. Once you are finished, make sure you push all the changes to the repository.
 8. **(optional)** run the `npm test` command to check if you missed anything on this part.
@@ -83,8 +95,15 @@ The starter project will include a few files that I ask you not to mess with. Th
     * from the command line tools (i.e. terminal, iTerm, bash, ...etc.), navigate to the project directory, and run `npm test`
     * if using Visual Studio Code, the class's IDE, you can simply open up the integrated terminal (View > Terminal) which will automatically open up at the correct project path.
 
+#### Output
+any thing looking like this or better is accepted.
+<img alt="example image" src="assets/example.png" style="height:400px; border:1px #ddd solid;"/>
+
+
 #### Setting up GitHub Pages for hosting
-1. Follow the following [instructions](https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) to setup github pages and publish your page from `master`.
+1. Follow the following [instructions](https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) to setup github pages and **publish your page from `master`**.
+
+<hr>
 
 ### Part 2: Create Pull Request
 In this part, we will practice making changes directly on GitHub using the in-browser editors. (You're welcome to clone down the repository and make your changes locally)
