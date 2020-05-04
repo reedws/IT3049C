@@ -72,7 +72,7 @@ The starter project will include a few files that I ask you not to mess with. Th
 #### Creating the Webpage
 1. Where it says `<!-- include style files here-->`, add a `<link>` with a reference to the styles sheet located in `resources/styles/styles.css`
 2. Where it says `<!-- include script files here-->`, add a `<script>` with a reference to the scripts file located in `resources/scripts/index.js`
-3. Start the body with an `<h1>` that contains your name
+3. inside the container `<div>`. make an `<h1>` that contains your name
 4. Modify the HTML `<title>` to match what you wrote in the `h1` tag
 4. add an image `<img>` of yourself.
   a. make sure the image is placed in `resources/images/...`. I can't access files on your computer (DUHH!)
