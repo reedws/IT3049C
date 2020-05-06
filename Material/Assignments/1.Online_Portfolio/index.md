@@ -4,7 +4,7 @@ title: 1. Online Portfolio
 parent: Assignments and Labs
 nav_order: 1
 ---
-# 1. Online Portfolio
+# 1. Online Portfolio (Lab)
 {: .no_toc }
 
 ## Table of contents
@@ -14,34 +14,38 @@ nav_order: 1
 {:toc}
 
 ---
-This assignment is of 2 parts: 
-1. **Part 1:** Creating a Web Page and hosting it. (15 pts)
-2. **Part 2:** Creating a Pull Request (5 pts)
+This is a **2-parts** lab; 
+1. **Part 1:** Creating a Web Page and hosting it. ~(17 pts)~
+    
+    practice creating HTML page, with CSS and checking-in your work to a GitHub Repository where you're the only collaborator.
+2. **Part 2:** Creating a Pull Request ~(3 pts)~
+    
+    you'll practice creating a branch on a repository with multiple collaborators and submitting a pull request.
 
+Accept the GitHub Classroom assignment on Canvas to create a repository for you with some starter files.
 
-## Tips and Guidelines
-* Don't just a copy a template. If you do, make sure it still satisfies the requirement below to pass the automated grading.
-* Make Frequent git commits. 
-  * This assignments will suggest a few checkpoints where it might be appropriate to commit the code. This won't be in all assignments.
-  * the rule of thumb here is that, you should make a commit at the end of every complete thought.
-  * proper planning will help you identify those checkpoints before you even start coding.
-  * Use useful commit messages to make it easy reviewing the commit history.
+#### Guidelines
+* Don't just use a online template. If you do, make sure it still satisfies the requirement below to pass the automated grading.
+* This assignment is in a lab-style. Follow the instructions step-by-step.
+* To run the automated grading checks, make sure you have installed Node.js.
 
 
 ## Lab Goals
-1. Practice the usage of Git and GitHub in submitting the assignments.
-2. Review creating simple web pages using HTML
-3. Review styling web pages using CSS to make the page look aestatically pleasing.
-4. Deploy your site and hosting in on GitHub Pages.
+1. Practice the **usage of Git and GitHub** in submitting the assignments.
+    * Make Frequent git commits. 
+        * As a rule of thumb, you should commit your code at the end of every complete thought.
+        * Planning your code will help you identify checkpoints where you can commit your code.
+        * Use meaningful commit messages.
+    * This assignments will suggest a few checkpoints where it might be appropriate to commit the code. This won't be in all assignments.
+2. Review creating simple web pages using *HTML*.
+3. Review styling web pages using *CSS* to make the page look aestatically pleasing.
+4. Deploy your site and hosting in on *GitHub Pages*.
 5. I need to learn about you :)
 6. Introduce yourself to the class as you'll need to team up for the final project.
 
 <hr>
 
 ## Instructions
-This is a 2-parts lab; in the first, you'll practice creating HTML page, with CSS and checking-in your work to a GitHub Repository where you're the only collaborator. and in the second, you'll practice creating a branch on a repository with multiple collaborators and submitting a pull request.
-
-The starter project will include a few files that I ask you not to mess with. This will aid in providing you early feedback on your code before submitting the assignment.
 
 ### Part 1: Create a Web Page
 
@@ -62,44 +66,70 @@ The starter project will include a few files that I ask you not to mess with. Th
     ```
 
 2. Clone down the project to your computer.
-  a. using GitHub Desktop
-  b. using command line tools
+    * [Using GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop)
+    * OR [using command line tools](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 3. Open the project in Visual Studio Code.
   a. make sure you select the root folder when opening the project. It will be named something like `1-online-portfolio-YOUR_USERNAME`
 
 
 #### Creating the Webpage
-1. Where it says `<!-- include style files here-->`, add a `<link>` with a reference to the styles sheet located in `resources/styles/styles.css`
-2. Where it says `<!-- include script files here-->`, add a `<script>` with a reference to the scripts file located in `resources/scripts/index.js`
-3. inside the container `<div>`. make an `<h1>` that contains your name
-4. Modify the HTML `<title>` to match what you wrote in the `h1` tag
-4. add an image `<img>` of yourself.
-  a. make sure the image is placed in `resources/images/...`. I can't access files on your computer (DUHH!)
-5. Make a git commit here.
-6. For Each of the following 5 sections:
-    * make a git commit once done with it.
+1. Where it says `<!-- include style files here-->`, add a `<link>` with a reference to the styles sheet located in `resources/styles/styles.css`.
+
+2. Where it says `<!-- include script files here-->`, add a `<script>` with a reference to the scripts file located in `resources/scripts/index.js`.
+
+3. inside the container `<div>`. make an `<h1>` that contains your name.
+
+4. Modify the HTML `<title>` to match the title in `h1` tag.
+
+5. add an image `<img>` of yourself.
+    * make sure the image is placed in `resources/images` and that you use relative path not the complete file path. I can't access files on your computer (DUHH!).
+        * Do 
+        ```
+            <img src="resources/images/myphoto.jpg" />
+        ```
+
+        * Don't do
+        ```
+            <img src="C:/Users/yahya/Desktop/OnlinePortfolio/resources/images/myphoto.jpg"/>
+        ```
+
+6. <img alt="commit logo" style="height: 20px;margin-bottom: -4px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "initialized the page"`. 
+
+7. For Each of the following 5 sections:
     * make sure to wrap the section with a `<div>` with a class name of `section`
     * each section must be titled with `<h2>` tags
     * sections are:
         * Personal background
+            * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Personal background section"`.
         * Work and Development Experience
+            * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Work and Development Experience section"`.
         * Programming Languages
+            * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Programming Languages section"`.
         * Achievements
+            * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Achievements section"`.
         * Favourite Games (or ones you’re currently playing)
-7. Pretty-ify the page with some custom styles in `resources/styles/styles.css`
+            * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Favourite Games section"`.
+
+8. Pretty-ify the page with some custom styles in `resources/styles/styles.css`
     * [Bootstrap library](https://getbootstrap.com/) is already included at the top of the HTML file. You're welcome to use it.
     * make a git commit once done with the styling or incrementally as you're making your changes.
-7. Once you are finished, make sure you push all the changes to the repository.
-8. **(optional)** run the `npm test` command to check if you missed anything on this part.
-    * You'll need to have node.js installed at this point.
-    * from the command line tools (i.e. terminal, iTerm, bash, ...etc.), navigate to the project directory, and run `npm test`
-    * if using Visual Studio Code, the class's IDE, you can simply open up the integrated terminal (View > Terminal) which will automatically open up at the correct project path.
 
-#### Output
+9. Once you are finished, make sure you push all the changes to the repository.
+
+### Output
 any thing looking like this or better is accepted.
 <img alt="example image" src="assets/example.png" style="height:400px; border:1px #ddd solid;"/>
 
+#### Run Autograder checks
+1. Open your preferred command line terminal (i.e. terminal, iTerm, bash, git bash, powershell, ... etc) and navigate to the project path. 
+    * remember [the `cd` command](http://www.linfo.org/cd.html) from System Admin class.
+    * Using Visual Studio Code you can simply open the integrated terminal (View > Terminal) which will automatically open up at the correct project path.
+        * [More info on vscode integrated terminal can be found here](https://code.visualstudio.com/docs/editor/integrated-terminal)
+
+2. install project depenedencies using the following command: `npm install`
+
+3. run the following command: `npm test`. a suite of tests will run producing results similar to the following.
 
 #### Setting up GitHub Pages for hosting
 1. Follow the following [instructions](https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) to setup github pages and **publish your page from `master`**.
@@ -148,5 +178,5 @@ In this part, we will practice making changes directly on GitHub using the in-br
 ### Grading
 1. The WebPage has all the required sections.
 2. The Web Page is aesthetically pleasing.
-3. Every Paragraph is pushed in a separate commit.
-4. The Web page is hosted on GitHub Pages.
+3. The Web page is hosted on GitHub Pages.
+4. Pull request is submitted
