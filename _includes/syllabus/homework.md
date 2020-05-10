@@ -1,18 +1,28 @@
 ## Homework/Projects
-* Assignments (40%)
-    * Due on Sundays at Midnight.
-    * You get unlimited submissions but once the grade is posted, I won’t review any submissions after that.
-    * Once the grade has been posted, I won’t accept further submissions/updates.
-* Check-in Survey (10%)
-    * Every month a check-in quiz will be posted to get your feedback on the course, what you like and dislike.
-* Weekly Quizzes (10%)
-    * Lowest grade will be dropped.
-    * There will be a password that will be provided at the beginning of the class. (some form of attendance)
-* Final project (40%)
-* I try,but don’t guarantee,to offer some extra credit options in every assignment.
 
+* **Quizzes – 10%**
+    * Only available until their due dates. Once it passed, it passed.
+    * Serves the purpose of collecting attendance. ensures that you're checking the course every week.
+    * Lowest grade will be dropped.
+* **Check-in surveys – 10%**
+    * This will be to collect early feedback from you on the course.
+* **Final Project – 30%**
+* **Labs and Assignments – 50%**
+    * Always due on Sundays.
+    * You get 1 free pass to turn in your work 2 days late.
+    * Once a solution has been posted, no work for that assignment will be accepted.
+        * you may suggest a different project to build that will illustrate your understanding.
+* **Extra Credit (X%)**
+    * I try, but don’t guarantee, to offer some extra credit options in every assignment.
+    * Automated tests (When it's not a requirment already 🙄)
+    * Creativity (as long as requirements are fulfilled 🙄)
+    * Contributing the Labs and Syllabus Repositories with Fixes.
+
+
+![Assignment weights chart](assets/images/grades.png)
+
+{% include syllabus/grading.md %}
 {% include syllabus/homework/workflow.md %}
 {% include syllabus/homework/versions.md %}
 {% include syllabus/homework/requirments.md %}
-{% include syllabus/homework/extra_credit.md %}
 <!-- {% include syllabus/homework/pairing_tips.md %} -->

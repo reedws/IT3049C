@@ -23,7 +23,9 @@ permalink: /syllabus
 **NOTE**: *The instructor reserves the right to update this syllabus as class needs arise. Be assured that they will communicate to you any changes to the schedule, syllabus or policies quickly and efficiently.*
 
 ## Attendance/Participation Expectations
-How should they interact with one another? Is there any group work expected? How do you keep track of participation for an online course, if at all? I saw that you mentioned the quiz pw is kind of an attendance marker, but anything else?
+- You are, of course, expected to participate in all class activities. Quizzes are only available until their due dates and won't be made available after the due dates passes. This is my form of collecting attendance in online classes.
+- A MS Teams or a discord channel will be created for interacting with your fellow students. I won't be monitoring it but you can use it to seek help from your classmates.
+- You will need to maintain a line of communication with me regarding your performance. Seek me out if you need help.
 
 {% include syllabus/course_description.md %}
 
@@ -33,14 +35,9 @@ How should they interact with one another? Is there any group work expected? How
 
 {% include syllabus/homework.md %}
 
-### Notes from Selena
-You mentioned all the weights and types of assignments which is good. Something that has come up with student success is that some courses do not have all the assignments and points laid out clearly, so students cannot come up with a "game plan" to successfully pass the course. In the syllabus template, there's a chart that helps lay that out. You may want to consider one for your syllabus (unless you feel like it is explicit elsewhere in the course).
-
 {% include syllabus/course_outline.md %}
 
 {% include syllabus/resources.md %}
-
-{% include syllabus/grading.md %}
 
 {% include syllabus/student_services/communication_protocol.md %}
 
