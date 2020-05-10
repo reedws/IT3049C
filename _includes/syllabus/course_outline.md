@@ -2,20 +2,14 @@
 The outline is subject to change.
 
 ###  1: Source Version Control (git)
-* Introduction to Syllabus
-* Git/Github
-* Web History/Architecture
-* JavaScript Introduction
+* Development Envirnoment Setup
+* Source Version Control Using Git/Github
 
 ###  2: JavaScript Fundamentals
 * Web History/Architecture
 * JavaScript Introduction
-* Math functions
-* String functions
-* Date and time
-* Array functions
-* Loops/Flow control
-* Final Project Groups
+* Testing with Jest
+
 
 ###  3: DOM and Forms
 * DOM
