@@ -1,2 +1,0 @@
-## Special Needs Policy
-If you have any special needs related to your participation in this course, including identified visual impairment, hearing impairment, physical impairment, communication disorder, and/or specific learning disability that may influence your performance in this course, you should meet with the instructor to arrange for reasonable provisions to ensure an equitable opportunity to meet all the requirements of this course. At the discretion of the instructor, some accommodations may require prior approval by Disability Services.

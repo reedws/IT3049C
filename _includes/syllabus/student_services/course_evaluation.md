@@ -1,4 +1,0 @@
-## Course Evaluation
-The School of Information Technology requires that each course is evaluated each time it is taught.  The School uses a confidential web-based system, CoursEval, for these evaluations.  At the beginning of finals week,you will receive an email from the School Head, with “CoursEval” as the topic.  There is a link on that email that takes you directly to the evaluation.  The online system is anonymous.  I will receive only a summary report of combined data after final grades have been submitted.
-
-As an instructor, I greatly value your input regarding the strengths and areas for improvement of this course.  Your feedback is essential for me to continually improve instruction and provide for quality student learning and outcomes.
