@@ -140,7 +140,7 @@ any thing looking like this or better is accepted.
 In this part, we will practice making changes directly on GitHub using the in-browser editors. (You're welcome to clone down the repository and make your changes locally)
 
 1. On [this Repository (https://github.com/IT3049C/students)](https://github.com/IT3049C/students), Fork the repository using button on the top right.
-    * <img alt="fork button" style="height: 20px;" src="assets/createFile.png"/>
+    * <img alt="fork button" style="height: 60px;" src="assets/forkbtn.png"/>
     * This will create a repository on your account, with the content of this repository.
 2. On the forked repo, navigate to the `_data/CURRENT_SEMESTER` folder: where `CURRENT_SEMESTER` is just a placeholder for what the semester would be, create a new file named `YOUR_GITHUB_USERNAME.json`. 
     * *NOTICE:* github username isn't necessarily your 6+2.
