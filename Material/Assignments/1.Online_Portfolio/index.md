@@ -139,21 +139,15 @@ any thing looking like this or better is accepted.
 ### Part 2: Create Pull Request
 In this part, we will practice making changes directly on GitHub using the in-browser editors. (You're welcome to clone down the repository and make your changes locally)
 
-1. [Branch out of master](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work).
-  a. for more info and explaination of the branching. You could also checkout the [official documentation here](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-2. Navigate to the `_data/CURRENT_SEMESTER` folder: where `CURRENT_SEMESTER` is just a placeholder for what the semester would be.
-3. Create a new file named `YOUR_GITHUB_USERNAME.json`. *NOTICE:* github username isn't necessarily your 6+2.
-4. Introduce yourself by modifying the file.
-    * use this [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) to select an `emoji`.
-    * type in a short message in the introduction line
-    * The `achievements` is an array of strings.
-        * list 2-4 achievements or highlights you’ve accomplished recently that you’d like to share with the class.
-        * Don't forget the trailing commas.
-    * The links should at least constain the `site` key with the link set to your hosted github page.
-        a. you may share your linkedin profiles here as well.
-        c. You can remove the lines for the social media options you're not sharing.
-    * The file MUST follow with the following Schema.
-      ```
+1. On [this Repository (https://github.com/IT3049C/students)](https://github.com/IT3049C/students), Fork the repository using button on the top right.
+    * <img alt="fork button" style="height: 20px;" src="assets/createFile.png"/>
+    * This will create a repository on your account, with the content of this repository.
+2. On the forked repo, navigate to the `_data/CURRENT_SEMESTER` folder: where `CURRENT_SEMESTER` is just a placeholder for what the semester would be, create a new file named `YOUR_GITHUB_USERNAME.json`. 
+    * *NOTICE:* github username isn't necessarily your 6+2.
+    * For example, my 6+2 is `gilanyym` but my GitHub username is `Ygilany` and so my file name would be `Ygilany.json`
+    * <img alt="create a file" src="assets/createFile.png"/>
+4. Copy the snippet below, and make changes as instructed.
+    ```
       {
           "emoji": ":smirk_cat:",
           "role": "Student",
@@ -170,10 +164,24 @@ In this part, we will practice making changes directly on GitHub using the in-br
           }
       }
     ```
-5. commit the changes
-6. Check the status of the commit in GitHub Actions. If it passess, submit a pull request from your branch to the `master` branch.
-    * [On GitHub Desktop](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
-    * **OR** [On GitHub.com directly](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+5. Introduce yourself by modifying the file.
+    * use this [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) to select an `emoji`.
+    * type in a short message in the introduction line
+    * The `achievements` is an array of strings.
+        * list 2-4 achievements or highlights you’ve accomplished recently that you’d like to share with the class.
+        * Don't forget the trailing commas.
+    * The links should at least constain the `site` key with the link set to your hosted github page.
+        a. you may share your linkedin profiles here as well.
+        c. You can remove the lines for the social media options you're not sharing.
+    * The file MUST follow with the following Schema.
+
+6. commit the changes
+    * <img alt="commit file" src="assets/commitFile.png"/>
+7. Submit a Pull Request from this fork back to the original repository.
+    * <img alt="New Pull Request" src="assets/newPR.png"/>
+    * Confirm the head repository is your fork and create a PR.
+        * <img alt="New Pull Request" src="assets/createPR.png"/>
+8. Copy the URL to the pull request and submit that on Canvas.
 
 ### Grading
 1. The WebPage has all the required sections.
