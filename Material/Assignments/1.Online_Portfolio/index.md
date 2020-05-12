@@ -97,18 +97,18 @@ Accept the GitHub Classroom assignment on Canvas to create a repository for you 
 6. <img alt="commit logo" style="height: 20px;margin-bottom: -4px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "initialized the page"`. 
 
 7. For Each of the following 5 sections:
-    * make sure to wrap the section with a `<div>` with a class name of `section`
+    * make sure to wrap the section with a `<div>` with a class name of `section` and is assigned the respective id specified below
     * each section must be titled with `<h2>` tags
     * sections are:
-        * Personal background
+        * Personal background - with an id of `personalBackground`
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Personal background section"`.
-        * Work and Development Experience
+        * Work and Development Experience - with an id of `experinence`
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Work and Development Experience section"`.
-        * Programming Languages
+        * Programming Languages - with an id of `programmingLanguages`
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Programming Languages section"`.
-        * Achievements
+        * Achievements - with an id of `achievements`
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Achievements section"`.
-        * Favourite Games (or ones you’re currently playing)
+        * Favourite Games (or ones you’re currently playing) - with an id of `games`
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Favourite Games section"`.
 
 8. Pretty-ify the page with some custom styles in `resources/styles/styles.css`
