@@ -20,44 +20,41 @@ nav_order: 2
 This Lab is collection of JavaScript execises and coding challenges. It's focused on problem solving techniques and JavaScript Fundamentals.
 
 ## Tips and Guidelines
-* Make a git commit at the **end of each** of the exercises.
+* Make a git commit at the **end of each** of the exercises. There are 20 tests, so there should be 20+ commits at the end of this.
 
 ## Instructions
 1. Accept the Assignment on Canvas.
-  This will create a repository for you with a few starting files. The following directories are the only ones you're allowed to modify
-  ```
-    .
-    ├── app
-    │   ├── .eslintrc.js
-    │   ├── 1.arrays.js
-    │   ├── 2.strings.js
-    │   ├── 3.numbers.js
-    │   ├── 4.logicalOperators.js
-    │   ├── 5.flowControl.js
-    │   ├── 6.bestPractices.js
-    │   ├── 7.modules.js
-    │   ├── 8.functions.js
-    │   └── 9.recursion.js
-    ├── lib
-    │   └── ...
-    ├── tests
-    │   ├── app
-    │   │   ├── .eslintrc.js
-    │   │   └── ...
-    │   └── runner.html
-    ├── .gitignore
-    ├── help.txt
-    ├── index.js
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
-  ```
-
+  * This will create a repository for you with a few starting files.
+    ```
+      .
+      ├── .vscode
+      │   └── settings.json
+      ├── src
+      │   ├── __tests__
+      │   │   ├── 1.numbers.js
+      │   │   ├── 2.strings.js
+      │   │   ├── 3.arrays.js
+      │   │   ├── 4.logicalOperators.js
+      │   │   ├── 5.flowControl.js
+      │   │   └── 6.equality.js
+      │   ├── 1.numbers.js
+      │   ├── 2.strings.js
+      │   ├── 3.arrays.js
+      │   ├── 4.logicalOperators.js
+      │   ├── 5.flowControl.js
+      │   └── 6.equality.js
+      ├── .eslintrc.json
+      ├── .gitignore
+      ├── package-lock.json
+      ├── package.json
+      └── README.md
+    ```
+  * you will only be working on files in the 
 2. Clone down the repository to your local computer.
 3. Install the project dependencies using the `npm install` command.
-4. Run the project using `npm start`
-5. The project should run in the browser at the following URL `localhost:4444` OR `127.0.0.100:4444` in your browser.
-  - You may remember from your networking class that your computer localaddress is `127.0.0.1`
+4. Run the project tests using `npm test`
+  You should see all the tests failing like so:
+  ![](assets/)
 6. For this assignment, you will modifying the files in the app folder. Each file repesent a suite of function that you'll implement untill all the tests pass.
 7. Don't forget to fill out the self assessment in the `README.md` file.
 8. commit and push your code.
@@ -94,6 +91,4 @@ This Lab is collection of JavaScript execises and coding challenges. It's focuse
 7. Commit the changes with a proper commit messgae.
 8. On to the next test .. Rinse and Repeat🧪
 
-
-
-
+## Resources
