@@ -103,7 +103,7 @@ Accept the GitHub Classroom assignment on Canvas to create a repository for you 
     * sections are:
         * Personal background - with an id of `personalBackground`
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Personal background section"`.
-        * Work and Development Experience - with an id of `experinence`
+        * Work and Development Experience - with an id of `experience`
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Work and Development Experience section"`.
         * Programming Languages - with an id of `programmingLanguages`
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "added Programming Languages section"`.
