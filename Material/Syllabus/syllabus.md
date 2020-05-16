@@ -18,6 +18,8 @@ permalink: /syllabus
     * [Discussion Forum](https://uc.instructure.com/courses/1296712/discussion_topics/4407024)
         * Try to ask all of your questions there, the TA and I will subscribe to the forum to get notified when an email is posted.
         * It's highly advised that you check your classmates questions and try to participate. (This will count towards extra credit points)
+    * SoIT Learning Center: The center is staffed with a group of TAs who will be able to provide help and guidance.
+        * The hours will be announced soon.
 
 **NOTE**: *The instructor reserves the right to update this syllabus as class needs arise. Be assured that they will communicate to you any changes to the schedule, syllabus or policies quickly and efficiently.*
 
