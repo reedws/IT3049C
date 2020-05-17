@@ -13,7 +13,7 @@ permalink: /syllabus
 * **Instructor:** Yahya Gilany, [yahya.gilany@uc.edu](mailto:yahya.gilany@uc.edu)
 * **Need help?**
     * Office Hours By appointment - please [sign up here](https://outlook.office365.com/owa/calendar/OfficeHours@mailuc.onmicrosoft.com/bookings/) 
-    * [Discord](https://discord.gg/gxzQez)
+    * [Discord](https://discord.gg/Na8nQkX)
         * This is for you to interact together on. I won't be monitoring it as frequently. This is now a mean you can reach me on.
     * [Discussion Forum](https://uc.instructure.com/courses/1296712/discussion_topics/4407024)
         * Try to ask all of your questions there, the TA and I will subscribe to the forum to get notified when an email is posted.
