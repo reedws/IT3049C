@@ -2,7 +2,6 @@
 layout: default
 title: 2. JavaScript Exercise
 parent: Assignments and Labs
-published: false
 nav_order: 2
 ---
 # 2. JavaScript Exercise
@@ -60,7 +59,10 @@ This is a collection of JavaScript exercises and coding challenges. The focus in
 5. Our task would be to implement the functions in the `src` files (marked with ⬅️ arrow above) untill all the tests pass.
 6. at the end of each test, commit your code <img alt="commit logo" style="height: 20px;margin-bottom: -4px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "finished test xyz"`. 
 
-7. Update the README.md file with your self assessment.
+7. **DONT FORGET** to Update the README.md file with your self assessment
+    * Your grade
+    * Self Reflection
+    * How long it took you to complete the assignment
 8. push your code.
 
 ## Demo 1:
