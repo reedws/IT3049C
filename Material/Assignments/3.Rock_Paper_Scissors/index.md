@@ -52,6 +52,7 @@ This assignment, we will be building the Rock, Paper, Scissors(RPS) game. We wil
 2. [Styling using CSS and Bootstrap 4](2.styling)
 3. [Implementing Game Logic](3.logic)
 4. [Handeling user input](4.event)
+5. Publish the project to GitHub pages
 
 
 ## Extra Credit Opportunity
