@@ -2,7 +2,7 @@
 layout: default
 title: 3. Rock Paper Scissors
 parent: Assignments and Labs
-published: false
+published: true
 has_children: true
 nav_order: 3
 ---
