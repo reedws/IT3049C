@@ -23,7 +23,14 @@ nav_order: 3
 3. Demonstrate ability to create forms with the form/input elements.
 4. Demonstrate understanding of event-oriented programming.
 
-## Overview
+### Guidelines
+* commit your code frequently.
+* Use useful commit messages.
+* Make sure tests pass.
+* at the end of each of the following steps, run the tests to make sure you finished the step correctly.
+* **Don't forget to fill out the self assessment on the README file**.
+
+## Game Flow
 This assignment, we will be building the Rock, Paper, Scissors(RPS) game. We will be utilizing the concepts and techniques covered in the past few weeks to allow a user to play against the Computer. The game flow should be:
 1. Web page loads with a form to input user’s name (input is required, they cannot submit it without a value).
     * **concepts**: Building forms, Event-handeling, user input validation.
@@ -39,13 +46,6 @@ This assignment, we will be building the Rock, Paper, Scissors(RPS) game. We wil
 7. Keep history of selections and winner of each round and display it.
 8. Reset the form after each round
 9. User should be able to start a new game.
-
-### Guidelines
-* commit your code frequently.
-* Use useful commit messages.
-* Make sure tests pass.
-* at the end of each of the following steps, run the tests to make sure you finished the step correctly.
-* **Don't forget to fill out the self assessment on the README file**.
 
 ## Instructions
 1. [Setting up the Layout](1.layout)
