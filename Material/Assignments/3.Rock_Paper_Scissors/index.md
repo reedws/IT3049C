@@ -48,33 +48,29 @@ This assignment, we will be building the Rock, Paper, Scissors(RPS) game. We wil
 9. User should be able to start a new game.
 
 ## Instructions
-1. [Setting up the Layout](1.layout)
-2. [Styling using CSS and Bootstrap 4](2.styling)
-3. [Implementing Game Logic](3.logic)
-4. [Handeling user input](4.event)
-5. Publish the project to GitHub pages
+1. run `npm install`
+2. [Setting up the Layout](1.layout)
+3. [Styling using CSS and Bootstrap 4](2.styling)
+4. [Implementing Game Logic](3.logic)
+5. [Putting it all together](4.controller)
+5. [Finalize and Submit](5.finalize)
 
 
 ## Extra Credit Opportunity
 
-    ### Game Logic (5 Extra Credit Points)
-    - a drop down that selects the type of game logic (Cheat vs Normal)
-    - change h1 to you RPS - You may never win
+### Unit tests (3 points per test)
+- building some unit tests for the [Putting it all together](4.controller) portion of the assignment.
 
-    ### Use Buttons instead of Dropdown (5 Extra Credit Points)
+### Reset Game Button (3 points)
+User can Reset the game and Type in a new player name (3 points)
+
+### UI Design
+Make the game aesthetically pleasing while satisfying the UI tests
+* (just adding Rock Paper Scissor images doesn’t count ☺)
+### Use Buttons instead of Dropdown (1 Extra Credit Points)
+
 
 
 ## Output
 <img alt="example image" src="assets/example.png" style="height:250px; border:1px #ddd solid;"/>
 
-
-### Grading
-1. The application runs with no errors.
-2. The computer player is able to select a random option on every play.
-3. The game logic is sound.
-  a. Win
-  b. Lost
-  c. And Tie
-4. The playing history is maintained and presented to the user. (see the screenshot above where it has Round 1, 2,…)
-5. For 4 points of Extra Credit: User can Reset the game and Type in a new player name.
-6. For 2 points of Extra Credit: Make the game aesthetically pleasing (just adding Rock Paper Scissor images doesn’t count ☺)
