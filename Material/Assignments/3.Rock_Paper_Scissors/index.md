@@ -2,7 +2,7 @@
 layout: default
 title: 3. Rock Paper Scissors
 parent: Assignments and Labs
-published: false
+published: true
 has_children: true
 nav_order: 3
 ---
@@ -73,4 +73,3 @@ Make the game aesthetically pleasing while satisfying the UI tests
 
 ## Output
 <img alt="example image" src="assets/example.png" style="height:250px; border:1px #ddd solid;"/>
-
