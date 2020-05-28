@@ -8,6 +8,10 @@ nav_order: 4
 ---
 
 # JSON and Networking (Lab)
+This lab, you will be following the instructions and to build a chatting application that we can use as a class.
+For most of the parts, I have provided snippets of code for you to use.
+> Make sure your understand those snippets for your own sake, as well as for future assignments.
+
 * Create the boilerplate for your application
 	* HTML
 	* include a css file
