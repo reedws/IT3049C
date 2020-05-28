@@ -505,16 +505,16 @@ async function updateMessages() {
 updateMessages()
 ```
 
-9. Use `setInterval()` to call this function once every minute to keep the new messages coming.
+9. Use `setInterval()` to call this function once every 10 seconds to keep the new messages coming.
 
     ```js
-    setInterval(updateMessages, 60000);
+    setInterval(updateMessages, 10000);
     ```
-    * the number `60000` in this scenario is what we refer to as a magic number. it's a value of some significance but someone looking at this may not easily understand what this value is
+    * the number `10000` in this scenario is what we refer to as a magic number. it's a value of some significance but someone looking at this may not easily understand what this value is
         * we like to set this value to a variable to make this a bit more readable.
     ```js
-    const MILLISECONDS_IN_MINUTE = 60000;
-    setInterval(updateMessages, MILLISECONDS_IN_MINUTE);
+    const MILLISECONDS_IN_TEN_SECONDS = 10000;
+    setInterval(updateMessages, MILLISECONDS_IN_TEN_SECONDS);
     ```
 
 ### Sending Messages
@@ -533,10 +533,13 @@ function sendMessages (username, text) {
         text: text,
         timestamp: new Date()
     }
-    console.log(newMessage)
-    fetch(serverURL, {
+
+fetch(serverURL, {
         method: `POST`,
-        body: `newMessage`
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(newMessage)
     });
 }
 ```
