@@ -406,75 +406,82 @@ const chatBox = document.getElementById("chat");
     ```
 
 4. Create a function that uses the FetchAPI to requests messages from the server.
+    * URL to the Server is [https://it3049c-chat-application.herokuapp.com](https://it3049c-chat-application.herokuapp.com)
+    * URL to the link to get the messages is [https://it3049c-chat-application.herokuapp.com/messages](https://it3049c-chat-application.herokuapp.com/messages)
+    * sometime, the server might be idle and would take a few minutes to wake up again.
 
-```js
-const serverURL = `history `;
+    ```js
+    const serverURL = `https://it3049c-chat-application.herokuapp.com/messages`;
 
-function fetchMessages() {
-    return fetch(serverURL)
-        .then( response => response.json())
-}
-```
+    function fetchMessages() {
+        return fetch(serverURL)
+            .then( response => response.json())
+    }
+    ```
 
-* Call `fetchMessages()` from `updateMessages()`
+5. Call `fetchMessages()` from `updateMessages()`
+    * Notice, because `fetchMessages()` is an asyncronous function that returns a promise rather then the actual result, I had to make `updateMessages()` an `async` function as well and instruct it to await the results from `fetchMessages()`.
 
-```js
-async function updateMessages() {
-    // Fetch Messages
-    const messages = await fetchMessages();
+    ```js
+    async function updateMessages() {
+        // Fetch Messages
+        const messages = await fetchMessages();
 
-    // Loop over the messages. Inside the loop we will
-        // get each message
-        // format it
-        // add it to the chatbox
-}
-```
+        // Loop over the messages. Inside the loop we will
+            // get each message
+            // format it
+            // add it to the chatbox
+    }
+    ```
+    * try to log the `messages` variable to the console to confirm the structure of each message looks like this
 
-	* Note: Since `fetchMessages()` returns a promise, we needed to make `updateMessages()` an asynchronous function and code it to `await` the response.
-	* try to log the `messages` variable to the console to confirm the structure of each message looks like this
+    ```json
+    {
+        "id": 1,
+        "text": "This is my message",
+        "timestamp": 1537410673072
+    }
+    ```
 
-```json
-{
-	"id": 1,
-	"text": "This is my message",
-	"timestamp": 1537410673072
-}
-```
+6. Create a formatter function that will take the `message` object and the username `myName` (from the text field) as parameters and return `HTML`.
+    * the function will need to parse the timestamp to a readable format.
+        * Obvi, `1537410673072` is not a readable format
+    * compare the value of the `messages.sender` and the text input field, `myName`:
+        * if it's the same, then use the class `mine` around the message div.
+        * if it's not the same, use the class `yours` around the message div.
 
-* Create a formatter function that will take the `message` object  and the name text field as parameters and return HTML.
+    ```js
+    function formatMessage(message, myName) {
+        const time = new Date(message.timestamp);
+        const formattedTime = `${time.getHours()}:${time.getMinutes()}`;
 
-```js
-function formatMessage(message, myName) {
-    const time = new Date(message.timestamp);
-    const formattedTime = `${time.getHours()}:${time.getMinutes()}`;
-
-    if (myName === message.sender) {
-        return `
-        <div class="mine messages">
-            <div class="message">
-                ${message.text}
-            </div>
-            <div class="sender-info">
-                ${formattedTime}
-            </div>
-        </div>
-        `
-    } else {
-        return `
-            <div class="yours messages">
+        if (myName === message.sender) {
+            return `
+            <div class="mine messages">
                 <div class="message">
                     ${message.text}
                 </div>
                 <div class="sender-info">
-                    ${message.sender} ${formattedTime}
+                    ${formattedTime}
                 </div>
             </div>
-        `
+            `
+        } else {
+            return `
+                <div class="yours messages">
+                    <div class="message">
+                        ${message.text}
+                    </div>
+                    <div class="sender-info">
+                        ${message.sender} ${formattedTime}
+                    </div>
+                </div>
+            `
+        }
     }
-}
-```
+    ```
 
-* Now we loop over the array of the responses, format them and add them to the chatbox.
+7. Now we loop over the array of the messages, format them and add them to the chatbox.
 
 ```js
 async function updateMessages() {
@@ -491,28 +498,54 @@ async function updateMessages() {
     chatBox.innerHTML = formattedMessages;
 }
 ```
-
-Make Sure you understand what’s going on.
-* Call the function and look at your browser
+8. We need to make sure the function is called.
+    * otherwise, we won't see any difference.
 
 ```js
 updateMessages()
 ```
 
-* Let’s call this function every 2 seconds to keep the messages updated.
+9. Use `setInterval()` to call this function once every minute to keep the new messages coming.
 
-```js
-setInterval(updateMessages, 2000);
-```
+    ```js
+    setInterval(updateMessages, 60000);
+    ```
+    * the number `60000` in this scenario is what we refer to as a magic number. it's a value of some significance but someone looking at this may not easily understand what this value is
+        * we like to set this value to a variable to make this a bit more readable.
+    ```js
+    const MILLISECONDS_IN_MINUTE = 60000;
+    setInterval(updateMessages, MILLISECONDS_IN_MINUTE);
+    ```
 
 ### Sending Messages
-* Now let’s make a function to send messages to the server (I’m using JQuery) here
+1. Create a send function that would:
+    * take the username, and message text as parameter
+    * construct a json object with the following properties `sender`, `text`, and `timestamp`
+    * send messages to the server here
 
+**Using FetchAPI**
 ```js
-function sendMessages () {
+const serverURL = `https://it3049c-chat-application.herokuapp.com/messages`; // This has been declared before
+...
+function sendMessages (username, text) {
     const newMessage = {
-        sender: nameInput.value,
-        text: myMessage.value,
+        sender: username,
+        text: text,
+        timestamp: new Date()
+    }
+    console.log(newMessage)
+    fetch(serverURL, {
+        method: `POST`,
+        body: `newMessage`
+    });
+}
+```
+**OR Using JQuery**
+```js
+function sendMessages (username, text) {
+    const newMessage = {
+        sender: username,
+        text: text,
         timestamp: new Date()
     }
 
@@ -520,14 +553,21 @@ function sendMessages () {
 }
 ```
 
-* Last thing we need to do is to listen to the click event of the send button.
-	* That event handler will send the message to the server and clear the text field to prepare for a new message to be sent
+2. create an Event Listener to listen to the `click` event on the send button. This event handler will:
+    * send the message to the server and clear the text field to prepare for a new message to be sent
+    * clear the message text field
 
 ```js
 sendButton.addEventListener("click", function(sendButtonClickEvent) {
     sendButtonClickEvent.preventDefault();
+    const sender = nameInput.value;
+    const message = myMessage.value;
 
-    sendMessages();
+    sendMessages(sender,message);
     myMessage.value = "";
 });
 ```
+
+# Extra Credit
+* Create a refresh button
+* Something we'll talk about later is saving data in the browser (even after you close the browser and open it again, try to do that.)
