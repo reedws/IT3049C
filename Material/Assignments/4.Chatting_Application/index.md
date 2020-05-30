@@ -572,5 +572,6 @@ sendButton.addEventListener("click", function(sendButtonClickEvent) {
 ```
 
 # Extra Credit
-* Create a refresh button
-* Something we'll talk about later is saving data in the browser (even after you close the browser and open it again, try to do that.)
+* Create a refresh button to refresh the messages sooner than the 10 seconds auto-update.
+* use the colorAPI to change the color scheme of the application.
+* Invisitigate and implement a mechanism to save data in the browser (even after you close the browser and open it again, try to do that.)
