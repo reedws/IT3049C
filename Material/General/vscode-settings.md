@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Visual Studion Code Settings and Extensions
+title: Visual Studio Code Settings and Extensions
 parent: General
 nav_order: 2
 nav_exclude: false
