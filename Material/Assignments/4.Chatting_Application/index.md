@@ -579,6 +579,17 @@ sendButton.addEventListener("click", function(sendButtonClickEvent) {
 });
 ```
 
+
+
+## Hosting and Submission
+### GitHub Pages
+1. Follow the following [instructions](https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) to setup github pages and **publish your page from `master`**.
+
+### Submission
+1. update the `README.md` file with your self-grading and self-reflection.
+
+2. On Canvas, submit the repository link and the hosted github pages link.
+
 # Extra Credit
 * Create a refresh button to refresh the messages sooner than the 10 seconds auto-update.
 * use the colorAPI to change the color scheme of the application.
