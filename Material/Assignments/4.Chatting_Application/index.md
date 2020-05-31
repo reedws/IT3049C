@@ -54,9 +54,10 @@ For most of the parts, I have provided snippets of code for you to use.
     ```
 2. the `index.html` file includes
     * a title of `IT3049C-Chat`
-    * a link to the styles sheet in `styles.css` - For out custom styles.
-    * a link to the script file in `main.js` - For our custom scripts.
+    * a link to the styles sheet in `resources/css/styles.css` - For out custom styles.
+    * a link to the script file in `resources/js/index.js` - For our custom scripts.
     * a link to Bootstrap styles and scripts. - For a responsive design with better ascetics
+    * a link to FontAwesome styles. - for icons
 
     <details>
     <summary markdown="span">
@@ -74,13 +75,22 @@ For most of the parts, I have provided snippets of code for you to use.
             <script src="resources/vendor/jquery-3.5.1.slim.min.js"></script>
             <script src="resources/vendor/popper.min.js"></script>
             <script src="resources/vendor/bootstrap.min.js"></script>
-            <link rel="stylesheet" href="resources/vendor/fontawesome.min.css" />
+            <link rel="stylesheet" href="resources/vendor/fontawesome-free/css/all.min.css" />
             <link rel="stylesheet" href="resources/css/styles.css" />
         </head>
 
         <body>
-            <!-- WORK FROM INSIDE THIS CONTAINER-->
+            <header>
 
+            </header>
+
+            <div id="chat">
+
+            </div>
+
+            <footer>
+
+            </footer>
             <!-- Our own Scripts -->
             <script src="resources/js/index.js"></script>
         </body>
@@ -209,9 +219,7 @@ For most of the parts, I have provided snippets of code for you to use.
 <img alt="a page with a jumbotron and a chat box" src="assets/2.png" style="width:100%; border:1px #ddd solid;"/>
 
 ### Chat messages section
-1. Create a div with the id of `chat` under the header.
-
-2. inside the `chat` div copy the following ***(MOCK)*** messages.
+1. Inside of the `chat` div, copy the following ***(MOCK)*** messages.
 
 ```html
 <div class="mine messages">
