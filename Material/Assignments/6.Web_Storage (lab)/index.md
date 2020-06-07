@@ -7,7 +7,7 @@ published: true
 nav_order: 5
 ---
 
-# Web Storage (Lab)
+# Web Storage (Non-graded Lab)
 
 This lab we will be building on the Chat application we built before.
 
@@ -415,13 +415,8 @@ Folder Structure
 - Open up the developer tools, go the application tab, and change the application service worker status to offline and then reload the application.
 
 ---
-
-## For 1 point of Extra Credit 🎉
-in the code we built this lab, there's a piece of redundant code. Identify and show me that you found it.
-
----
-## For 5 points of Extra Credit 🎉
-implement an additional feature that will listen for absense of online connection.
-
-once detected, it will need to pause the requests going out to the server until the connection is gained back, it will also need to store the chat history locally and then sends it to the server, once the connection is regained.
+## Additional Exercise
+- in the code we built this lab, there's a piece of redundant code. Identify and show me that you found it.
+- implement an additional feature that will listen for absense of online connection.
+    - once detected, it will need to pause the requests going out to the server until the connection is gained back, it will also need to store the chat history locally and then sends it to the server, once the connection is regained.
 
