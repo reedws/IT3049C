@@ -1,10 +1,10 @@
 ---
 layout: default
-title: 3. Web Storage (Lab)
+title: 5. Web Storage (Lab)
 parent: Assignments and Labs
 has_children: false
 published: true
-nav_order: 3
+nav_order: 5
 ---
 
 # Web Storage (Lab)
