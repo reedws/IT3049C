@@ -3,7 +3,7 @@ layout: default
 title: 3. Web Storage (Lab)
 parent: Assignments and Labs
 has_children: false
-published: false
+published: true
 nav_order: 3
 ---
 
@@ -20,8 +20,7 @@ This lab we will be building on the Chat application we built before.
 
 ## Part 0: Getting Started
 
-Now in case you don't have the code from last lab readily available,
-here's what we had up until this point
+Here's a version of the chatting application - It's not exactly like what you were supposed to turn in in the previous assignment (don't turn in as is for the last assignment 🙄)
 
 ```
 Folder Structure

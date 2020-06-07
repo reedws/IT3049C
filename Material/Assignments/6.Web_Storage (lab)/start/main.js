@@ -5,7 +5,7 @@ const myMessage = document.getElementById("myMessage");
 const sendButton = document.getElementById("sendButton");
 const chatBox = document.getElementById("chat");
 
-const serverURL = `http://ed3d11da.ngrok.io/messages`;
+const serverURL = `https://it3049c-chat-application.herokuapp.com/messages`;
 
 function fetchMessages() {
     return fetch(serverURL)
