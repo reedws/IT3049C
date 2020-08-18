@@ -18,10 +18,8 @@ permalink: /syllabus
         * You should all be added to the Team on Microsoft Teams. As many courses, are also using MS Teams, I'm hoping this would be a familiar platform for you to use.
         * Try to ask all of your questions there, the TA and I will subscribe to the forum to get notified when an email is posted.
         * It's highly advised that you check your classmates questions and try to participate. (This will count towards extra credit points)
-    * ~[Discussion Forum](https://uc.instructure.com/courses/1427502/discussion_topics/6092762)~
+    * [Discussion Forum](https://uc.instructure.com/courses/1427502/discussion_topics/6092762)
         * You can definitely use Discussion Forums, but you'll be in better luck on Teams
-    * ~[Discord](#)~
-        * This is for you to interact together on. I won't be monitoring it as frequently. This is now a mean you can reach me on.
     * SoIT Learning Center: The center is staffed with a group of TAs who will be able to provide help and guidance.
         * The hours will be announced soon.
 
