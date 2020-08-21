@@ -1,7 +1,8 @@
 ## Service Level Agreement
 
 ### Communication
-* I will acknowledge/respond to all emails within 48 hours
+* I will acknowledge/respond to all emails within 2 business days.
+  * for every day beyond the 2 day, you'll receive an additional free late submission day. 
 * I will do office hours on an as-needed, appointment-based system. Use the link on the top to schedule a meeting with me or the TA.
 
 ### Feedback and Solution
