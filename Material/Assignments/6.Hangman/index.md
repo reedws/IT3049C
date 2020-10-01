@@ -33,11 +33,11 @@ The process of the game should be:
     1. `easy` - for words of length 3-5
     2. `medium` - for words of length 6-9
     3. `hard` - for worfs of length 10-15
-2. On difficulty selection, we'll make a HTTP Request to [https://hangman-micro-service-bpblrjerwh.now.sh/](https://hangman-micro-service-bpblrjerwh.now.sh/) to get a word for the game.
+2. On difficulty selection, we'll make a HTTP Request to [https://hangman-micro-service.herokuapp.com/](https://hangman-micro-service.herokuapp.com/) to get a word for the game.
     1. You'll need to specifify the difficulty in the querystring of your url.
-        * [https://hangman-micro-service-bpblrjerwh.now.sh/?difficulty=easy](https://hangman-micro-service-bpblrjerwh.now.sh/?difficulty=easy)
-        * [https://hangman-micro-service-bpblrjerwh.now.sh/?difficulty=medium](https://hangman-micro-service-bpblrjerwh.now.sh/?difficulty=medium)
-        * [https://hangman-micro-service-bpblrjerwh.now.sh/?difficulty=hard](https://hangman-micro-service-bpblrjerwh.now.sh/?difficulty=hard)
+        * [https://hangman-micro-service.herokuapp.com/?difficulty=easy](https://hangman-micro-service.herokuapp.com/?difficulty=easy)
+        * [https://hangman-micro-service.herokuapp.com/?difficulty=medium](https://hangman-micro-service.herokuapp.com/?difficulty=medium)
+        * [https://hangman-micro-service.herokuapp.com/?difficulty=hard](https://hangman-micro-service.herokuapp.com/?difficulty=hard)
     2. **Hint**: Don’t hardcode all three URLs. Instead, use string templating to populate the querystring.
     3. It may take a few seconds to load initially.
 3. Show the word's length as underscores in place of letters which have not yet been guessed.
