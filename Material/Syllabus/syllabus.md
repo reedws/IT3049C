@@ -12,16 +12,18 @@ permalink: /syllabus
 * **Course:** [IT3049C - Web Game Development](#)
 * **Instructor:** Yahya Gilany, [yahya.gilany@uc.edu](mailto:yahya.gilany@uc.edu)
 * **Need help?**
-    * *Office Hours with TA* By appointment - more info soon.
-    * *Office Hours with Instructor* By appointment - please [sign up here](https://outlook.office365.com/owa/calendar/OfficeHours@mailuc.onmicrosoft.com/bookings/) 
-    * *[Microsoft Teams](https://teams.microsoft.com/l/channel/19%3a153ae7bcf07f4cebb09d4f697c4238c1%40thread.tacv2/Ask%2520Questions?groupId=48b253ef-0e42-4482-a4b6-e71f6892b4ce&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63)*
-        * You should all be added to the Team on Microsoft Teams. As many courses are also using MS Teams, I'm hoping this would be a familiar platform for you to use.
-        * Try to ask all of your questions there, the TA and I will subscribe to the forum to get notified when an email is posted.
-        * It's highly advised that you check your classmates questions and try to participate. (This will count towards extra credit points)
-    * *[Discussion Forum](https://uc.instructure.com/courses/1427502/discussion_topics/6092762)*
-        * You can definitely use Discussion Forums, but you'll be in better luck on Teams
+    * Seek help from your fellow classmates on the class's Team on *[Microsoft Teams](https://teams.microsoft.com/l/channel/19%3a9625b48800f04fca8a1ed30af6f623e8%40thread.tacv2/%25F0%259F%2586%2598Help%2520-%2520Ask%2520your%2520classmates?groupId=de02290e-307d-4719-9cbc-e7d307fd2734&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63)*
+        * I hope MS Teams is a familiar platform for you.
+        * Ask all your questions there. 
+        * From my experience, you'll get an answer from your classmates (who are working through the same assignments as you) far quicker than from me or the TA.
+        * I will try to periodically check on the questions, comment or correct any answers.
+        * You may also @me/mention me on the question threads if you're not able to come to an agreement.
+        * Please DO NOT email me questions. This leads to the same question being asked a lot of times.
+        * I highly advise, you regularly check your classmates questions and participate.
     * *SoIT Learning Center:* The center is staffed with a group of TAs who will be able to provide help and guidance.
         * The Learning Center is going Virtual this semester. Hours will be announced soon.
+    * *Office Hours with TA OR Instructor* By appointment - please [sign up here](https://outlook.office365.com/owa/calendar/OfficeHours@mailuc.onmicrosoft.com/bookings/).
+      * The calendar will always be up to date with our availability. 
 
 **NOTE**: *The instructor reserves the right to update this syllabus as class needs arise. Be assured that they will communicate to you any changes to the schedule, syllabus or policies quickly and efficiently.*
 
