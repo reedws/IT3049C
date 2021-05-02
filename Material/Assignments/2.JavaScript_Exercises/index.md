@@ -56,10 +56,10 @@ This is a collection of JavaScript exercises and coding challenges. The focus in
   You should see all the tests failing like so:
   ![failing tests image](assets/failing_tests.png)
 
-5. Our task would be to implement the functions in the `src` files (marked with ⬅️ arrow above) untill all the tests pass.
+5. Our task would be to implement the functions in the `src` files (marked with ⬅️ arrow above) until all the tests pass.
 6. at the end of each test, commit your code <img alt="commit logo" style="height: 20px;margin-bottom: -4px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "finished test xyz"`. 
 
-7. **DONT FORGET** to Update the README.md file with your self assessment
+7. **DON'T FORGET** to Update the README.md file with your self assessment
     * Your grade
     * Self Reflection
     * How long it took you to complete the assignment
@@ -71,7 +71,7 @@ This is a collection of JavaScript exercises and coding challenges. The focus in
   - You can either use the `cd PATH_TO_FOLDER` command.
     - in my case the command was `cd /Users/yahyagilany/git/School/IT3049/2.JS-Exercise`
     - use the `pwd` command to `P`rint `W`orking `D`irectory and confirm your location
-  - **OR** You could open VSCode integrated terminal window and it will open in the termianl already in the right path.
+  - **OR** You could open VSCode integrated terminal window and it will open in the terminal already in the right path.
 2. Installing the dependencies `npm install`
 3. Run the tests using `npm test`.
   <img alt="example image" src="assets/failing_tests.png" style="height:400px; border:1px #ddd solid;"/>
@@ -83,7 +83,7 @@ This is a collection of JavaScript exercises and coding challenges. The focus in
     
     **Let's try to solve a couple of those tests.**
 
-2. Open the file `src/1.numbers.js`. Particulary
+2. Open the file `src/1.numbers.js`. Particularly
     ```js
       //parseInt: should use parseInt correctly to convert strings to integer numbers
       function parseInt (str) {
@@ -92,11 +92,11 @@ This is a collection of JavaScript exercises and coding challenges. The focus in
     ```
     - notice the function have an empty implementation. - We need to do something about that 🤔
 
-3. Consulting the [JS documeantion for the Number Data Type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), you learn that there's a function named [Number.parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt). The documentations shows usage examples, and specifies the parameters and return type of the function.
+3. Consulting the [JS documentation for the Number Data Type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), you learn that there's a function named [Number.parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt). The documentations shows usage examples, and specifies the parameters and return type of the function.
  
     <img alt="Number.parseInt() docs" src="assets/parseIntDocs.png" style="height:500px; border:1px #ddd solid;"/>
     
-    **Key Takeways:**
+    **Key Takeaways:**
       -  Be careful the Radix does not default to 10!, so we'll have to set that optional parameter as follows
   ```js
     function parseInt(str) {
@@ -111,7 +111,7 @@ This is a collection of JavaScript exercises and coding challenges. The focus in
 
 ## Demo 2:
 1. Well, no need for the setup steps here (you should already be in the directory)
-2. Open the file `src/3.arrays.js`. Particulary
+2. Open the file `src/3.arrays.js`. Particularly
     ```js
       /**
         * IndexOf: you should be able to determine the location of an item in an array
