@@ -10,16 +10,15 @@ permalink: /syllabus
 *** ***
 
 * **Course:** [IT3049C - Web Game Development](#)
+* **Format and credit hours:** 3 credit hours; online.
 * **Instructor:** Yahya Gilany, [yahya.gilany@uc.edu](mailto:yahya.gilany@uc.edu)
 * **Need help?**
-    * Seek help from your fellow classmates on the class's Team on *[Microsoft Teams](https://teams.microsoft.com/l/channel/19%3a9625b48800f04fca8a1ed30af6f623e8%40thread.tacv2/%25F0%259F%2586%2598Help%2520-%2520Ask%2520your%2520classmates?groupId=de02290e-307d-4719-9cbc-e7d307fd2734&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63)*
-        * I hope MS Teams is a familiar platform for you.
-        * Ask all your questions there. 
-        * From my experience, you'll get an answer from your classmates (who are working through the same assignments as you) far quicker than from me or the TA.
-        * I will try to periodically check on the questions, comment or correct any answers.
-        * You may also @me/mention me on the question threads if you're not able to come to an agreement.
-        * Please DO NOT email me questions. This leads to the same question being asked a lot of times.
-        * I highly advise, you regularly check your classmates questions and participate.
+    * Please **DO NOT** email me questions. Ask all your questions on *[Microsoft Teams](https://teams.microsoft.com/l/channel/19%3a9625b48800f04fca8a1ed30af6f623e8%40thread.tacv2/%25F0%259F%2586%2598Help%2520-%2520Ask%2520your%2520classmates?groupId=de02290e-307d-4719-9cbc-e7d307fd2734&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63)* instead.
+    * You need to seek help from your fellow classmates on the channel first.
+        * You will get a quicker response from your classmates (who are working through the same questions and the same issues as you) then from me or the TA.
+    * If your classmates aren't able to help/come to an agreement, you may @me/mention me on the question threads.
+    * I will try to periodically check on the questions, comment or correct any answers.
+    * I highly advise, you regularly check your classmates questions and participate.
     * *SoIT Learning Center:* The center is staffed with a group of TAs who will be able to provide help and guidance.
         * The Learning Center is going Virtual this semester. Hours will be announced soon.
     * *Office Hours with TA OR Instructor* By appointment - please [sign up here](https://outlook.office365.com/owa/calendar/OfficeHours@mailuc.onmicrosoft.com/bookings/).

@@ -1,13 +1,13 @@
 ## Service Level Agreement
 
 ### Communication
+* I tend to reply to email quickly. If I don't, please allow me until Sunday 10AM of that week to get back to you.
 * I will acknowledge/respond to all emails within 2 business days.
-  * for every day beyond the 2 day, you'll receive an additional free late submission day. 
-* I will do office hours on an as-needed, appointment-based system. Use the link on the top to schedule a meeting with me or the TA.
+* I will do office hours on an as-needed, appointment-based system. Please ask your questions on the channel first, and schedule a meeting when suggestions on the channel aren't helping. Use the link on the top to schedule a meeting with me or the TA.
 
 ### Feedback and Solution
 * Assignments will be graded and returned within 10 days of the due date.
   * except for the first few weeks until a TA is assigned.
 * Most of the assignments will be accompanied by a suite of automatic tests that can give you an early feedback on your work.
-  * For the most part, passing tests means full grade, unless indicated otherwise.
-* The solutions will be shared a week after the due date using a secret code to be shared with you on the assignment feedback.
+  * For most assignment, passing tests means full grade.
+* The solutions will be shared using a secret code to be shared with you on the assignment feedback.
