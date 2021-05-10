@@ -112,11 +112,11 @@ Accept the GitHub Classroom assignment on Canvas to create a repository for you 
    * sections are:
         * Personal background
             * Containing `<div>` has class of `section` and id of `personalBackground`
-            * A paragraph tag `<p>` or an un-numbered`<ul>` with your experience.
+            * A paragraph tag `<p>` or an un-numbered`<ul>` with some background info.
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit `git commit -m "added Personal background section"`.
         * Work and Development Experience
             * containing `<div>` has class of `section` and id of `experience`
-            * A numbered list tag `<ol>` containing the programming languages you know.
+            * A numbered list tag `<ol>` containing some of the roles and places you worked at.
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
         * Programming Languages
             * containing `<div>` has class of `section` and id of `programmingLanguages`
@@ -126,8 +126,8 @@ Accept the GitHub Classroom assignment on Canvas to create a repository for you 
             * containing `<div>` has class of `section` and id of `achievements`
             * An un-numbered list tag `<ul>` containing the some of the achievements you'd like to share.
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
-        * Favorite Games (or ones you’re currently playing) - with an id of `games`
-            * containing `<div>` has class of `section` and id of `achievements`
+        * Favorite Games (or ones you’re currently playing)
+            * containing `<div>` has class of `section` and id of `games`
             * A paragraph tag `<p>` or an un-numbered`<ul>` containing the the games you like to play.
             * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
 
