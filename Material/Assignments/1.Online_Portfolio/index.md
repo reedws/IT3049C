@@ -221,7 +221,7 @@ You will be graded using the following criteria.
    2. assigning classes and IDs properly.
    3. Styling the page using classes and IDs in the css file.
 2. The Web page is hosted on GitHub Pages. (3 Points)
-3. Proper usage of git and GitHub and making frequent commits (3 points).
+3. Proper usage of git and GitHub and making frequent commits (2 points).
 4. Pull request is submitted. (3 points)
 
 ### You may lost points if
