@@ -21,7 +21,7 @@ permalink: /syllabus
     * I highly advise, you regularly check your classmates questions and participate.
     * *SoIT Learning Center:* The center is staffed with a group of TAs who will be able to provide help and guidance.
         * The Learning Center is going Virtual this semester. Hours will be announced soon.
-    * *Office Hours with TA OR Instructor* By appointment - please [sign up here](https://outlook.office365.com/owa/calendar/OfficeHours@mailuc.onmicrosoft.com/bookings/).
+    * *Office Hours with TA OR Instructor* By appointment - please [sign up here](https://outlook.office365.com/owa/calendar/OfficeHours@mailuc.onmicrosoft.com/bookings/s/EjGKKRXxgE6Ppb4z3AH9lg2).
       * The calendar will always be up to date with our availability. 
 
 **NOTE**: *The instructor reserves the right to update this syllabus as class needs arise. Be assured that they will communicate to you any changes to the schedule, syllabus or policies quickly and efficiently.*
