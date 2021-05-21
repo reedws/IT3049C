@@ -105,7 +105,7 @@ Accept the GitHub Classroom assignment on Canvas to create a repository for you 
     * the commit message needs to be meaningful. Example: *"Initialize the page"*
     * If you're using the command line, the command would be: `git commit -m "initialized the page"`. 
 
-8. Create the following 4 sections. For each of them sections:
+8. Create the following 5 sections. For each of them sections:
    * make sure to wrap each section with a `<div>` with a class name of `section` and is assigned the respective id specified below
    * each section must be titled with `<h2>` tags
    * <img alt="commit logo" style="height: 15px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit at the end of each section created. i.e. `git commit -m "added Personal background section"`, `git commit -m "added Work and Development Experience section"` and so on ...
