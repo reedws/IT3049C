@@ -56,20 +56,14 @@ This assignment, we will be building the Rock, Paper, Scissors(RPS) game. We wil
 5. [Finalize and Submit](5.finalize)
 
 
-## Extra Credit Opportunity
+## Extra Credit Opportunities
 
-### Unit tests (3 points per test)
-- building some unit tests for the [Putting it all together](4.controller) portion of the assignment.
-
-### Reset Game Button (3 points)
+### Reset Game Button (3 points - Required for teams more than 2)
 User can Reset the game and Type in a new player name (3 points)
 
-### UI Design
-Make the game aesthetically pleasing while satisfying the UI tests
-* (just adding Rock Paper Scissor images doesn’t count ☺)
 ### Use Buttons instead of Dropdown (1 Extra Credit Points)
-
-
+### Unit tests (2 points per test)
+- building some unit tests for the [Putting it all together](4.controller) portion of the assignment.
 
 ## Output
 <img alt="example image" src="assets/example.png" style="height:250px; border:1px #ddd solid;"/>
