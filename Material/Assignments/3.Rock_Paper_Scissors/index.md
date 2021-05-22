@@ -6,7 +6,7 @@ published: true
 has_children: true
 nav_order: 3
 ---
-# 3. Rock Paper Scissors
+# 3. Rock Paper Scissors 🪨 📄 ✂️
 {: .no_toc }
 
 ## Table of contents
@@ -17,7 +17,7 @@ nav_order: 3
 
 ---
 ## Overview
-This assignment covers concepts and techniques taught in the class so far. Using Git and GitHub, using JavaScript, and manipulating the DOM using JavaScript. The culmination of that, is the first game we build this semester, Rock 🪨 - Paper 📄 - Scissors ✂️, using HTML, CSS, and JavaScript.
+This assignment covers concepts and techniques taught in the class so far. Using Git and GitHub, using JavaScript, and manipulating the DOM using JavaScript. The culmination of that, is the first game we build this semester, Rock-Paper-Scissors, using HTML, CSS, and JavaScript.
 
 ## Lab Goals
 1. Build a web game using HTML, CSS, and JavaScript.
@@ -63,11 +63,10 @@ The assignment instructions are split into the following pages to make it easier
 
 ## Extra Credit Opportunities
 
-### Reset Game Button (3 points - Required for teams more than 2)
-User can Reset the game and Type in a new player name (3 points)
-
-### Use Buttons instead of Dropdown (1 Extra Credit Points)
-### Unit tests (2 points per test)
+1. Reset Game Button (3 points - Required for teams more than 2)
+- User can Reset the game and Type in a new player name (3 points)
+2. Use Buttons instead of Dropdown (1 Extra Credit Points)
+3. Unit tests (2 points per test)
 - building some unit tests for the [Putting it all together](4.controller) portion of the assignment.
 
 ## Output
