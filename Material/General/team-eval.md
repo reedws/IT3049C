@@ -6,12 +6,14 @@ nav_order: 3
 nav_exclude: false
 ---
 # TeamEval
+
 ## About TeamEval
 TeamEval is a system created by the Information Technology Solutions Center (ITSC) to help teachers gather a better understanding of how the teams in their classes are working together and gain a deeper insight into how their students work with others in a team environment. This application creates a safe environment for students to voice their opinions about their teammates and allows for students to develop important skills they need to work in the future by helping them build and grow their abilities to work as a team. This application is now in the first pilot stage. If you find any issues, please report them to the instructor and/or the ITSC email found in the Help Section.
 
 ## How to use it?
 As a student this application will allow you to tell you instructors about your experiences while working in a team based setting. Your instructors will send out surveys to rate your fellow teammates.
 
+You can navigate to TeamEval following this URL: [https://itsc-team-eval.cech.uc.edu](https://itsc-team-eval.cech.uc.edu) and login using your 6+2.
 ### Viewing your course
 Once you log in, you will see an overview of your courses. After you find the class you need you can view the information about the course including your team and the courses activities by clicking on the View button that is next to the course.
 
