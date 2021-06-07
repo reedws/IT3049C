@@ -38,6 +38,7 @@ For most of the parts, I have provided snippets of code for you to use.
     * I noticed some of you were confused about how not every step of the assignment, reflected another passing test. The new symbol here `✅ ++` usually indicates that another test should pass at this point.
 * **Don't forget to fill out the self assessment on the README file**.
 
+> Unlike previous assignments, I didn't get a change to finalize and make sure that there are enough unit tests. I left many of them commented out in the code, though. Don't worry too much about them.
 ### Emoji Legend
 To aid navigating the instructions, I'll utilize the following emojis.
 
