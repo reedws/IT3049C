@@ -28,9 +28,9 @@ permalink: /syllabus
 
 {% include syllabus/1.course_description.md %}
 
-{% include syllabus/5.course_policies_and_grading.md %}
+{% include syllabus/2.course_policies_and_grading.md %}
 
-{% include syllabus/SLA.md %}
+{% include syllabus/3.SLA.md %}
 
 {% include syllabus/5.course_outline.md %}
 

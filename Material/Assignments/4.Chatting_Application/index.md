@@ -3,10 +3,10 @@ layout: default
 title: 4. Chatting Application
 parent: Assignments and Labs
 has_children: false
-published: true
+published: false
 nav_order: 4
 ---
----
+
 # 4. Chatting Application (Lab)
 {: .no_toc }
 

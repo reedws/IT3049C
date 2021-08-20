@@ -3,7 +3,7 @@ layout: default
 title: 5. Web Storage (Lab)
 parent: Assignments and Labs
 has_children: false
-published: true
+published: false
 nav_order: 5
 ---
 
