@@ -13,7 +13,7 @@ permalink: /syllabus
 * **Format and credit hours:** 3 credit hours; online.
 * **Instructor:** Yahya Gilany, [yahya.gilany@uc.edu](mailto:yahya.gilany@uc.edu)
 * **Need help?**
-    * Please **DO NOT** email me questions. Ask all your questions on *[Microsoft Teams](https://teams.microsoft.com/l/channel/19%3a9625b48800f04fca8a1ed30af6f623e8%40thread.tacv2/%25F0%259F%2586%2598Help%2520-%2520Ask%2520your%2520classmates?groupId=de02290e-307d-4719-9cbc-e7d307fd2734&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63)* instead.
+    * Please **DO NOT** email me questions. Ask all your questions on *[Microsoft Teams](https://teams.microsoft.com/l/channel/19%3a5cca27f821da46758bbf1bd201acd697%40thread.tacv2/%25F0%259F%2586%2598%2520Help%2520-%2520Ask%2520your%2520classmates?groupId=8bdf1f67-bbc2-46d5-ae6a-51520977dd87&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63)* instead.
     * You need to seek help from your fellow classmates on the channel first.
         * You will get a quicker response from your classmates (who are working through the same questions and the same issues as you) then from me or the TA.
     * If your classmates aren't able to help/come to an agreement, you may @me/mention me on the question threads.
