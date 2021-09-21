@@ -3,7 +3,7 @@ layout: default
 title: 4. Chatting Application
 parent: Assignments and Labs
 has_children: false
-published: false
+published: true
 nav_order: 4
 ---
 
