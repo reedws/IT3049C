@@ -2,7 +2,7 @@
 layout: default
 title: 6. Hangman
 parent: Assignments and Labs
-published: false
+published: true
 nav_order: 6
 ---
 # 4. Hangman
