@@ -13,10 +13,11 @@ permalink: /syllabus
 * **Format and credit hours:** 3 credit hours; online.
 * **Instructor:** Yahya Gilany, [yahya.gilany@uc.edu](mailto:yahya.gilany@uc.edu)
 * **Need help?**
-    * Please **DO NOT** email me questions. Ask all your questions on *[Microsoft Teams](https://teams.microsoft.com/l/channel/19%3a5cca27f821da46758bbf1bd201acd697%40thread.tacv2/%25F0%259F%2586%2598%2520Help%2520-%2520Ask%2520your%2520classmates?groupId=8bdf1f67-bbc2-46d5-ae6a-51520977dd87&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63)* instead.
-    * You need to seek help from your fellow classmates on the channel first.
-        * You will get a quicker response from your classmates (who are working through the same questions and the same issues as you) then from me or the TA.
-    * If your classmates aren't able to help/come to an agreement, you may @me/mention me on the question threads.
+    * If you need technical assistance, please ask you question on *[Microsoft Teams](https://teams.microsoft.com/l/channel/19%3a30e5da231a654578a9f04859d49dc410%40thread.tacv2/%25F0%259F%2586%2598%2520Help%2520-%2520Ask%2520Questions?groupId=24ca8848-d758-42dc-9a5f-85467f5ded68&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63)*.
+        * While I'll do my best to get to your questions as soon as I can, but I will almost always be beat by your fellow classmates.
+        * It's a great learning opportunity for you to help other students or to engage in technical discussion to find the answer together.
+        * If a TA is assigned to the class, they'll also be monitoring the chat and responding to your questions.
+        * If you're not able to come to resolution, please @me/mention me on the question thread.
     * I will try to periodically check on the questions, comment or correct any answers.
     * I highly advise, you regularly check your classmates questions and participate.
     * *SoIT Learning Center:* The center is staffed with a group of TAs who will be able to provide help and guidance.
@@ -24,7 +25,7 @@ permalink: /syllabus
     * *Office Hours with TA OR Instructor* By appointment - please [sign up here](https://outlook.office365.com/owa/calendar/OfficeHours@mailuc.onmicrosoft.com/bookings/s/EjGKKRXxgE6Ppb4z3AH9lg2).
       * The calendar will always be up to date with our availability. 
 
-**NOTE**: *The instructor reserves the right to update this syllabus as class needs arise. Be assured that they will communicate to you any changes to the schedule, syllabus or policies quickly and efficiently.*
+**NOTE: The instructor reserves the right to update this syllabus as class needs arise. Be assured that they will communicate to you any changes to the schedule, syllabus or policies quickly and efficiently.**
 
 {% include syllabus/1.course_description.md %}
 
