@@ -3,13 +3,13 @@ layout: default
 title: 1. Submitting Pull Requests
 parent: Assignments and Labs
 has_children: true
-published: false
+published: true
 nav_order: 1
 ---
 
 # Submitting your assignment (Lab)
 - Go to your GitHub profile, Edit your profile, to add your name and upload an image of yourself.
-- Go to the [students: IT2045C students over the years](https://github.com/it2045c/students) Repository in the Class organization.
+- Go to the [students: IT3049C students over the years](https://github.com/IT3049C/students) Repository in the Class organization.
 - Copy the Git URL to the repository
 ![](assets/009E8A57-A207-4050-871B-56D343F1D15A.png)
 
@@ -34,7 +34,7 @@ nav_order: 1
 	* **Method 2: Using the Command line**
 		* run the following command `git checkout -b gilanyym`
 			* instead of `gilanyym` type in your 6+2.
-* Create a file under `_data/Spring20` . The file should be named as `GITHUB_USERNAME.json` for example: `Ygilany.json`
+* Create a file under `_data/Spring22` . The file should be named as `GITHUB_USERNAME.json` for example: `Ygilany.json`
 * Introduce yourself by modifying the file using any Text Editor of your choice
 	* use this [ Emoji cheat sheet ](https://www.webfx.com/tools/emoji-cheat-sheet/) to select an emoji. (First line of the example file below)
 	* type in an introduction message in the introduction line
