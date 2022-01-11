@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hello World
+title: Git - Hello World
 parent: Assignments and Labs
 has_children: true
 published: false
