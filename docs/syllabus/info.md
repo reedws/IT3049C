@@ -1,0 +1,47 @@
+---
+sidebar_position: 1
+title: Course Information
+---
+
+* **Course:** [IT3049C - Web Game Development](#)
+* **Format and credit hours:** 3 credit hours; In Game Lab - Room 136.
+* **Instructor:** Yahya Gilany, [yahya.gilany@uc.edu](mailto:yahya.gilany@uc.edu)
+* **Need help?**
+    * If you need technical assistance, please ask you question on *[Microsoft Teams](https://teams.microsoft.com/l/channel/19%3a30e5da231a654578a9f04859d49dc410%40thread.tacv2/%25F0%259F%2586%2598%2520Help%2520-%2520Ask%2520Questions?groupId=24ca8848-d758-42dc-9a5f-85467f5ded68&tenantId=f5222e6c-5fc6-48eb-8f03-73db18203b63)*.
+        * While I'll do my best to get to your questions as soon as I can, but I will almost always be beat by your fellow classmates.
+        * It's a great learning opportunity for you to help other students or to engage in technical discussion to find the answer together.
+        * If a TA is assigned to the class, they'll also be monitoring the chat and responding to your questions.
+        * If you're not able to come to resolution, please @me/mention me on the question thread.
+    * I will try to periodically check on the questions, comment or correct any answers.
+    * I highly advise, you regularly check your classmates questions and participate.
+    * *SoIT Learning Center:* The center is staffed with a group of TAs who will be able to provide help and guidance.
+        * The Learning Center is going Virtual this semester. Hours will be announced soon.
+    * *Office Hours with TA OR Instructor* By appointment - please [sign up here](https://outlook.office365.com/owa/calendar/OfficeHours@mailuc.onmicrosoft.com/bookings/s/EjGKKRXxgE6Ppb4z3AH9lg2).
+      * The calendar will always be up to date with our availability. 
+
+**NOTE: The instructor reserves the right to update this syllabus as class needs arise. Be assured that they will communicate to you any changes to the schedule, syllabus or policies quickly and efficiently.**
+
+## Course Description
+This course will provide a functional introduction to programming for Web games and similar interactive media. The result will be competency in popular web programming languages (e.g., JavaScript, HTML) and game programming frameworks. This will be demonstrated by the creation of the mechanics for their Web game projects. Topics may include: Web programming syntax, popular Web programming libraries for games, game loop, sprites, interactive GUI programming, and creating the game environment - Prerequisite Definition: To take this course you must: Have taken the following Courses IT1090C min grade C-,IT2040C min grade C-.
+
+### Prerequisites
+
+* IT1090C - Computer Programming I
+* IT2040C - Fundamentals of Web Development
+
+If you need a refresher, take a look at the [Beginner Materials](#beginner-materials).
+
+## Learning outcomes
+
+1. Explain important programming concepts and JavaScript Syntax for web game development.
+2. Apply modern JavaScript libraries for game development.
+3. Create Interactive GUI for games.
+4. Practice using JavaScript to create game mechanics.
+
+### You will learn how to:
+1. Use Source Version Control (Git - GitHub)
+2. Put JavaScript code blocks in HTML5 documents and execute it.
+3. Interact with/modify the web page programmatically.
+4. Use the some of the browsers built-in capabilities and APIs.
+5. Use Modern JS Libraries to build Dynamic applications and Graphical User Interfaces.
+6. Create games with Phaser
