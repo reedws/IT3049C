@@ -29,7 +29,7 @@ This course will provide a functional introduction to programming for Web games 
 * IT1090C - Computer Programming I
 * IT2040C - Fundamentals of Web Development
 
-If you need a refresher, take a look at the [Beginner Materials](#beginner-materials).
+If you need a refresher, take a look at the [Beginner Materials](resources#refresher-online-course).
 
 ## Learning outcomes
 
