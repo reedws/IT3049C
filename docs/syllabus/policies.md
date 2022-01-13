@@ -25,7 +25,7 @@ title: Policies
   * Send it FROM your School UC email.
   * Send it TO my School UC email :) [yahya.gilany@uc.edu](mailto:yahya.gilany@uc.edu).
 * On our first meeting time (Jan 25th), please check what's underneath the first desk on my left.
-* please review my [Service Level Agreement](#service-level-agreement) for more (important) info about when to expect a response.
+* please review my [Service Level Agreement](sla) for more (important) info about when to expect a response.
 
 ## Course Evaluation
 The School of Information Technology requires that each course is evaluated each time it is taught.  The School uses a confidential web-based system, CoursEval, for these evaluations.  At the beginning of finals week,you will receive an email from the School Head, with “CoursEval” as the topic.  There is a link on that email that takes you directly to the evaluation.  The online system is anonymous.  I will receive only a summary report of combined data after final grades have been submitted.

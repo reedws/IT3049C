@@ -4,18 +4,26 @@ title: Resources and Tools
 ---
 
 ## Tools and Software Needed
-* a GitHub Account on [GitHub.com](https://github.com/)
-    * Sign up for the [GitHub Student Developer Pack](https://education.github.com/pack)
+### Git and GitHub
+We will be learning about and using the Source Version Control tool, [GitHub](https://github.com) in this class. This is how you'll be submitting your assignments and how I will be sharing solutions. You will need to:
+* Download and install [GitHub Desktop](https://desktop.github.com/) tools to your computer.
+  * If prompted on installation, please choose to also install Git Bash.
+* Create a GitHub Account on [GitHub.com](https://github.com/)
+    * optionally, Sign up for the [GitHub Student Developer Pack](https://education.github.com/pack)
     * you can follow the following guide for [Applying for a student developer pack - GitHub Help](https://help.github.com/en/articles/applying-for-a-student-developer-pack)
-* [Visual Studio Code](https://code.visualstudio.com/download): Text Editor/IDE
-* [Node.js](https://nodejs.org)
-* a Modern Web Browser: i.e. Chrome, Firefox,
 
-### GitHub
-* Git and GitHub
+For more help and resources about git and GitHub:
     * [Official GitHub Help](https://help.github.com/)
     * [Recommended resources](http://hackerhours.org/resources.html#github)
 
+### Visual Studio Code
+I will be using (and recommend you do too) [Visual Studio Code](https://code.visualstudio.com/download) as my Text Editor/IDE. **This is not the same as Visual Studio** that you may have used in C# classed. I will be sharing some recommendations for extensions and configurations that will make your developer experience easier.
+
+### Node.js and npm
+We will not be teaching [Node.js](https://nodejs.org) in this class. However, we will be using many of its support tools and libraries such as `npm`. Make sure you download the [Long-Term-Support (LTS Version)](https://nodejs.org).
+
+### Any modern browser
+You may use any Modern Browser of your choosing for this course. I will be using Chrome. However, Firefox, and Edge will do just fine.
 ## Refresher Online Course
 
 * [Programming Foundations: Fundamentals (2011)](https://www.lynda.com/Programming-Foundations-tutorials/Foundations-Programming-Fundamentals/83603-2.html)
