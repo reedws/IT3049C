@@ -33,10 +33,10 @@ Git is software for tracking changes in any set of files. It's most commonly use
 
 ## Instructions
 
-This is a **2-parts** lab; In the [first one](online-portfolio/part1), you'll brush up on Creating a Web Page, and learn to use git to manage your code. You will also end this part by learning to deploy and host your webpage using GitHub Pages ~(17 pt)~. In [Part 2](online-portfolio/part2.md), you will demonstrate your ability to work on GitHub repository as a collaborator, you will learn to fork a repository, create a branch and submit a pull request to merge your code.
+This is a **2-parts** lab; In the [first one](part1), you'll brush up on Creating a Web Page, and learn to use git to manage your code. You will also end this part by learning to deploy and host your webpage using GitHub Pages ~(17 pt)~. In [Part 2](part2.md), you will demonstrate your ability to work on GitHub repository as a collaborator, you will learn to fork a repository, create a branch and submit a pull request to merge your code.
     
 Accept the GitHub Classroom assignment on Canvas to create a repository for you with some starter files. Note unlike the previous lab, a GitHub Repository will be create for you.
 
-Don't forget to check the [finalize page](online-portfolio/finalize) for instructions on submitting your assignment, 
+Don't forget to check the [finalize page](finalize) for instructions on submitting your assignment, 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/O7UqfRtQqds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
