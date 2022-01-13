@@ -9,12 +9,12 @@ const config = {
   title: 'IT3049C - Web Game Development',
   tagline: 'Yahya Gilany',
   url: 'https://it3049c.github.io/',
-  baseUrl: '/new-site/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'IT3049C', // Usually your GitHub org/user name.
-  projectName: 'new-site', // Usually your repo name.
+  projectName: 'IT3049C.github.io', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
   presets: [
@@ -25,13 +25,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/IT3049C/new-site/tree/main/',
+          editUrl: 'https://github.com/IT3049C/IT3049C.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/IT3049C/new-site/tree/main/',
+            'https://github.com/IT3049C/IT3049C.github.io/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,7 +55,7 @@ const config = {
             label: 'Syllabus',
           },
           {
-            to: '/docs/course/intro',
+            to: '/docs/labs/intro',
             label: 'Labs',
           },
           {
@@ -64,8 +64,13 @@ const config = {
             position: 'left'
           },
           {
-            href: 'https://github.com/IT3049C/new-site',
-            label: 'GitHub',
+            href: 'https://ygilany-solution-access.herokuapp.com',
+            label: 'Solutions Access',
+            position: 'right',
+          },
+          {
+            href: 'https://it3049c.github.io/students/',
+            label: 'Students',
             position: 'right',
           },
         ],
@@ -82,7 +87,7 @@ const config = {
               },
               {
                 label: 'Labs',
-                to: '/docs/course/intro',
+                to: '/docs/labs/intro',
               },
             ],
           },
@@ -107,8 +112,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Solutions Access',
+                href: 'https://ygilany-solution-access.herokuapp.com',
               },
               {
                 label: 'GitHub Organization',
