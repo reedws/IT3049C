@@ -40,6 +40,11 @@ const config = {
     ],
   ],
 
+  stylesheets: [
+    "https://fonts.googleapis.com/icon?family=Material+Icons",
+    "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css",
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

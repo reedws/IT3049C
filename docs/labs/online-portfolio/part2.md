@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
-title: 'Part 2: Create a Pull Request'
-sidebar_label: Create a Pull Request
+title: 'Part 2: Collaborate on a Project'
+sidebar_label: Collaborate on a Project
 ---
 
 Creating Pull Request will come very handy when working with a team. For this part, you may use GitHub in-browser editor, or clone down the repo and make your changes locally.
