@@ -121,6 +121,10 @@ const config = {
                 href: 'https://ygilany-solution-access.herokuapp.com',
               },
               {
+                label: 'Classwork Repo',
+                href: 'https://github.com/Ygilany/spring22-classwork',
+              },
+              {
                 label: 'GitHub Organization',
                 href: 'https://github.com/IT3049C/',
               },
