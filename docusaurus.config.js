@@ -40,6 +40,10 @@ const config = {
     ],
   ],
 
+  plugins: [
+    '@docusaurus/theme-live-codeblock'
+  ],
+
   stylesheets: [
     "https://fonts.googleapis.com/icon?family=Material+Icons",
     "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css",
@@ -48,6 +52,21 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      liveCodeBlock: {
+        /**
+         * The position of the live playground, above or under the editor
+         * Possible values: "top" | "bottom"
+         */
+        playgroundPosition: 'bottom',
+      },
+      announcementBar: {
+        id: 'support_us',
+        content:
+          'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        backgroundColor: '#880000',
+        textColor: '#ffffff',
+        isCloseable: false,
+      },
       navbar: {
         title: 'IT3049C',
         logo: {
@@ -142,6 +161,8 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+
+
 };
 
 module.exports = config;
