@@ -1,6 +1,7 @@
 ---
 slug: transfer-repo-ownership
 title: GitHub as your Coding Portfolio
+draft: true
 authors: [ygilany]
 tags: [career, git]
 ---
