@@ -88,6 +88,11 @@ const config = {
             position: 'left'
           },
           {
+            to: '/docs/course-notes', 
+            label: 'Course Notes', 
+            position: 'left'
+          },
+          {
             href: 'https://ygilany-solution-access.herokuapp.com',
             label: 'Solutions Access',
             position: 'right',

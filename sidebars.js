@@ -81,6 +81,18 @@ const sidebars = {
       ],
     },
   ],
+  notes: [
+    {
+      type: `category`,
+      label: `Notes`,
+      collapsed: false,
+      items: [
+        "course-notes/index",
+        "course-notes/git/index",
+        "course-notes/dom-manipulation",
+      ],
+    }
+  ]
 };
 
 module.exports = sidebars;
