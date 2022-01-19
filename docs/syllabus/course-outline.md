@@ -29,25 +29,18 @@ I'm currently in the process of updating the course, adding more modern and rele
    * **Assignment:** Rock Paper Scissors
    * **Quiz:** DOM and Forms
 
-### 4. JSON and Networking
-   * JavaScript Object Notation
+### 4. Introduction to React.js
+   * React.js
+   * **Assignment:** Rock Paper Scissors (Re-creation) 
+   * **Quiz:** React.js
+
+### X. JSON, Networking, and React Hooks
    * JSON methods
-   * Asynchronous JavaScript and XML
-   * XMLHttpRequest
+   * Asynchronous JavaScript
    * fetch
-   * WebRTC
    * **Assignment:** Chatting Application (Lab)
    * **Quiz:** JSON and Networking
    * **Check-in Survey1**
-
-### 5. Web Storage
-   * LocalStorage
-   * WebSQL
-   * IndexedDB
-   * PouchDB
-   * localForage
-   * **Quiz:** Web Storage
-   <!-- * **Assignment:** Sudoku -->
 
 ### 6. Canvas and Animation
    * Canvas
@@ -55,18 +48,23 @@ I'm currently in the process of updating the course, adding more modern and rele
    * WebGL
    * **Quiz:** Canvas API and Animation
    * **Assignment:** Hangman 
-
-### 7. Web APIs
+### X. Browser API
    * Navigator
    * Geolocation
    * WebVR
    * Web Workers
    * Notification
-   * **Quiz:** Web APIs
-   * **Extra Credit Assignment:** (up to 10 points)
+   * Web Storage:
+     * LocalStorage
+     * WebSQL
+     * IndexedDB
+     * PouchDB
+     * localForage
+   * **Quiz:** Web Storage and API
+   <!-- * **Assignment:** Sudoku -->
 
 
-### 8. Phaser - Game Engine
+### X. Phaser - Game Engine
    * What is Phaser?
    * What does Phaser offer
    * How to get set up
@@ -74,7 +72,7 @@ I'm currently in the process of updating the course, adding more modern and rele
    * **Assignment:** Phaser Tutorial (Lab)
    * **Final Project:** Teams and Ideas
 
-### 9. Phaser Continued
+### X. Phaser Continued
    * Colliders
    * Input Options
    * Audio
@@ -82,33 +80,33 @@ I'm currently in the process of updating the course, adding more modern and rele
    * **Assignment:** Phaser Game
    * **Final Project:** Final Project Proposal
 
-### 10. Debugging, Tooling and Testing
-    * Debugging applications with the Chrome Developer Tools
-    * Testing applications with Jest
-    * Automatically browser testing
-    * Tooling (Webpack and Babel)
-    <!-- * **Assignment:** Hangman Tests -->
+### X. Debugging, Tooling and Testing
+   * Debugging applications with the Chrome Developer Tools
+   * Testing applications with Jest
+   * Automatically browser testing
+   * Tooling (Webpack and Babel)
+   <!-- * **Assignment:** Hangman Tests -->
 
-### 11. Mobile Application Development
-    * What is Cordova?
-    * Building your first Cordova application
-    * Native Plugins
-    * Application Deployment
-    * Ionic Framework
+### X. Mobile Application Development
+   * What is Cordova?
+   * Building your first Cordova application
+   * Native Plugins
+   * Application Deployment
+   * Ionic Framework
 
-### 12. Framework Comparison
-    * Framework vs Library
-    * Model-View-Controller
-    * Angular.js
-    * Angular
-    * React
+### X. Framework Comparison
+   * Framework vs Library
+   * Model-View-Controller
+   * Angular.js
+   * Angular
+   * React
 
-### 13. Where to go from here?
-    * Server-side programming
-    * Desktop Application Development
-        * Electron
-    * Mobile Application Development
-    * Virtual Reality in JavaScript
-    * Machine Learning in JavaScript
-    * IoT in JavaScript
-    * TypeScript
+### X. Where to go from here?
+   * Server-side programming
+   * Desktop Application Development
+      * Electron
+   * Mobile Application Development
+   * Virtual Reality in JavaScript
+   * Machine Learning in JavaScript
+   * IoT in JavaScript
+   * TypeScript
