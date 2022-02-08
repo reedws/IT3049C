@@ -7,6 +7,7 @@ Here you'll find all references to the course assignment and labs.
 ## Labs
 1. [Git - Hello World](hello-world)
 2. [JS and DOM-Exercises](js-and-dom-exercises)
+3. [We-Chat](we-chat)
 
 ## Assignments
 1. [Online Portfolio](online-portfolio)
