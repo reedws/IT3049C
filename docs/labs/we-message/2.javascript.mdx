@@ -1,8 +1,12 @@
 ---
 sidebar_position: 3
 title: 'Part 2: Bringing it to life'
-sidebar_label: Styling the page
+sidebar_label: Bringing it to life
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+
 # Bringing it to life
 Before we start Building the application code, we need to fully imagine and visualize the process/workflow. 
 * Getting messages:
@@ -22,8 +26,8 @@ Before we start Building the application code, we need to fully imagine and visu
 
 ```js
 const nameInput = document.getElementById("my-name-input");
-const myMessage = document.getElementById("myMessage");
-const sendButton = document.getElementById("sendButton");
+const myMessage = document.getElementById("my-message");
+const sendButton = document.getElementById("send-button");
 const chatBox = document.getElementById("chat");
 ```
 
@@ -84,7 +88,7 @@ const chatBox = document.getElementById("chat");
 
 6. Create a formatter function that will take the `message` object and the username `my-name-input` (from the text field) as parameters and return `HTML`.
     * the function will need to parse the timestamp to a readable format.
-        * Obvi, `1537410673072` is not a readable format
+        * Obviously, `1537410673072` is not a readable format
     * compare the value of the `messages.sender` and the text input field, `my-name-input`:
         * if it's the same, then use the class `mine` around the message div.
         * if it's not the same, use the class `yours` around the message div.
@@ -162,19 +166,19 @@ updateMessages()
     * construct a json object with the following properties `sender`, `text`, and `timestamp`
     * send messages to the server here
 
-**Using FetchAPI**
+<Tabs>
+<TabItem value="fetch" label="using Fetch API">
+
 ```js
-const serverURL = `https://it3049c-chat-application.herokuapp.com/messages`; // This has been declared before
-...
-function sendMessages (username, text) {
+function sendMessages(username, text) {
     const newMessage = {
         sender: username,
         text: text,
         timestamp: new Date()
     }
 
-fetch(serverURL, {
-        method: `POST`,
+    fetch (serverURL, {
+        method: `POST`, 
         headers: {
             'Content-Type': 'application/json'
         },
@@ -182,9 +186,12 @@ fetch(serverURL, {
     });
 }
 ```
-**OR Using JQuery**
+</TabItem>
+
+<TabItem value="jquery" label="Using JQuery">
+
 ```js
-function sendMessages (username, text) {
+function sendMessages(username, text) {
     const newMessage = {
         sender: username,
         text: text,
@@ -194,6 +201,8 @@ function sendMessages (username, text) {
     $.post(serverURL, newMessage);
 }
 ```
+</TabItem>
+</Tabs>
 
 2. create an Event Listener to listen to the `click` event on the send button. This event handler will:
     * send the message to the server and clear the text field to prepare for a new message to be sent
