@@ -1,0 +1,104 @@
+---
+sidebar_position: 2
+title: 'Part 1: Linting your Code using ESLint'
+sidebar_label: Linting (ESLint)
+---
+## Installing ESLint
+1. Install ESLint from npm.
+`npm install eslint --save-dev`
+
+## Configuring ESLint
+2. Setup the ESLint configuration file.
+`npm init @eslint/config`
+3. Follow these selections in the configurations wizard.
+![ESLint config](./assets/eslint-config.png)
+4. You should now have a configuration file in your project, named `.eslintrc.json` with the following content.
+```json title=".eslintrc.json"
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "es2021": true
+    },
+    "rules": {
+    }
+}
+```
+:::note
+Please copy the above into your `.eslintrc.json` file, if they don't match.
+:::
+5. Add the following rules to to your `.eslintrc.json` file.
+```json title=".eslintrc.json"
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "es2021": true
+    },
+    "rules": {
+        // highlight-start
+        "array-bracket-spacing": [2, "always"],
+        "no-const-assign": 2,
+        "no-var": "error",
+        "indent": [2, 2],
+        "quotes": [2, "backtick"],
+        "eqeqeq": "error"
+        // highlight-end
+    }
+}
+```
+* About the extra rules:
+    * `array-bracket-spacing`: Enforce spacing inside array brackets.
+    * `no-const-assign`: Disallow modifying variables that are declared using `const`.
+    * `no-var`: Require `let` or `const` instead of `var`.
+    * `indent`: Enforce consistent indentation - in this case 2 spaces.
+    * `quotes`: Enforce the consistent use of either backticks, double, or single quotes. - in this case backticks.
+    * `eqeqeq`: Require the use of `===` and `!==`.
+
+## Running and Using ESLint
+6. Run ESLint on the project using one of the following options:
+    * **Option 1:** by running `npx eslint --ext .js resources/scripts`
+    * **Option 2:** by modifying the `package.json` file to include a quick-run script for linting.
+
+    ```json title="package.json"
+    {
+        ...
+        // highlight-start
+        "scripts": {
+            "lint": "eslint --ext .js resources/scripts"
+        }
+        // highlight-end
+        ...
+    }
+    ```
+    * Now you can run `npm run lint` to run ESLint on the project. You should see some issues that require your attention.
+    * Try to solve a 2-3 issues (leave some for the next step).
+
+## Improving the Developer Experience with VSCode Extensions
+7. Install the [ESLint VSCode extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+  * This may require reloading your VSCode.
+8. Navigate to the files in `resources/scripts`. You should now get VSCode highligting the errors.
+    * Try to solve a 2-3 issues (leave some for the next step).
+9. Configure VSCode to utilize the ESLint VSCode extension to fix any (easily) fixable errors. on file save.
+```json title=".vscode/settings.json"
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  }
+}
+```
+* Go to any of the script file and save it. You should now see the errors fixed.
+
+:::caution
+You should still see some errors. Especially the one about RockPaperScissors class not defined and/or not being used. We'll take care of this in the next Part of this lab.
+:::

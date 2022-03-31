@@ -1,0 +1,157 @@
+---
+sidebar_position: 3
+title: "Part 3: Writing Jest Unit Tests"
+sidebar_label: Unit Testing (Jest)
+---
+
+## Installing Jest
+
+1. Install Jest from npm `npm install --save-dev jest`
+   - This step is already done for you as you install dependencies defined in `package.json` by running `npm install ` in the beginning of the lab.
+
+## Configuring
+
+Generally, you wouldn't need a lot of configurations to get started with Jest. But because there are already some unit tests that are already included, and those tests require a bit of configuration, we'll go over some of the configurations that you might need to do.
+
+2. Creat the following configurations
+```js title="jest.config.js"
+module.exports = {
+  setupFilesAfterEnv: [
+    `regenerator-runtime/runtime`,
+    `@testing-library/jest-dom/extend-expect`,
+  ],
+  clearMocks: true,
+  testEnvironment: `node`,
+  watchPathIgnorePatterns: [`node_modules`],
+  testPathIgnorePatterns: [`node_modules`],
+};
+```
+
+#### About those Configurations
+
+- becuase of how I'm testing the DOM and how I'm using the `@testing-library/dom` and `@testing-library/jest-dom` libraries, I need to add `regenerator-runtime/runtime` and `@testing-library/jest-dom/extend-expect` to the `setupFilesAfterEnv` array. This extends the `expect` function to include some useful assertions.
+- `clearMocks` is a boolean that tells Jest to clear the mocks after each test. This is useful if you have a lot of mocks and you want to make sure that you don't have any state that's left over from the previous test.
+  :::info
+  In this lab, I will show you how you can use Mock to mock out the `Math.random()` function.
+  :::
+- `testEnvironment` is a string that tells Jest what environment to run the tests in. In this case, we're using `node` because we're using Jest in a Node environment.
+- `watchPathIgnorePatterns` is an array of strings that tells Jest to ignore any files that match those patterns. This is useful if you have a lot of files and you don't want to run tests on them.
+- `testPathIgnorePatterns` is an array of strings that tells Jest to ignore any files that match those patterns. This is useful if you have a lot of files and you don't want to run tests on them.
+
+### Some More Project Configurations
+
+3. Navigate to `tests/0.folderStructure.test.js` file for example. If you had already installed the VSCode ESLint, you'll see that it's flagging some of the built-in jest functions.
+  - to fix that, we need to add the Jest env. to the eslint config.
+
+```json title=".eslintrc.json"
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2021": true,
+    // highlight-start
+    "jest": true
+    // highlight-end
+  },
+  "rules": {
+    "array-bracket-spacing": [2, "always"],
+    "no-const-assign": 2,
+    "no-var": "error",
+    "indent": [2, 2],
+    "quotes": [2, "backtick"],
+    "eqeqeq": "error"
+  }
+}
+```
+
+### Write New Tests
+We will be testing the Logic of the Rock-Paper-Scissors game, or `RockPaperScissors` class.
+* We will be testing the `determinesWinner` and `generateCPUResponse` functions.
+4. Create a new file: `tests/3.rock_paper_scissors-logic.test.js` file.
+5. on the top, import the Rock Paper Scissors class (now that it's modularized)
+
+```js title="3.rock_paper_scissors-logic.test.js"
+const { RockPaperScissors } = require(`../resources/scripts/rock_paper_scissors.js`);
+
+describe(`RockPaperScissors class`, function () {
+  describe(`determineWinner()`, function () {
+    test(`win cases`, function () {
+      const game = new RockPaperScissors();
+      expect(game.determineWinner(`rock`, `scissors`)).toBe(`win`);
+      // Complete the test
+    });
+
+    test(`tie cases`, function () {
+      // Write your test here
+    });
+
+    test(`lost cases`, function () {
+      // Write your test here
+    });
+  });
+});
+```
+
+6. Try running the tests using `npm test` and make sure your new tests are passing.
+
+## Improving the Developer Experience with VSCode Extensions
+Before we create more tests, let's try to streamline the process of writing and running tests.
+7. Install the [VScode Jest Extension](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest). 
+  * This will always run the tests in watch mode and show the result of the test in the side bar as well as next to each test.
+
+## Write more tests with Mocks
+The `Math.random()` function is a random number generator. It's a function that returns a number between 0 and 1. and the result of it is .. Well, Random!
+
+It's difficuly to test the `generateCPUResponse` function because it uses the `Math.random`, leading to a different response every time. (it's not exactly a pure function).
+
+What we'll try to do here, is to hijack the `Math.random()` function and mock it to return a specific value.
+
+```js title="3.rock_paper_scissors-logic.test.js"
+const { RockPaperScissors } = require(`../resources/scripts/rock_paper_scissors.js`);
+// highlight-next-line
+const mathRandomSpy = jest.spyOn(Math, `random`);
+
+
+describe(`RockPaperScissors class`, function () {
+  describe(`determineWinner()`, function () {
+    test(`win cases`, function () {
+      const game = new RockPaperScissors();
+      expect(game.determineWinner(`rock`, `scissors`)).toBe(`win`);
+      // Complete the test
+    });
+
+    test(`tie cases`, function () {
+      // Write your test here
+    });
+
+    test(`lost cases`, function () {
+      // Write your test here
+    });
+  });
+
+  // highlight-start
+  describe(`generateCPUResponse()`, function () {
+    it(`Math.Random = 0.1 -> Rock`, function() {
+      mathRandomSpy.mockImplementation(() => 0.1);
+      const game = new RockPaperScissors();
+      expect(game.generateCPUResponse()).toBe(`rock`);
+    });
+
+    it(`Math.Random = 0.5 -> Paper`, function() {
+      // Write your test here
+    });
+
+    it(`Math.Random = 0.9 -> Paper`, function() {
+      // Write your test here
+    });
+
+  });
+// highlight-end
+});
+```
+

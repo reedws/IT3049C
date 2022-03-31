@@ -9,6 +9,7 @@ Here you'll find all references to the course assignment and labs.
 2. [JS and DOM-Exercises](js-and-dom-exercises)
 3. [We-message](we-message)
 4. [We-message Storage](we-message-storage)
+5. [Productionalize Rock-Paper-Scissors](rock-paper-scissors-prod)
 
 ## Assignments
 1. [Online Portfolio](online-portfolio)

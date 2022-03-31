@@ -1,0 +1,94 @@
+---
+sidebar_position: 3
+title: 'Part 2: Transpile your code using Webpack'
+sidebar_label: Transpiling (Webpack)
+---
+## Overview
+* As you may notice in the `index.html` file, we're importing 2 javascript files `index.js` and `rock_paper_scissors.js`.
+
+```html title="index.html"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    ...
+</head>
+
+<body>
+    ...
+    <script src="resources/scripts/rock_paper_scissors.js"></script>
+    <script src="resources/scripts/index.js"></script>
+</body>
+
+</html>
+```
+* In runtime, `index.js` is able to use the `RockPaperScissors` class from `rock_paper_scissors.js` because it's imported before it in `index.html`.
+* This is not the best setup. As you lose of the IDE intellisense, and your IDE thinks that RockPaperScissors doesn't not exist.
+* To fix this, we can use the `webpack` command line tool. to modularize the code and import one file into the other.
+* Finally, we will only import a single script file into `index.html`.
+
+## Installing Webpack
+1. Install Webpack from npm.
+`npm install webpack webpack-cli --save-dev`
+
+## Modularize existing code
+2. Go to `rock_paper_scissors.js` and export the `RockPaperScissors` class using the `export` keyword.
+
+```diff title="rock_paper_scissors.js"
+- class RockPaperScissors {
++ export class RockPaperScissors {
+    constructor(username) {
+        this.username = username;
+    }
+    ...
+```
+3. Go to `index.js` and import the `RockPaperScissors` class using the `import` keyword.
+```diff title="index.js"
++ import { RockPaperScissors } from './rock_paper_scissors.js';
+// Elements
+const welcomeScreen = document.getElementById(`welcome-screen`);
+const gameScreen = document.getElementById(`game-screen`);
+```
+
+## Configuring Webpack
+4. Create a new file `webpack.config.js` and copy the following code into it.
+```js title="webpack.config.js"
+const path = require('path');
+
+module.exports = {
+    entry: './src/resources/scripts/index.js',
+    output: {
+        filename: 'main.js',
+        path: path.resolve(__dirname, 'dist'),
+    }
+};
+```
+:::danger
+I purposely made an error in the above. You should debug when you run `webpack` to see what's wrong.
+:::
+
+## Running Webpack
+5. Run `npx webpack` to compile the code.
+    * a new file named `main.js` will be created in the `dist` folder.
+6. We can now replace the 2 script imports in `index.html` with `main.js`.
+```diff title="index.html"
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    ...
+</head>
+
+<body>
+    ...
+--    <script src="resources/scripts/rock_paper_scissors.js"></script>
+--    <script src="resources/scripts/index.js"></script>
+++    <script src="dist/main.js"></script>
+</body>
+
+</html>
+```
+
+:::tip
+As a side effect of actually importing and exporting the code, we no longer get the Eslint errors about that.
+:::
