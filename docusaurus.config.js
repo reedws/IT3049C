@@ -141,11 +141,11 @@ const config = {
             items: [
               {
                 label: 'Syllabus',
-                to: '/docs/syllabus/info',
+                to: '/syllabus/info',
               },
               {
-                label: 'Labs',
-                to: '/docs/labs/intro',
+                label: 'Coursework',
+                to: '/coursework',
               },
             ],
           },
