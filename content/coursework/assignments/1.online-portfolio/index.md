@@ -1,6 +1,6 @@
 ---
-title: Overview
-sidebar_position: 1
+title: Online Portfolio
+sidebar_position: 2
 ---
 ## Learning outcomes
 1. Brush up on creating simple web pages using *HTML* and present content using different `html` elements.

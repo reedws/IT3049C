@@ -41,9 +41,38 @@ const config = {
   ],
 
   plugins: [
-    '@docusaurus/theme-live-codeblock'
+    '@docusaurus/theme-live-codeblock',
+    [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: 'syllabus',
+        path: 'content/syllabus',
+        routeBasePath: 'syllabus',
+        editUrl: 'https://github.com/IT3049C/IT3049C.github.io/tree/main/',
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./content/syllabus/sidebarsSyllabus.js'),
+        remarkPlugins: [require('mdx-mermaid')],
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      }),
+    ],
+    [
+      'content-docs',
+      /** @type {import('@docusaurus/plugin-content-docs').Options} */
+      ({
+        id: 'labs',
+        path: 'content/coursework',
+        routeBasePath: 'coursework',
+        editUrl: 'https://github.com/IT4063C/IT4063C.github.io/tree/main/',
+        editCurrentVersion: true,
+        sidebarPath: require.resolve('./content/coursework/sidebarsCoursework.js'),
+        remarkPlugins: [require('mdx-mermaid')],
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      }),
+    ],
   ],
-
   stylesheets: [
     "https://fonts.googleapis.com/icon?family=Material+Icons",
     "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css",
@@ -75,12 +104,12 @@ const config = {
         }, 
         items: [
           {
-            to: '/docs/syllabus/info',
+            to: '/syllabus/info',
             label: 'Syllabus',
           },
           {
-            to: '/docs/labs/intro',
-            label: 'Labs',
+            to: '/coursework',
+            label: 'Coursework',
           },
           {
             to: '/blog', 
