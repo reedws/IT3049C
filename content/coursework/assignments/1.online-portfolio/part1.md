@@ -54,39 +54,39 @@ sidebar_label: Create a web page
             <img src="C:/Users/yahya/Desktop/OnlinePortfolio/resources/images/myphoto.jpg"/>
         ```
 
-7. <img alt="commit logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> Make a git commit here
+7. <img alt="commit logo" className="commit-logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> Make a git commit here
     * the commit message needs to be meaningful. Example: *"Initialize the page"*
     * If you're using the command line, the command would be: `git commit -m "initialized the page"`. 
 
 8. Create the following 5 sections. For each of them sections:
    * make sure to wrap each section with a `<div>` with a class name of `section` and is assigned the respective id specified below
    * each section must be titled with `<h2>` tags
-   * <img alt="commit logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit at the end of each section created. i.e. `git commit -m "added Personal background section"`, `git commit -m "added Work and Development Experience section"` and so on ...
+   * <img alt="commit logo" className="commit-logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit at the end of each section created. i.e. `git commit -m "added Personal background section"`, `git commit -m "added Work and Development Experience section"` and so on ...
    * sections are:
         * Personal background
             * Containing `<div>` has class of `section` and id of `personalBackground`
             * A paragraph tag `<p>` or an un-numbered`<ul>` with some background info.
-            * <img alt="commit logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit `git commit -m "added Personal background section"`.
+            * <img alt="commit logo" className="commit-logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit `git commit -m "added Personal background section"`.
         * Work and Development Experience
             * containing `<div>` has class of `section` and id of `experience`
             * A numbered list tag `<ol>` containing some of the roles and places you worked at.
-            * <img alt="commit logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
+            * <img alt="commit logo" className="commit-logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
         * Programming Languages
             * containing `<div>` has class of `section` and id of `programmingLanguages`
             * A numbered list tag `<ol>` containing the programming languages you know.
-            * <img alt="commit logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
+            * <img alt="commit logo" className="commit-logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
         * Achievements
             * containing `<div>` has class of `section` and id of `achievements`
             * An un-numbered list tag `<ul>` containing the some of the achievements you'd like to share.
-            * <img alt="commit logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
+            * <img alt="commit logo" className="commit-logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
         * Favorite Games (or ones you’re currently playing)
             * containing `<div>` has class of `section` and id of `games`
             * A paragraph tag `<p>` or an un-numbered`<ul>` containing the the games you like to play.
-            * <img alt="commit logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
+            * <img alt="commit logo" className="commit-logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit.
 
 9. Style the webpage with some custom styles in `resources/styles/styles.css` using classes, and IDs.
     * [Bootstrap library](https://getbootstrap.com/) is already included at the top of the HTML file. You're welcome to use its classes to style your page.
-    * <img alt="commit logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit once done with the styling or incrementally as you're making your changes.
+    * <img alt="commit logo" className="commit-logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> make a git commit once done with the styling or incrementally as you're making your changes.
 
 10. Once you are finished, make sure you push all the changes to the repository.
     * any thing looking like this or better is accepted. (With content of course)
