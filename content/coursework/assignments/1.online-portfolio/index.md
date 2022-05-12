@@ -23,10 +23,10 @@ Git is software for tracking changes in any set of files. It's most commonly use
 * This assignment utilized automated-tests to check for the correctness of your code. These tests can be a bit specific about what you name things, where do you place them, what `HTML` tag you use for them, ...etc. Please Follow the instructions on this assignment for the best outcome.
 * This is a lab-style assignment with step-by-step
 * Learn to make frequent git commits. 
-    * The instructions will suggest a few checkpoints where you can commit the code. This will be marked by the following icon: <img alt="commit logo" className="commit-logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/>
+    * The instructions will suggest a few checkpoints where you can commit the code. This will be marked by the following icon:  🚩 
         * This won't be in all assignments.
     * 💬 As a rule of thumb, you should commit your code at the end of every complete thought.
-    * 🚩 Planning your code will help you identify checkpoints <img alt="commit logo" className="commit-logo" height="15" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> where you can commit your code.
+    * Planning your code will help you identify checkpoints  🚩  where you can commit your code.
     * Use meaningful commit messages.
 * To be able to run the automated grading checks, make sure you have installed Node.js, per the instructions posted on Canvas.
 
