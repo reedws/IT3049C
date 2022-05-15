@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 2.1
 title: 'Part 1: Create a Web Page'
 sidebar_label: Create a web page
 ---

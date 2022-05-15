@@ -1,7 +1,8 @@
 ---
-sidebar_position: 2.3
+sidebar_position: 4
 sidebar_label: Finalize
-title: Finalize and Submit the assignment 
+title: Finalize and Submit the assignment
+draft: true
 ---
 
 ## What you need to submit

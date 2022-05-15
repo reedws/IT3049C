@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2.2
 title: 'Part 2: Collaborate on a Project'
 sidebar_label: Collaborate on a Project
 ---
