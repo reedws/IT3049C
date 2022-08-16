@@ -97,7 +97,7 @@ const config = {
       //   isCloseable: false,
       // },
       navbar: {
-        title: 'IT3049C',
+        title: 'IT3049C - Gilany',
         logo: {
           alt: 'My Site Logo',
           src: 'img/javascript.svg',
