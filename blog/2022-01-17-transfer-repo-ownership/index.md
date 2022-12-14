@@ -11,14 +11,15 @@ As you start applying for jobs and Co-ops in software development, you are likel
 - A healthy assortment of projects that are readily accessible to recruiters and hiring managers can potentially compensate for any perceived deficiencies in the other areas.
 
 ## Good Projects to have
+
 - a personal website
 - Stereotypical programming exercises
 - Mobile apps
 - Open Source project contribution
 - Scripts, utilities, and helpers
 
+## Good Marks of a good GitHub Account
 
-## Good Marks of a good GitHub Account.
 - Variety
 - Completeness
 - Functionality
@@ -27,7 +28,7 @@ As you start applying for jobs and Co-ops in software development, you are likel
 - Documentation/information
 - Best Practices: Testing,
 
-## Things that I look for when looking at git repos:
+## Things that I look for when looking at git repos
 
 Is there a readme page that explains the purpose of the repo. This should also include documentation on how to run the code.
 
@@ -59,7 +60,8 @@ I hope this was helpful. Good luck!
 
 WIth GitHub Pages, you'll make your Portfolio even more appealing to present.
 
-https://towardsdatascience.com/how-to-create-a-compelling-github-portfolio-a229e7472a92
+<https://towardsdatascience.com/how-to-create-a-compelling-github-portfolio-a229e7472a92>
 
-## How to Transfer Assignment's Repository's ownership to your account.
+## How to Transfer Assignment's Repository's ownership to your account
+
 [Transferring a Repository - GitHub Docs](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository)

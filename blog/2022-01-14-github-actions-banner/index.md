@@ -5,7 +5,7 @@ authors: [ygilany]
 tags: [github, assignment]
 ---
 
-In some of the assignments, you may be asked to update the badge link on the repository README file. 
+In some of the assignments, you may be asked to update the badge link on the repository README file.
 
 * Click on the **Actions** Tab at the top of your repository.
   * ![image001](assets/image001.png)
