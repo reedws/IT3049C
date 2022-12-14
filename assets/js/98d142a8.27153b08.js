@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[8113],{3867:s=>{s.exports=JSON.parse('{"label":"phaser","permalink":"/IT3049C/blog/tags/phaser","allTagsPath":"/IT3049C/blog/tags","count":1}')}}]);

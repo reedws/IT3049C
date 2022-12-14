@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksite=self.webpackChunksite||[]).push([[6865],{350:e=>{e.exports=JSON.parse('{"label":"development-productivity","permalink":"/IT3049C/blog/tags/development-productivity","allTagsPath":"/IT3049C/blog/tags","count":1}')}}]);
