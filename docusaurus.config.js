@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'IT3049C - Web Game Development',
   tagline: 'Wes Reed',
-  url: 'https://reedws.github.io/IT3049C',
-  baseUrl: '/',
+  url: 'https://reedws.github.io',
+  baseUrl: '/IT3049C/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
