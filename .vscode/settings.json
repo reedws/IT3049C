@@ -27,5 +27,6 @@
     "Yahya",
     "yandeu",
     "ygilany"
-  ]
+  ],
+  "files.trimTrailingWhitespace": true
 }
