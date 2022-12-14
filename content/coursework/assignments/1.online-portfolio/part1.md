@@ -44,19 +44,19 @@ sidebar_label: Create a web page
 
 6. add an image `<img>` of yourself.
     * make sure the image is placed in `resources/images` and that you use relative path not the complete file path. I can't access files on your computer (DUHH!).
-        * Do 
+        * Do
         ```html
             <img src="resources/images/myphoto.jpg" />
         ```
 
         * Don't do
         ```html
-            <img src="C:/Users/yahya/Desktop/OnlinePortfolio/resources/images/myphoto.jpg"/>
+            <img src="C:/Users/wes/Desktop/OnlinePortfolio/resources/images/myphoto.jpg"/>
         ```
 
 7.  🚩  Make a git commit here
     * the commit message needs to be meaningful. Example: *"Initialize the page"*
-    * If you're using the command line, the command would be: `git commit -m "initialized the page"`. 
+    * If you're using the command line, the command would be: `git commit -m "initialized the page"`.
 
 8. Create the following 5 sections. For each of them sections:
    * make sure to wrap each section with a `<div>` with a class name of `section` and is assigned the respective id specified below
@@ -96,7 +96,7 @@ sidebar_label: Create a web page
 
 ## Run Auto-grader checks
 If you followed the instructions properly, creating the different sections with the correct IDs, classes, and content types, you should pass the auto-grader checks.
-1. Open your preferred command line terminal (i.e. terminal, iTerm, bash, git bash, powershell, ... etc) and navigate to the project path. 
+1. Open your preferred command line terminal (i.e. terminal, iTerm, bash, git bash, powershell, ... etc) and navigate to the project path.
     * remember [the `cd` command](http://www.linfo.org/cd.html) from System Admin class.
     * Using Visual Studio Code you can simply open the integrated terminal (View > Terminal) which will automatically open up at the correct project path.
         * [More info on vscode integrated terminal can be found here](https://code.visualstudio.com/docs/editor/integrated-terminal)

@@ -4,7 +4,7 @@ theme: uncover
 paginate: true
 title: JavaScript Fundamentals
 header: JavaScript Fundamentals
-footer: Yahya Gilany
+footer: Wes Reed
 backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 <!-- _class: invert -->
@@ -14,9 +14,11 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
     text-align: left;
   }
 </style>
-# How the Web Works!
+
+# How the Web Works
 
 ---
+
 ### Frontend vs Backend
 
 ---
@@ -37,6 +39,7 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 <!-- _class: left -->
 
 # String
+
 * Quotes (use backticks `)
 * Multi-line
 * Built-in methods and props
@@ -44,14 +47,19 @@ backgroundImage: url('https://marp.app/assets/hero-background.svg')
 * Concatenation
 
 ----
+
 ## String: Quotes
+
 ```js
 const string1 = "This is a string";
 const string2 = 'This also works!';
 const string3 = `My favorite`;
 ```
+
 ---
+
 ## String: Multiline
+
 ```js
 const string1 = "This is a string\
   Continue the string here";
@@ -61,12 +69,16 @@ const string2 = "This also works!\nthis is a new line";
 const string3 = `My favorite
   way of doing strings`;
 ```
+
 ---
+
 ## String: Built-in methods and props
+
 * [Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)
 
---- 
+---
 Example
+
 ```js
 const alphabet = `ABCDEFGHIJKLMNOPQRSTUVWXYZ`;
 
@@ -74,24 +86,35 @@ const alphabet_length = alphabet.length;
 
 const lowercase_alphabet = alphabet.toLowerCase();
 ```
+
 ___
+
 ## String: Concatenation
+
 using anything but backticks 😥
+
 ```js
-var name = "Yahya Gilany"
+var name = "Wes Reed"
 
 var welcomeMsg = "Welcome, " + name + " to this game !"
-``` 
+```
+
 ___
+
 ## String: Concatenation
+
 using backticks 😌
+
 ```js
-var name = `Yahya Gilany`
+var name = `Wes Reed`
 
 var welcomeMsg = `Welcome, ${ name } to this game !`;
-``` 
+```
+
 ---
+
 # Numbers
+
 ```js
 var number1 = 2;
 
@@ -109,8 +132,11 @@ var number3 = number1 ** number2; // 8
 
 var number3 = Math.pow(number1, number2); // 8
 ```
+
 ---
+
 ## Numbers: Casting
+
 ```js
 parseFloat(3.14);
 parseFloat('3.14');
@@ -118,13 +144,17 @@ parseFloat('314e-2');
 parseFloat('0.0314E+2');
 parseFloat('3.14more non-digit characters');
 ```
+
 ---
+
 # Objects
+
 * Array
 * Functions
 * JSON objects
 
 ---
+
 ## Objects: functions
 
 ```js
