@@ -1,42 +1,40 @@
 ---
 slug: vscode-extensions
 title: Visual Studio Code Settings and Extensions Sync
-authors: [ygilany]
+authors: [ygilany,reedws]
 tags: [vscode, uses]
 ---
 
 In my demo videos, you may notice that my Visual Studio Code IDE, provides with me with a lot of cheaters, helpers, and utilities that makes development a little easier.
 In this post, I'm sharing some instructions for how you can setup you VSCode IDE with the same settings and extensions I have here.
 
-To get started:
+## Settings Sync
 
-1. you're going to need to install the Settings [Sync Extension](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) on VSCode.
-  - Go to the link and click install. It will open VSCode and open the extension page
-  - Click on `install` to download the extension
-<img alt="image 1" src={require('./assets/1.png').default} style={{border: `1px solid black`, marginBottom:`2em`}} />
+One helpful way to avoid setting up your VSCode IDE from scratch is to use the built-in Settings Sync. Settings Sync lets you share your Visual Studio Code configurations such as settings, keybindings, and installed extensions across your machines so you are always working with your favorite setup.
 
-2. Once installed open VSCode Command Palette using:
-  - For Windows: `ctrl`+`shift`+`P`
-  - For Mac: `cmd`+`shift`+`P`
+You can turn on Settings Sync using the Turn On Settings Sync... entry in the Manage gear menu at the bottom of the Activity Bar.
+<img alt="Turn on Sync command" src={require('./assets/1-turn-on-sync.png').default} style={{border: `1px solid black`, marginBottom:`2em`}} />
 
-3. In the command palette, type `Sync: Download Settings`
-<img alt="image 2" src={require('./assets/2.png').default} style={{border: `1px solid black`, marginBottom:`2em`}} />
+You will be asked to sign in and what preferences you would like to sync. Generally, you will want to sync everything but there is a case to turn some of these off on some devices.
+<img alt="Settings Sync configure dialog" src={require('./assets/2-sync-configure.png').default} style={{border: `1px solid black`, marginBottom:`2em`}} />
 
-1. On the Following Screen, click on Download Public Gist and type in `416f36fd3c23571ecab1d3f3a5815fea`
-<img alt="image 3" src={require('./assets/3.png').default} style={{border: `1px solid black`, marginBottom:`2em`}} />
+Selecting the Sign in & Turn on button will ask you to choose between signing in with your Microsoft or GitHub account. I recommend using your GitHub account since you will most likely need to sign in with GitHub for other extensions.
+<img alt="Settings Sync configure dialog" src={require('./assets/3-sync-accounts.png').default} style={{border: `1px solid black`, marginBottom:`2em`}} />
 
-5. Open the command palette and type `Sync: Download Settings` again and watch the extensions get installed.
+After making this selection, the browser will open so that you can sign in to your Microsoft or GitHub account. When a Microsoft account is chosen, you can use either personal accounts, such as Outlook accounts, or Azure accounts, and you can also link a GitHub account to a new or existing Microsoft account.
 
-6. You may need to close VSCode and open it again for all extensions to take effect.
+After signing in, Settings Sync will be turned on and continue to synchronize your preferences automatically in the background.
 
+For more information on Settings Sync, see this article from Microsoft: [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync).
 
 ## Some of my Extensions
+
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 - [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
-
