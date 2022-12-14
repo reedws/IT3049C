@@ -15,13 +15,13 @@ Below are a couple of examples for how you should go about this assignment.
 2. Installing the dependencies `npm install`
 3. Run the tests using `npm test`.
 
-  ![example image](assets/failing_tests.png)  
+  ![example image](assets/failing_tests.png)
   - notice all the errors, our goal for this assignment is to resolve them all.
 
 ### Getting Down to Business
 1. Open the project in *Visual Studio Code* (Not Visual Studio)
     <img alt="example image" src={require('./assets/visualStudioCode.png').default} style={{height:`400px`, border:`1px #ddd solid`}}/>
-    
+
     **Let's try to solve a couple of those tests.**
 
 2. Open the file `src/1.numbers.js`. Particularly
@@ -34,9 +34,9 @@ Below are a couple of examples for how you should go about this assignment.
     - notice the function have an empty implementation. - We need to do something about that 🤔
 
 3. Consulting the [JS documentation for the Number Data Type](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number), you learn that there's a function named [Number.parseInt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt). The documentations shows usage examples, and specifies the parameters and return type of the function.
- 
+
     <img alt="Number.parseInt() docs" src={require('./assets/parseIntDocs.png').default} style={{height:`500px`, border:`1px #ddd solid`}}/>
-    
+
     **Key Takeaways:**
       -  Be careful the Radix does not default to 10!, so we'll have to set that optional parameter as follows
         ```js
@@ -48,7 +48,7 @@ Below are a couple of examples for how you should go about this assignment.
 4. Re-run the tests again and let's see if it passes
 
     <img alt="1 passing test" src={require('./assets/1passing_test.png').default} style={{height:`400px`, border:`1px #ddd solid`}}/>
-5. commit your code <img alt="commit logo" style={{height:`20px`, marginBottom:`-4px`}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "finished test parseInt"`. 
+5. commit your code <img alt="commit logo" style={{height:`20px`, marginBottom:`-4px`}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "finished test parseInt"`.
 
 ________________
 
@@ -58,9 +58,9 @@ ________________
     ```js
       /**
         * IndexOf: you should be able to determine the location of an item in an array
-        * Example: 
+        * Example:
         * arr = [1,2,3,5,6]
-        * calling the function like 
+        * calling the function like
         * indexoff(arr, 3); should return the index 2
         */
         function indexOf(arr, item) {
@@ -75,7 +75,7 @@ ________________
     }
   ```
 5. Re-run the tests again and let's see if it passes
-6. commit your code <img alt="commit logo" style={{height:`20px`, marginBottom:`-4px`}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "finished test: IndexOf"`. 
+6. commit your code <img alt="commit logo" style={{height:`20px`, marginBottom:`-4px`}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Octicons-git-commit.svg/1200px-Octicons-git-commit.svg.png"/> `git commit -m "finished test: IndexOf"`.
 
 
 **On to the next test .. Rinse 🧼 and Repeat 🔁**

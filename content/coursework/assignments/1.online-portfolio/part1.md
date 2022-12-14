@@ -5,8 +5,10 @@ sidebar_label: Create a web page
 ---
 
 ## Setup
+
 1. Accept the assignment on canvas.
   This will create a repository for you with a few starting files. The following directories are the only ones you're allowed to modify
+
     ```
     .
     ├── resources
@@ -30,6 +32,7 @@ sidebar_label: Create a web page
 <hr />
 
 ## Creating the Webpage
+
 1. Where it says `<!-- include style files here-->`, add a `<link>` with a reference to the styles sheet located in `resources/styles/styles.css`.
 
 2. Where it says `<!-- include script files here-->`, add a `<script>` with a reference to the scripts file located in `resources/scripts/index.js`.
@@ -44,49 +47,51 @@ sidebar_label: Create a web page
 
 6. add an image `<img>` of yourself.
     * make sure the image is placed in `resources/images` and that you use relative path not the complete file path. I can't access files on your computer (DUHH!).
-        * Do 
+        * Do
+
         ```html
             <img src="resources/images/myphoto.jpg" />
         ```
 
         * Don't do
+
         ```html
             <img src="C:/Users/yahya/Desktop/OnlinePortfolio/resources/images/myphoto.jpg"/>
         ```
 
-7.  🚩  Make a git commit here
+7. 🚩  Make a git commit here
     * the commit message needs to be meaningful. Example: *"Initialize the page"*
-    * If you're using the command line, the command would be: `git commit -m "initialized the page"`. 
+    * If you're using the command line, the command would be: `git commit -m "initialized the page"`.
 
 8. Create the following 5 sections. For each of them sections:
    * make sure to wrap each section with a `<div>` with a class name of `section` and is assigned the respective id specified below
    * each section must be titled with `<h2>` tags
-   *  🚩  make a git commit at the end of each section created. i.e. `git commit -m "added Personal background section"`, `git commit -m "added Work and Development Experience section"` and so on ...
+   * 🚩  make a git commit at the end of each section created. i.e. `git commit -m "added Personal background section"`, `git commit -m "added Work and Development Experience section"` and so on ...
    * sections are:
         * Personal background
             * Containing `<div>` has class of `section` and id of `personalBackground`
             * A paragraph tag `<p>` or an un-numbered`<ul>` with some background info.
-            *  🚩  make a git commit `git commit -m "added Personal background section"`.
+            * 🚩  make a git commit `git commit -m "added Personal background section"`.
         * Work and Development Experience
             * containing `<div>` has class of `section` and id of `experience`
             * A numbered list tag `<ol>` containing some of the roles and places you worked at.
-            *  🚩  make a git commit.
+            * 🚩  make a git commit.
         * Programming Languages
             * containing `<div>` has class of `section` and id of `programmingLanguages`
             * A numbered list tag `<ol>` containing the programming languages you know.
-            *  🚩  make a git commit.
+            * 🚩  make a git commit.
         * Achievements
             * containing `<div>` has class of `section` and id of `achievements`
             * An un-numbered list tag `<ul>` containing the some of the achievements you'd like to share.
-            *  🚩  make a git commit.
+            * 🚩  make a git commit.
         * Favorite Games (or ones you’re currently playing)
             * containing `<div>` has class of `section` and id of `games`
             * A paragraph tag `<p>` or an un-numbered`<ul>` containing the the games you like to play.
-            *  🚩  make a git commit.
+            * 🚩  make a git commit.
 
 9. Style the webpage with some custom styles in `resources/styles/styles.css` using classes, and IDs.
     * [Bootstrap library](https://getbootstrap.com/) is already included at the top of the HTML file. You're welcome to use its classes to style your page.
-    *  🚩  make a git commit once done with the styling or incrementally as you're making your changes.
+    * 🚩  make a git commit once done with the styling or incrementally as you're making your changes.
 
 10. Once you are finished, make sure you push all the changes to the repository.
     * any thing looking like this or better is accepted. (With content of course)
@@ -95,8 +100,10 @@ sidebar_label: Create a web page
 <hr />
 
 ## Run Auto-grader checks
+
 If you followed the instructions properly, creating the different sections with the correct IDs, classes, and content types, you should pass the auto-grader checks.
-1. Open your preferred command line terminal (i.e. terminal, iTerm, bash, git bash, powershell, ... etc) and navigate to the project path. 
+
+1. Open your preferred command line terminal (i.e. terminal, iTerm, bash, git bash, powershell, ... etc) and navigate to the project path.
     * remember [the `cd` command](http://www.linfo.org/cd.html) from System Admin class.
     * Using Visual Studio Code you can simply open the integrated terminal (View > Terminal) which will automatically open up at the correct project path.
         * [More info on vscode integrated terminal can be found here](https://code.visualstudio.com/docs/editor/integrated-terminal)
@@ -108,6 +115,7 @@ If you followed the instructions properly, creating the different sections with 
 <hr />
 
 ## Setting up GitHub Pages for hosting
+
 1. Follow the following [instructions](https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) to setup github pages and **publish your page from `main`**.
 
 <hr />

@@ -9,11 +9,12 @@ Creating Pull Request will come very handy when working with a team. For this pa
 1. On [this Repository (https://github.com/IT3049C/students)](https://github.com/IT3049C/students), Fork the repository using button on the top right.
     * <img alt="fork button" src={require('./assets/forkbtn.png').default} height="60" />
     * This will create a repository on your account, with the content of this repository.
-2. On the forked repo, navigate to the `_data/CURRENT_SEMESTER` folder: where `CURRENT_SEMESTER` is just a placeholder for what the semester would be, create a new file named `YOUR_GITHUB_USERNAME.json`. 
+2. On the forked repo, navigate to the `_data/CURRENT_SEMESTER` folder: where `CURRENT_SEMESTER` is just a placeholder for what the semester would be, create a new file named `YOUR_GITHUB_USERNAME.json`.
     * *NOTICE:* github username isn't necessarily your 6+2.
     * For example, my 6+2 is `gilanyym` but my GitHub username is `Ygilany` and so my file name would be `Ygilany.json`
     * <img alt="create a file" src={require('./assets/createFile.png').default}/>
 3. Copy the snippet below, and make changes as instructed.
+
     ```json
       {
           "emoji": ":smirk_cat:",
@@ -31,6 +32,7 @@ Creating Pull Request will come very handy when working with a team. For this pa
           }
       }
     ```
+
 4. Introduce yourself by modifying the file.
     * use this [Emoji cheat sheet](https://www.webfx.com/tools/emoji-cheat-sheet/) to select an `emoji`.
     * type in a short message in the introduction line

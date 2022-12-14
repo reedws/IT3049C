@@ -101,7 +101,7 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/javascript.svg',
-        }, 
+        },
         items: [
           {
             to: '/syllabus/info',
@@ -112,13 +112,13 @@ const config = {
             label: 'Coursework',
           },
           {
-            to: '/blog', 
-            label: 'Blog', 
+            to: '/blog',
+            label: 'Blog',
             position: 'left'
           },
           {
-            to: '/docs/course-notes', 
-            label: 'Course Notes', 
+            to: '/docs/course-notes',
+            label: 'Course Notes',
             position: 'left'
           },
           {
