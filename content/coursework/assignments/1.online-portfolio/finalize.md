@@ -10,7 +10,6 @@ On canvas, you need to submit:
 
 1. Link to your GitHub Repository from part 1
 2. Link to your hosted GitHub Page from part 1.
-3. Link to the Pull Request you opened against `IT3049C/students` from part 2.
 
 ## Grading Criteria
 
