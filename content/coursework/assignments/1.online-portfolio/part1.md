@@ -105,6 +105,6 @@ If you followed the instructions properly, creating the different sections with 
 
 ## Setting up GitHub Pages for hosting
 
-1. Follow the following [instructions](https://help.github.com/en/enterprise/2.13/user/articles/configuring-a-publishing-source-for-github-pages#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) to setup github pages and **publish your page from `main`**.
+1. Follow the following [instructions to setup github pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site) and **publish your page from `main`**.
 
 <hr />
