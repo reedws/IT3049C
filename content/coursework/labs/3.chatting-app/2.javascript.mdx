@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 import CodeBlock from '@theme/CodeBlock';
 
 # Bringing it to life
-Before we start Building the application code, we need to fully imagine and visualize the process/workflow. 
+Before we start Building the application code, we need to fully imagine and visualize the process/workflow.
 * Getting messages:
     * Get/Query/Fetch all the messages from the server.
     * Parse and format the messages to present them on the screen.
@@ -49,12 +49,12 @@ const chatBox = document.getElementById("chat");
     ```
 
 4. Create a function that uses the FetchAPI to requests messages from the server.
-    * URL to the Server is [https://it3049c-chat-application.herokuapp.com](https://it3049c-chat-application.herokuapp.com)
-    * URL to the link to get the messages is [https://it3049c-chat-application.herokuapp.com/messages](https://it3049c-chat-application.herokuapp.com/messages)
+    * URL to the Server is [https://it3049c-chat.fly.dev](https://it3049c-chat.fly.dev)
+    * URL to the link to get the messages is [https://it3049c-chat.fly.dev/messages](https://it3049c-chat.fly.dev/messages)
     * sometime, the server might be idle and would take a few minutes to wake up again.
 
     ```js
-    const serverURL = `https://it3049c-chat-application.herokuapp.com/messages`;
+    const serverURL = `https://it3049c-chat.fly.dev/messages`;
 
     function fetchMessages() {
         return fetch(serverURL)
@@ -178,7 +178,7 @@ function sendMessages(username, text) {
     }
 
     fetch (serverURL, {
-        method: `POST`, 
+        method: `POST`,
         headers: {
             'Content-Type': 'application/json'
         },
@@ -218,5 +218,5 @@ sendButton.addEventListener("click", function(sendButtonClickEvent) {
     myMessage.value = "";
 });
 ```
- 
+
 **Next: [Hosting and Submission](finalize)**
