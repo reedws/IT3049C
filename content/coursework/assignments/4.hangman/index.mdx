@@ -19,7 +19,7 @@ draft: false
 * **Don't forget to fill out the self assessment on the README file**, and the feedback form at the end of the instructions.
 
 ## Instructions
-For this assignment you will be building Hangman. Your goal is to build this game using HTML, CSS, JavaScript, and the concepts/techniques covered to-date to build the game completely. 
+For this assignment you will be building Hangman. Your goal is to build this game using HTML, CSS, JavaScript, and the concepts/techniques covered to-date to build the game completely.
 
 ### Game process
 The process of the game should be:
@@ -27,11 +27,11 @@ The process of the game should be:
     1. `easy` - for words of length 3-5
     2. `medium` - for words of length 6-9
     3. `hard` - for words of length 10-15
-2. On difficulty selection, we'll make a HTTP Request to [https://hangman-micro-service.herokuapp.com/](https://hangman-micro-service.herokuapp.com/) to get a word for the game.
+2. On difficulty selection, we'll make a HTTP Request to [https://it3049c-hangman.fly.dev/](https://it3049c-hangman.fly.dev/) to get a word for the game.
     1. You'll need to specify the difficulty in the query string of your url.
-        * [https://hangman-micro-service.herokuapp.com/?difficulty=easy](https://hangman-micro-service.herokuapp.com/?difficulty=easy)
-        * [https://hangman-micro-service.herokuapp.com/?difficulty=medium](https://hangman-micro-service.herokuapp.com/?difficulty=medium)
-        * [https://hangman-micro-service.herokuapp.com/?difficulty=hard](https://hangman-micro-service.herokuapp.com/?difficulty=hard)
+        * [https://it3049c-hangman.fly.dev/?difficulty=easy](https://it3049c-hangman.fly.dev/?difficulty=easy)
+        * [https://it3049c-hangman.fly.dev/?difficulty=medium](https://it3049c-hangman.fly.dev/?difficulty=medium)
+        * [https://it3049c-hangman.fly.dev/?difficulty=hard](https://it3049c-hangman.fly.dev/?difficulty=hard)
     2. **Hint**: Don’t hard-code all three URLs. Instead, use string template-ing to populate the query string.
     3. It may take a few seconds to load initially.
 3. Show the word's length as underscores in place of letters which have not yet been guessed.
