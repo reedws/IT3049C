@@ -40,7 +40,7 @@ sidebar_label: Create a web page
    * set the class name to `container`.
 5. create an `<h1>` that contains your name.
 6. add an image `<img>` of yourself.
-    * make sure the image is placed in `resources/images` and that you use relative path not the complete file path. I can't access files on your computer (DUHH!).
+    * make sure the image is placed in `resources/images` and that you use relative path not the complete file path. I can't access files on your computer (DUH!).
         * Do
 
         ```html
@@ -98,7 +98,7 @@ If you followed the instructions properly, creating the different sections with 
     * remember [the `cd` command](http://www.linfo.org/cd.html) from System Admin class.
     * Using Visual Studio Code you can simply open the integrated terminal (View > Terminal) which will automatically open up at the correct project path.
         * [More info on vscode integrated terminal can be found here](https://code.visualstudio.com/docs/editor/integrated-terminal)
-2. install project depenedencies using the following command: `npm install`
+2. install project dependencies using the following command: `npm install`
 3. run the following command: `npm test`. a suite of tests will run producing results similar to the following.
 
 <hr />

@@ -63,7 +63,7 @@ const chatBox = document.getElementById("chat");
     ```
 
 5. Call `fetchMessages()` from `updateMessages()`
-    * Notice, because `fetchMessages()` is an asyncronous function that returns a promise rather then the actual result, I had to make `updateMessages()` an `async` function as well and instruct it to await the results from `fetchMessages()`.
+    * Notice, because `fetchMessages()` is an asynchronous function that returns a promise rather then the actual result, I had to make `updateMessages()` an `async` function as well and instruct it to await the results from `fetchMessages()`.
 
     ```js
     async function updateMessages() {
