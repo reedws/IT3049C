@@ -13,7 +13,7 @@ sidebar_label: Unit Testing (Jest)
 
 Generally, you wouldn't need a lot of configurations to get started with Jest. But because there are already some unit tests that are already included, and those tests require a bit of configuration, we'll go over some of the configurations that you might need to do.
 
-2. Creat the following configurations
+2. Create the following configurations
 ```js title="jest.config.js"
 module.exports = {
   setupFilesAfterEnv: [
@@ -29,7 +29,7 @@ module.exports = {
 
 #### About those Configurations
 
-- becuase of how I'm testing the DOM and how I'm using the `@testing-library/dom` and `@testing-library/jest-dom` libraries, I need to add `regenerator-runtime/runtime` and `@testing-library/jest-dom/extend-expect` to the `setupFilesAfterEnv` array. This extends the `expect` function to include some useful assertions.
+- because of how I'm testing the DOM and how I'm using the `@testing-library/dom` and `@testing-library/jest-dom` libraries, I need to add `regenerator-runtime/runtime` and `@testing-library/jest-dom/extend-expect` to the `setupFilesAfterEnv` array. This extends the `expect` function to include some useful assertions.
 - `clearMocks` is a boolean that tells Jest to clear the mocks after each test. This is useful if you have a lot of mocks and you want to make sure that you don't have any state that's left over from the previous test.
   :::info
   In this lab, I will show you how you can use Mock to mock out the `Math.random()` function.
@@ -101,13 +101,13 @@ describe(`RockPaperScissors class`, function () {
 
 ## Improving the Developer Experience with VSCode Extensions
 Before we create more tests, let's try to streamline the process of writing and running tests.
-7. Install the [VScode Jest Extension](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest). 
+7. Install the [VScode Jest Extension](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest).
   * This will always run the tests in watch mode and show the result of the test in the side bar as well as next to each test.
 
 ## Write more tests with Mocks
 The `Math.random()` function is a random number generator. It's a function that returns a number between 0 and 1. and the result of it is .. Well, Random!
 
-It's difficuly to test the `generateCPUResponse` function because it uses the `Math.random`, leading to a different response every time. (it's not exactly a pure function).
+It's difficult to test the `generateCPUResponse` function because it uses the `Math.random`, leading to a different response every time. (it's not exactly a pure function).
 
 What we'll try to do here, is to hijack the `Math.random()` function and mock it to return a specific value.
 
