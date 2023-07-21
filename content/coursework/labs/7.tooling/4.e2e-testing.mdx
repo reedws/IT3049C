@@ -6,8 +6,7 @@ sidebar_label: E2E Testing (Cypress)
 
 ## Installing Cypress
 
-1. Install Jest from npm `npm install --save-dev cypress`
-  - This step is already done for you as you install dependencies defined in `package.json` by running `npm install ` in the beginning of the lab.
+1. Install Cypress from npm `npm install --save-dev cypress`
 
 ## Configuring Cypress
 We will keep the default configuration. However to ease the process of starting and running cypress tests, we will add some additional scripts to the `package.json` file.
@@ -32,7 +31,11 @@ to start cypress tests, run one of the following command in the terminal:
 - `npm run cy:open`
 
 ### Write New Tests
-When running Cypress for the first time, it create the `cypress` folder with the following folders:
+When running Cypress for the first time, you will see the following screen:
+
+![Cypress Dashboard](.assets/cypress-startup.png)
+
+Choose the  `E2E Testing` option to create the `cypress` folder with the following subdirectories:
 - `cypress.json`` - all Cypress settings
 - **`cypress/integration`` - test files (specs)**
 - `cypress/fixtures`` - mock data
