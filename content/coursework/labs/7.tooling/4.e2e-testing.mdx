@@ -7,6 +7,7 @@ sidebar_label: E2E Testing (Cypress)
 ## Installing Cypress
 
 1. Install Cypress from npm `npm install --save-dev cypress`
+  * More information on [Cypress Installation Docs](https://docs.cypress.io/guides/getting-started/installing-cypress)
 
 ## Configuring Cypress
 We will keep the default configuration. However to ease the process of starting and running cypress tests, we will add some additional scripts to the `package.json` file.
@@ -30,19 +31,18 @@ to start cypress tests, run one of the following command in the terminal:
 - `./node_modules/.bin/cypress open`
 - `npm run cy:open` (recommended)
 
+More information can be found in the [opening the app docs on cypress.io](https://docs.cypress.io/guides/getting-started/opening-the-app)
+
 ### Write New Tests
-When running Cypress for the first time, you will see the following screen:
+Follow the instructions to create your first test: [Writing your first test](https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test)
 
-![Cypress Dashboard](./assets/cypress-startup.png)
-
-Choose the  `E2E Testing` option to create the `cypress` folder with the following subdirectories:
+Following these instructions will create the `cypress` folder with the following subdirectories:
 - `cypress.json`` - all Cypress settings
-- **`cypress/integration`` - test files (specs)**
+- **`cypress/e2e`` - test files (specs)**
 - `cypress/fixtures`` - mock data
-- `cypress/plugins`` - extending Cypress
 - `cypress/support`` - shared commands, utilities
 
-We're only really interested in the `cypress/integration` folder; that's where all tests would be. Let's create a new test file in that folder.
+We're only really interested in the `cypress/e2e` folder; that's where all tests would be. Let's create a new test file in that folder.
 :::note
 There should already be some sample test files in the folder, you may opt to leave those in as a reference.
 :::
